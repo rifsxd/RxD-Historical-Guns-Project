@@ -41,28 +41,28 @@ Installation Method: -----------------------------------------------------------
 
 *** V-1.5.3 ~ 8.3 Patch ***
 
-     RE:XML Fixed from V-1.5.1 for E100 & IS-7.
+    - RE:XML Fixed from V-1.5.1 for E100 & IS-7.
 
 *** V-1.5.2 ~ 8.3 Patch ***
 
-     XML Fixed from V-1.5.1 for E100 & IS-7.
+    - XML Fixed from V-1.5.1 for E100 & IS-7.
 
 
 *** V-1.5.1 ~ 8.3 Patch ***
 
-     XML upstreamed to blitz patch 8.3,
-      SoundBankInfo.json upstreamed to blitz patch 8.3,
-       New additional tanks added (French & Hybrid),
-        First guilded migration exclusive update.
+    - XML upstreamed to blitz patch 8.3,
+     - SoundBankInfo.json upstreamed to blitz patch 8.3,
+      - New additional tanks added (French & Hybrid),
+       - First guilded migration exclusive update.
 
 ----------------------------------------------------
 
 *** V-1.5 ~ 8.2 Patch ***
 
-     XML upstreamed to blitz patch 8.2,
-      Full Rock solid release with full modified XML Configs,
-       Nothing major changed in Wwise BNK,
-        First Open Android Release #1
+    - XML upstreamed to blitz patch 8.2,
+     - Full Rock solid release with full modified XML Configs,
+      - Nothing major changed in Wwise BNK,
+       - First Open Android Release #1
 
 -----------------------------------------
 
@@ -81,4 +81,4 @@ Installation Method: -----------------------------------------------------------
 
 *** V-1.0 ~ 8.0 Patch ***
 
-    Open Release #1
+   - Open Release #1

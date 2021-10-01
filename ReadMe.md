@@ -35,7 +35,7 @@ Installation Method: -----------------------------------------------------------
 
           Uninstall Stock WoTB ---> Install - World of Tanks Blitz - RXD Edition
           
-          }.
+          },
            
 *************************************** Changelogs *************************************
 

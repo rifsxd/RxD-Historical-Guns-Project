@@ -1,0 +1,84 @@
+0:
+    complexityFactor: 10
+    quests:
+        newbie_tj_kill_btls:
+1:
+    complexityFactor: 5
+    quests:
+        newbie_tj_win_btls:
+2:
+    complexityFactor: 5
+    quests:
+        newbie_tj_play_btls:
+3:
+    complexityFactor: 5
+    quests:
+        newbie_tj_use_consum_slot4:
+            blocks: [
+                "newbie_tj_use_consum_slot5"
+                ]
+        newbie_tj_alt_shells_slot4:
+            blocks: [
+                "newbie_tj_alt_shells_slot5"
+                ]
+        newbie_tj_use_boost_slot4:
+            blocks: [
+                "newbie_tj_use_boost_slot5"
+                ]
+        newbie_tj_use_camo_slot4:
+            blocks: [
+                "newbie_tj_use_camo_slot5"
+                ]
+4:
+    complexityFactor: 5
+    quests:
+        newbie_tj_use_consum_slot5:
+            blocks: [
+                "newbie_tj_use_consum_slot4"
+                ]
+        newbie_tj_alt_shells_slot5:
+            blocks: [
+                "newbie_tj_alt_shells_slot4"
+                ]
+        newbie_tj_use_boost_slot5:
+            blocks: [
+                "newbie_tj_use_boost_slot4"
+                ]
+        newbie_tj_use_camo_slot5:
+            blocks: [
+                "newbie_tj_use_camo_slot4"
+                ]
+5:
+    complexityFactor: 0
+    quests:
+        newbie_tj_unlock_modules_lvl2:
+        newbie_tj_unlock_modules_lvl3:
+        newbie_tj_unlock_modules_lvl4:
+        newbie_tj_unlock_vehicle_lvl3:
+        newbie_tj_unlock_vehicle_lvl4:
+        newbie_tj_unlock_vehicle_lvl5:
+        newbie_tj_buy_vehicle_lvl3:
+        newbie_tj_buy_vehicle_lvl4:
+        newbie_tj_buy_vehicle_lvl5:
+6:
+    complexityFactor: 0
+    quests:
+        newbie_tj_make_n_xp_lvl2:
+        newbie_tj_make_n_xp_lvl3:
+        newbie_tj_make_n_xp_lvl4:
+        newbie_tj_open_optional_device_lvl2:
+        newbie_tj_open_optional_device_lvl3:
+        newbie_tj_open_optional_device_lvl4:
+        newbie_tj_install_camo_lvl4:
+        newbie_tj_sell_vehicle_lvl2:
+        newbie_tj_convert_xp:
+7:
+    complexityFactor: 10
+    quests:
+        bp_11_damage_btls_lvl1_slot8:
+        bp_11_win_btls_lvl1_slot8:
+        bp_11_kill_btls_lvl1_slot8:
+        bp_11_make_n_xp_lvl1_slot8:
+        bp_11_win_btls_alive_lvl1_slot8:
+        bp_11_get_x2_lvl1_slot8:
+        bp_11_crit_tracks_lvl1_slot8:

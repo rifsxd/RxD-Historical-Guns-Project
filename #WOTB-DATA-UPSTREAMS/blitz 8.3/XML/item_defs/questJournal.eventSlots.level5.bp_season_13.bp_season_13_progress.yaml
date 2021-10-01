@@ -1,0 +1,1235 @@
+0:
+    complexityFactor: 10
+    quests:
+        tj_play_btls_lvl2_slot1:
+1:
+    complexityFactor: 5
+    quests:
+        tj_kill_btls_lvl2_slot2:
+2:
+    complexityFactor: 5
+    quests:
+        tj_win_btls_lvl2_slot3:
+3:
+    complexityFactor: 3
+    quests:
+        tj_kill_one_btl_lvl2_slot4:
+            blocks: [
+                "tj_kill_one_btl_lvl2_slot7",
+                "tj_kill_one_btl_lvl2_slot7_v2"
+                ]
+        tj_damage_one_battle_lvl2_slot4:
+            blocks: [
+                "tj_damage_one_battle_lvl2_slot7",
+                "tj_damage_one_battle_lvl2_slot7_v2"
+                ]
+        tj_xp_one_battle_lvl2_slot4:
+            blocks: [
+                "tj_xp_one_battle_lvl2_slot7"
+                ]
+        tj_top3_damage_lvl2_slot4:
+4:
+    complexityFactor: 2
+    quests:
+        tj_damage_btls_lvl2_slot5:
+            blocks: [
+                "tj_damage_btls_lvl2_slot6"
+                ]              
+        tj_win_btls_lvl2_slot5:
+            blocks: [
+                "tj_win_btls_lvl2_slot6"
+                ]              
+        tj_kill_btls_lvl2_slot5:
+            blocks: [
+                "tj_kill_btls_lvl2_slot6"
+                ]              
+        tj_make_n_xp_lvl2_slot5:
+            blocks: [
+                "tj_make_n_xp_lvl2_slot6"
+                ]              
+        tj_win_btls_alive_lvl2_slot5:
+            blocks: [
+                "tj_win_btls_alive_lvl2_slot6"
+                ]              
+        tj_get_x2_lvl2_slot5:
+            blocks: [
+                "tj_get_x2_lvl2_slot6"
+                ]              
+        tj_get_x2_lvl2_slot5_v2:
+            blocks: [
+                "tj_get_x2_lvl2_slot6"
+                ]              
+        tj_kill_lt_mt_btls_lvl2_slot5:
+            blocks: [
+                "tj_kill_lt_mt_btls_lvl2_slot6"
+                ]              
+        tj_kill_ht_btls_lvl2_slot5:
+            blocks: [
+                "tj_kill_ht_btls_lvl2_slot6"
+                ]              
+        tj_crit_tracks_lvl2_slot5:
+            blocks: [
+                "tj_crit_tracks_lvl2_slot6",
+                "tj_crit_tracks_lvl2_slot6_v2"
+                ]              
+        tj_crit_tracks_lvl2_slot5_v2:
+            blocks: [
+                "tj_crit_tracks_lvl2_slot6",
+                "tj_crit_tracks_lvl2_slot6_v2"
+                ]              
+        tj_win_btls_supremacy_lvl2_slot5:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot6",
+                "tj_win_btls_encounter_lvl2_slot6",
+                "tj_kill_btls_supremacy_lvl2_slot6",
+                "tj_kill_btls_encounter_lvl2_slot6",
+                "tj_damage_btls_supremacy_lvl2_slot6",
+                "tj_damage_btls_encounter_lvl2_slot6",
+                "tj_win_btls_supremacy_lvl2_slot8",
+                "tj_win_btls_encounter_lvl2_slot8",
+                "tj_kill_btls_supremacy_lvl2_slot8",
+                "tj_kill_btls_encounter_lvl2_slot8",
+                "tj_damage_btls_supremacy_lvl2_slot8",
+                "tj_damage_btls_encounter_lvl2_slot8",
+                "tj_win_btls_supremacy_lvl2_slot9",
+                "tj_win_btls_encounter_lvl2_slot9",
+                "tj_kill_btls_supremacy_lvl2_slot9",
+                "tj_kill_btls_encounter_lvl2_slot9",
+                "tj_damage_btls_supremacy_lvl2_slot9",
+                "tj_damage_btls_encounter_lvl2_slot9"
+                ]
+        tj_win_btls_encounter_lvl2_slot5:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot6",
+                "tj_win_btls_encounter_lvl2_slot6",
+                "tj_kill_btls_supremacy_lvl2_slot6",
+                "tj_kill_btls_encounter_lvl2_slot6",
+                "tj_damage_btls_supremacy_lvl2_slot6",
+                "tj_damage_btls_encounter_lvl2_slot6",
+                "tj_win_btls_supremacy_lvl2_slot8",
+                "tj_win_btls_encounter_lvl2_slot8",
+                "tj_kill_btls_supremacy_lvl2_slot8",
+                "tj_kill_btls_encounter_lvl2_slot8",
+                "tj_damage_btls_supremacy_lvl2_slot8",
+                "tj_damage_btls_encounter_lvl2_slot8",
+                "tj_win_btls_supremacy_lvl2_slot9",
+                "tj_win_btls_encounter_lvl2_slot9",
+                "tj_kill_btls_supremacy_lvl2_slot9",
+                "tj_kill_btls_encounter_lvl2_slot9",
+                "tj_damage_btls_supremacy_lvl2_slot9",
+                "tj_damage_btls_encounter_lvl2_slot9"
+                ]
+        tj_kill_btls_supremacy_lvl2_slot5:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot6",
+                "tj_win_btls_encounter_lvl2_slot6",
+                "tj_kill_btls_supremacy_lvl2_slot6",
+                "tj_kill_btls_encounter_lvl2_slot6",
+                "tj_damage_btls_supremacy_lvl2_slot6",
+                "tj_damage_btls_encounter_lvl2_slot6",
+                "tj_win_btls_supremacy_lvl2_slot8",
+                "tj_win_btls_encounter_lvl2_slot8",
+                "tj_kill_btls_supremacy_lvl2_slot8",
+                "tj_kill_btls_encounter_lvl2_slot8",
+                "tj_damage_btls_supremacy_lvl2_slot8",
+                "tj_damage_btls_encounter_lvl2_slot8",
+                "tj_win_btls_supremacy_lvl2_slot9",
+                "tj_win_btls_encounter_lvl2_slot9",
+                "tj_kill_btls_supremacy_lvl2_slot9",
+                "tj_kill_btls_encounter_lvl2_slot9",
+                "tj_damage_btls_supremacy_lvl2_slot9",
+                "tj_damage_btls_encounter_lvl2_slot9"
+                ]
+        tj_kill_btls_encounter_lvl2_slot5:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot6",
+                "tj_win_btls_encounter_lvl2_slot6",
+                "tj_kill_btls_supremacy_lvl2_slot6",
+                "tj_kill_btls_encounter_lvl2_slot6",
+                "tj_damage_btls_supremacy_lvl2_slot6",
+                "tj_damage_btls_encounter_lvl2_slot6",
+                "tj_win_btls_supremacy_lvl2_slot8",
+                "tj_win_btls_encounter_lvl2_slot8",
+                "tj_kill_btls_supremacy_lvl2_slot8",
+                "tj_kill_btls_encounter_lvl2_slot8",
+                "tj_damage_btls_supremacy_lvl2_slot8",
+                "tj_damage_btls_encounter_lvl2_slot8",
+                "tj_win_btls_supremacy_lvl2_slot9",
+                "tj_win_btls_encounter_lvl2_slot9",
+                "tj_kill_btls_supremacy_lvl2_slot9",
+                "tj_kill_btls_encounter_lvl2_slot9",
+                "tj_damage_btls_supremacy_lvl2_slot9",
+                "tj_damage_btls_encounter_lvl2_slot9"
+                ]
+        tj_damage_btls_supremacy_lvl2_slot5:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot6",
+                "tj_win_btls_encounter_lvl2_slot6",
+                "tj_kill_btls_supremacy_lvl2_slot6",
+                "tj_kill_btls_encounter_lvl2_slot6",
+                "tj_damage_btls_supremacy_lvl2_slot6",
+                "tj_damage_btls_encounter_lvl2_slot6",
+                "tj_win_btls_supremacy_lvl2_slot8",
+                "tj_win_btls_encounter_lvl2_slot8",
+                "tj_kill_btls_supremacy_lvl2_slot8",
+                "tj_kill_btls_encounter_lvl2_slot8",
+                "tj_damage_btls_supremacy_lvl2_slot8",
+                "tj_damage_btls_encounter_lvl2_slot8",
+                "tj_win_btls_supremacy_lvl2_slot9",
+                "tj_win_btls_encounter_lvl2_slot9",
+                "tj_kill_btls_supremacy_lvl2_slot9",
+                "tj_kill_btls_encounter_lvl2_slot9",
+                "tj_damage_btls_supremacy_lvl2_slot9",
+                "tj_damage_btls_encounter_lvl2_slot9"
+                ]
+        tj_damage_btls_encounter_lvl2_slot5:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot6",
+                "tj_win_btls_encounter_lvl2_slot6",
+                "tj_kill_btls_supremacy_lvl2_slot6",
+                "tj_kill_btls_encounter_lvl2_slot6",
+                "tj_damage_btls_supremacy_lvl2_slot6",
+                "tj_damage_btls_encounter_lvl2_slot6",
+                "tj_win_btls_supremacy_lvl2_slot8",
+                "tj_win_btls_encounter_lvl2_slot8",
+                "tj_kill_btls_supremacy_lvl2_slot8",
+                "tj_kill_btls_encounter_lvl2_slot8",
+                "tj_damage_btls_supremacy_lvl2_slot8",
+                "tj_damage_btls_encounter_lvl2_slot8",
+                "tj_win_btls_supremacy_lvl2_slot9",
+                "tj_win_btls_encounter_lvl2_slot9",
+                "tj_kill_btls_supremacy_lvl2_slot9",
+                "tj_kill_btls_encounter_lvl2_slot9",
+                "tj_damage_btls_supremacy_lvl2_slot9",
+                "tj_damage_btls_encounter_lvl2_slot9"
+                ]
+        tj_win_btls_on_lt_lvl2_slot5:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot6",
+                "tj_win_btls_on_mt_lvl2_slot6",
+                "tj_win_btls_on_ht_lvl2_slot6",
+                "tj_win_btls_on_at_lvl2_slot6",
+                "tj_win_btls_on_lt_lvl2_slot8",
+                "tj_win_btls_on_mt_lvl2_slot8",
+                "tj_win_btls_on_ht_lvl2_slot8",
+                "tj_win_btls_on_at_lvl2_slot8",
+                "tj_win_btls_on_lt_lvl2_slot9",
+                "tj_win_btls_on_mt_lvl2_slot9",
+                "tj_win_btls_on_ht_lvl2_slot9",
+                "tj_win_btls_on_at_lvl2_slot9"
+                ]
+        tj_win_btls_on_lt_lvl2_slot5_v2:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot6_v2",
+                "tj_win_btls_on_mt_lvl2_slot6_v2",
+                "tj_win_btls_on_ht_lvl2_slot6_v2",
+                "tj_win_btls_on_at_lvl2_slot6_v2",
+                "tj_win_btls_on_lt_lvl2_slot8_v2",
+                "tj_win_btls_on_mt_lvl2_slot8_v2",
+                "tj_win_btls_on_ht_lvl2_slot8_v2",
+                "tj_win_btls_on_at_lvl2_slot8_v2",
+                "tj_win_btls_on_lt_lvl2_slot9_v2",
+                "tj_win_btls_on_mt_lvl2_slot9_v2",
+                "tj_win_btls_on_ht_lvl2_slot9_v2",
+                "tj_win_btls_on_at_lvl2_slot9_v2"
+                ]
+        tj_win_btls_on_mt_lvl2_slot5:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot6",
+                "tj_win_btls_on_mt_lvl2_slot6",
+                "tj_win_btls_on_ht_lvl2_slot6",
+                "tj_win_btls_on_at_lvl2_slot6",
+                "tj_win_btls_on_lt_lvl2_slot8",
+                "tj_win_btls_on_mt_lvl2_slot8",
+                "tj_win_btls_on_ht_lvl2_slot8",
+                "tj_win_btls_on_at_lvl2_slot8",
+                "tj_win_btls_on_lt_lvl2_slot9",
+                "tj_win_btls_on_mt_lvl2_slot9",
+                "tj_win_btls_on_ht_lvl2_slot9",
+                "tj_win_btls_on_at_lvl2_slot9"
+                ]
+        tj_win_btls_on_mt_lvl2_slot5_v2:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot6_v2",
+                "tj_win_btls_on_mt_lvl2_slot6_v2",
+                "tj_win_btls_on_ht_lvl2_slot6_v2",
+                "tj_win_btls_on_at_lvl2_slot6_v2",
+                "tj_win_btls_on_lt_lvl2_slot8_v2",
+                "tj_win_btls_on_mt_lvl2_slot8_v2",
+                "tj_win_btls_on_ht_lvl2_slot8_v2",
+                "tj_win_btls_on_at_lvl2_slot8_v2",
+                "tj_win_btls_on_lt_lvl2_slot9_v2",
+                "tj_win_btls_on_mt_lvl2_slot9_v2",
+                "tj_win_btls_on_ht_lvl2_slot9_v2",
+                "tj_win_btls_on_at_lvl2_slot9_v2"
+                ]
+        tj_win_btls_on_ht_lvl2_slot5:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot6",
+                "tj_win_btls_on_mt_lvl2_slot6",
+                "tj_win_btls_on_ht_lvl2_slot6",
+                "tj_win_btls_on_at_lvl2_slot6",
+                "tj_win_btls_on_lt_lvl2_slot8",
+                "tj_win_btls_on_mt_lvl2_slot8",
+                "tj_win_btls_on_ht_lvl2_slot8",
+                "tj_win_btls_on_at_lvl2_slot8",
+                "tj_win_btls_on_lt_lvl2_slot9",
+                "tj_win_btls_on_mt_lvl2_slot9",
+                "tj_win_btls_on_ht_lvl2_slot9",
+                "tj_win_btls_on_at_lvl2_slot9"
+                ]
+        tj_win_btls_on_ht_lvl2_slot5_v2:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot6_v2",
+                "tj_win_btls_on_mt_lvl2_slot6_v2",
+                "tj_win_btls_on_ht_lvl2_slot6_v2",
+                "tj_win_btls_on_at_lvl2_slot6_v2",
+                "tj_win_btls_on_lt_lvl2_slot8_v2",
+                "tj_win_btls_on_mt_lvl2_slot8_v2",
+                "tj_win_btls_on_ht_lvl2_slot8_v2",
+                "tj_win_btls_on_at_lvl2_slot8_v2",
+                "tj_win_btls_on_lt_lvl2_slot9_v2",
+                "tj_win_btls_on_mt_lvl2_slot9_v2",
+                "tj_win_btls_on_ht_lvl2_slot9_v2",
+                "tj_win_btls_on_at_lvl2_slot9_v2"
+                ]
+        tj_win_btls_on_at_lvl2_slot5:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot6",
+                "tj_win_btls_on_mt_lvl2_slot6",
+                "tj_win_btls_on_ht_lvl2_slot6",
+                "tj_win_btls_on_at_lvl2_slot6",
+                "tj_win_btls_on_lt_lvl2_slot8",
+                "tj_win_btls_on_mt_lvl2_slot8",
+                "tj_win_btls_on_ht_lvl2_slot8",
+                "tj_win_btls_on_at_lvl2_slot8",
+                "tj_win_btls_on_lt_lvl2_slot9",
+                "tj_win_btls_on_mt_lvl2_slot9",
+                "tj_win_btls_on_ht_lvl2_slot9",
+                "tj_win_btls_on_at_lvl2_slot9"
+                ]        
+        tj_win_btls_on_at_lvl2_slot5_v2:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot6_v2",
+                "tj_win_btls_on_mt_lvl2_slot6_v2",
+                "tj_win_btls_on_ht_lvl2_slot6_v2",
+                "tj_win_btls_on_at_lvl2_slot6_v2",
+                "tj_win_btls_on_lt_lvl2_slot8_v2",
+                "tj_win_btls_on_mt_lvl2_slot8_v2",
+                "tj_win_btls_on_ht_lvl2_slot8_v2",
+                "tj_win_btls_on_at_lvl2_slot8_v2",
+                "tj_win_btls_on_lt_lvl2_slot9_v2",
+                "tj_win_btls_on_mt_lvl2_slot9_v2",
+                "tj_win_btls_on_ht_lvl2_slot9_v2",
+                "tj_win_btls_on_at_lvl2_slot9_v2"
+                ]
+5:
+    complexityFactor: 1
+    quests:
+        tj_damage_btls_lvl2_slot6:
+            blocks: [
+                "tj_damage_btls_lvl2_slot5"
+                ]              
+        tj_win_btls_lvl2_slot6:
+            blocks: [
+                "tj_win_btls_lvl2_slot5"
+                ]              
+        tj_kill_btls_lvl2_slot6:
+            blocks: [
+                "tj_kill_btls_lvl2_slot5"
+                ]              
+        tj_make_n_xp_lvl2_slot6:
+            blocks: [
+                "tj_make_n_xp_lvl2_slot5"
+                ]              
+        tj_win_btls_alive_lvl2_slot6:
+            blocks: [
+                "tj_win_btls_alive_lvl2_slot5"
+                ]              
+        tj_get_x2_lvl2_slot6:
+            blocks: [
+                "tj_get_x2_lvl2_slot5",
+                "tj_get_x2_lvl2_slot5_v2"
+                ]              
+        tj_kill_lt_mt_btls_lvl2_slot6:
+            blocks: [
+                "tj_kill_lt_mt_btls_lvl2_slot5"
+                ]              
+        tj_kill_ht_btls_lvl2_slot6:
+            blocks: [
+                "tj_kill_ht_btls_lvl2_slot5"
+                ]              
+        tj_crit_tracks_lvl2_slot6:
+            blocks: [
+                "tj_crit_tracks_lvl2_slot5",
+                "tj_crit_tracks_lvl2_slot5_v2"
+                ]              
+        tj_crit_tracks_lvl2_slot6_v2:
+            blocks: [
+                "tj_crit_tracks_lvl2_slot5",
+                "tj_crit_tracks_lvl2_slot5_v2"
+                ]              
+        tj_win_btls_supremacy_lvl2_slot6:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot5",
+                "tj_win_btls_encounter_lvl2_slot5",
+                "tj_kill_btls_supremacy_lvl2_slot5",
+                "tj_kill_btls_encounter_lvl2_slot5",
+                "tj_damage_btls_supremacy_lvl2_slot5",
+                "tj_damage_btls_encounter_lvl2_slot5",
+                "tj_win_btls_supremacy_lvl2_slot8",
+                "tj_win_btls_encounter_lvl2_slot8",
+                "tj_kill_btls_supremacy_lvl2_slot8",
+                "tj_kill_btls_encounter_lvl2_slot8",
+                "tj_damage_btls_supremacy_lvl2_slot8",
+                "tj_damage_btls_encounter_lvl2_slot8",
+                "tj_win_btls_supremacy_lvl2_slot9",
+                "tj_win_btls_encounter_lvl2_slot9",
+                "tj_kill_btls_supremacy_lvl2_slot9",
+                "tj_kill_btls_encounter_lvl2_slot9",
+                "tj_damage_btls_supremacy_lvl2_slot9",
+                "tj_damage_btls_encounter_lvl2_slot9"
+                ]
+        tj_win_btls_encounter_lvl2_slot6:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot5",
+                "tj_win_btls_encounter_lvl2_slot5",
+                "tj_kill_btls_supremacy_lvl2_slot5",
+                "tj_kill_btls_encounter_lvl2_slot5",
+                "tj_damage_btls_supremacy_lvl2_slot5",
+                "tj_damage_btls_encounter_lvl2_slot5",
+                "tj_win_btls_supremacy_lvl2_slot8",
+                "tj_win_btls_encounter_lvl2_slot8",
+                "tj_kill_btls_supremacy_lvl2_slot8",
+                "tj_kill_btls_encounter_lvl2_slot8",
+                "tj_damage_btls_supremacy_lvl2_slot8",
+                "tj_damage_btls_encounter_lvl2_slot8",
+                "tj_win_btls_supremacy_lvl2_slot9",
+                "tj_win_btls_encounter_lvl2_slot9",
+                "tj_kill_btls_supremacy_lvl2_slot9",
+                "tj_kill_btls_encounter_lvl2_slot9",
+                "tj_damage_btls_supremacy_lvl2_slot9",
+                "tj_damage_btls_encounter_lvl2_slot9"
+                ]
+        tj_kill_btls_supremacy_lvl2_slot6:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot5",
+                "tj_win_btls_encounter_lvl2_slot5",
+                "tj_kill_btls_supremacy_lvl2_slot5",
+                "tj_kill_btls_encounter_lvl2_slot5",
+                "tj_damage_btls_supremacy_lvl2_slot5",
+                "tj_damage_btls_encounter_lvl2_slot5",
+                "tj_win_btls_supremacy_lvl2_slot8",
+                "tj_win_btls_encounter_lvl2_slot8",
+                "tj_kill_btls_supremacy_lvl2_slot8",
+                "tj_kill_btls_encounter_lvl2_slot8",
+                "tj_damage_btls_supremacy_lvl2_slot8",
+                "tj_damage_btls_encounter_lvl2_slot8",
+                "tj_win_btls_supremacy_lvl2_slot9",
+                "tj_win_btls_encounter_lvl2_slot9",
+                "tj_kill_btls_supremacy_lvl2_slot9",
+                "tj_kill_btls_encounter_lvl2_slot9",
+                "tj_damage_btls_supremacy_lvl2_slot9",
+                "tj_damage_btls_encounter_lvl2_slot9"
+                ]
+        tj_kill_btls_encounter_lvl2_slot6:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot5",
+                "tj_win_btls_encounter_lvl2_slot5",
+                "tj_kill_btls_supremacy_lvl2_slot5",
+                "tj_kill_btls_encounter_lvl2_slot5",
+                "tj_damage_btls_supremacy_lvl2_slot5",
+                "tj_damage_btls_encounter_lvl2_slot5",
+                "tj_win_btls_supremacy_lvl2_slot8",
+                "tj_win_btls_encounter_lvl2_slot8",
+                "tj_kill_btls_supremacy_lvl2_slot8",
+                "tj_kill_btls_encounter_lvl2_slot8",
+                "tj_damage_btls_supremacy_lvl2_slot8",
+                "tj_damage_btls_encounter_lvl2_slot8",
+                "tj_win_btls_supremacy_lvl2_slot9",
+                "tj_win_btls_encounter_lvl2_slot9",
+                "tj_kill_btls_supremacy_lvl2_slot9",
+                "tj_kill_btls_encounter_lvl2_slot9",
+                "tj_damage_btls_supremacy_lvl2_slot9",
+                "tj_damage_btls_encounter_lvl2_slot9"
+                ]
+        tj_damage_btls_supremacy_lvl2_slot6:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot5",
+                "tj_win_btls_encounter_lvl2_slot5",
+                "tj_kill_btls_supremacy_lvl2_slot5",
+                "tj_kill_btls_encounter_lvl2_slot5",
+                "tj_damage_btls_supremacy_lvl2_slot5",
+                "tj_damage_btls_encounter_lvl2_slot5",
+                "tj_win_btls_supremacy_lvl2_slot8",
+                "tj_win_btls_encounter_lvl2_slot8",
+                "tj_kill_btls_supremacy_lvl2_slot8",
+                "tj_kill_btls_encounter_lvl2_slot8",
+                "tj_damage_btls_supremacy_lvl2_slot8",
+                "tj_damage_btls_encounter_lvl2_slot8",
+                "tj_win_btls_supremacy_lvl2_slot9",
+                "tj_win_btls_encounter_lvl2_slot9",
+                "tj_kill_btls_supremacy_lvl2_slot9",
+                "tj_kill_btls_encounter_lvl2_slot9",
+                "tj_damage_btls_supremacy_lvl2_slot9",
+                "tj_damage_btls_encounter_lvl2_slot9"
+                ]
+        tj_damage_btls_encounter_lvl2_slot6:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot5",
+                "tj_win_btls_encounter_lvl2_slot5",
+                "tj_kill_btls_supremacy_lvl2_slot5",
+                "tj_kill_btls_encounter_lvl2_slot5",
+                "tj_damage_btls_supremacy_lvl2_slot5",
+                "tj_damage_btls_encounter_lvl2_slot5",
+                "tj_win_btls_supremacy_lvl2_slot8",
+                "tj_win_btls_encounter_lvl2_slot8",
+                "tj_kill_btls_supremacy_lvl2_slot8",
+                "tj_kill_btls_encounter_lvl2_slot8",
+                "tj_damage_btls_supremacy_lvl2_slot8",
+                "tj_damage_btls_encounter_lvl2_slot8",
+                "tj_win_btls_supremacy_lvl2_slot9",
+                "tj_win_btls_encounter_lvl2_slot9",
+                "tj_kill_btls_supremacy_lvl2_slot9",
+                "tj_kill_btls_encounter_lvl2_slot9",
+                "tj_damage_btls_supremacy_lvl2_slot9",
+                "tj_damage_btls_encounter_lvl2_slot9"
+                ]
+        tj_win_btls_on_lt_lvl2_slot6:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5",
+                "tj_win_btls_on_mt_lvl2_slot5",
+                "tj_win_btls_on_ht_lvl2_slot5",
+                "tj_win_btls_on_at_lvl2_slot5",
+                "tj_win_btls_on_lt_lvl2_slot8",
+                "tj_win_btls_on_mt_lvl2_slot8",
+                "tj_win_btls_on_ht_lvl2_slot8",
+                "tj_win_btls_on_at_lvl2_slot8",
+                "tj_win_btls_on_lt_lvl2_slot9",
+                "tj_win_btls_on_mt_lvl2_slot9",
+                "tj_win_btls_on_ht_lvl2_slot9",
+                "tj_win_btls_on_at_lvl2_slot9"
+                ]
+        tj_win_btls_on_lt_lvl2_slot6_v2:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5_v2",
+                "tj_win_btls_on_mt_lvl2_slot5_v2",
+                "tj_win_btls_on_ht_lvl2_slot5_v2",
+                "tj_win_btls_on_at_lvl2_slot5_v2",
+                "tj_win_btls_on_lt_lvl2_slot8_v2",
+                "tj_win_btls_on_mt_lvl2_slot8_v2",
+                "tj_win_btls_on_ht_lvl2_slot8_v2",
+                "tj_win_btls_on_at_lvl2_slot8_v2",
+                "tj_win_btls_on_lt_lvl2_slot9_v2",
+                "tj_win_btls_on_mt_lvl2_slot9_v2",
+                "tj_win_btls_on_ht_lvl2_slot9_v2",
+                "tj_win_btls_on_at_lvl2_slot9_v2"
+                ]
+        tj_win_btls_on_mt_lvl2_slot6:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5",
+                "tj_win_btls_on_mt_lvl2_slot5",
+                "tj_win_btls_on_ht_lvl2_slot5",
+                "tj_win_btls_on_at_lvl2_slot5",
+                "tj_win_btls_on_lt_lvl2_slot8",
+                "tj_win_btls_on_mt_lvl2_slot8",
+                "tj_win_btls_on_ht_lvl2_slot8",
+                "tj_win_btls_on_at_lvl2_slot8",
+                "tj_win_btls_on_lt_lvl2_slot9",
+                "tj_win_btls_on_mt_lvl2_slot9",
+                "tj_win_btls_on_ht_lvl2_slot9",
+                "tj_win_btls_on_at_lvl2_slot9"
+                ]
+        tj_win_btls_on_mt_lvl2_slot6_v2:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5_v2",
+                "tj_win_btls_on_mt_lvl2_slot5_v2",
+                "tj_win_btls_on_ht_lvl2_slot5_v2",
+                "tj_win_btls_on_at_lvl2_slot5_v2",
+                "tj_win_btls_on_lt_lvl2_slot8_v2",
+                "tj_win_btls_on_mt_lvl2_slot8_v2",
+                "tj_win_btls_on_ht_lvl2_slot8_v2",
+                "tj_win_btls_on_at_lvl2_slot8_v2",
+                "tj_win_btls_on_lt_lvl2_slot9_v2",
+                "tj_win_btls_on_mt_lvl2_slot9_v2",
+                "tj_win_btls_on_ht_lvl2_slot9_v2",
+                "tj_win_btls_on_at_lvl2_slot9_v2"
+                ]
+        tj_win_btls_on_ht_lvl2_slot6:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5",
+                "tj_win_btls_on_mt_lvl2_slot5",
+                "tj_win_btls_on_ht_lvl2_slot5",
+                "tj_win_btls_on_at_lvl2_slot5",
+                "tj_win_btls_on_lt_lvl2_slot8",
+                "tj_win_btls_on_mt_lvl2_slot8",
+                "tj_win_btls_on_ht_lvl2_slot8",
+                "tj_win_btls_on_at_lvl2_slot8",
+                "tj_win_btls_on_lt_lvl2_slot9",
+                "tj_win_btls_on_mt_lvl2_slot9",
+                "tj_win_btls_on_ht_lvl2_slot9",
+                "tj_win_btls_on_at_lvl2_slot9"
+                ]
+        tj_win_btls_on_ht_lvl2_slot6_v2:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5_v2",
+                "tj_win_btls_on_mt_lvl2_slot5_v2",
+                "tj_win_btls_on_ht_lvl2_slot5_v2",
+                "tj_win_btls_on_at_lvl2_slot5_v2",
+                "tj_win_btls_on_lt_lvl2_slot8_v2",
+                "tj_win_btls_on_mt_lvl2_slot8_v2",
+                "tj_win_btls_on_ht_lvl2_slot8_v2",
+                "tj_win_btls_on_at_lvl2_slot8_v2",
+                "tj_win_btls_on_lt_lvl2_slot9_v2",
+                "tj_win_btls_on_mt_lvl2_slot9_v2",
+                "tj_win_btls_on_ht_lvl2_slot9_v2",
+                "tj_win_btls_on_at_lvl2_slot9_v2"
+                ]
+        tj_win_btls_on_at_lvl2_slot6:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5",
+                "tj_win_btls_on_mt_lvl2_slot5",
+                "tj_win_btls_on_ht_lvl2_slot5",
+                "tj_win_btls_on_at_lvl2_slot5",
+                "tj_win_btls_on_lt_lvl2_slot8",
+                "tj_win_btls_on_mt_lvl2_slot8",
+                "tj_win_btls_on_ht_lvl2_slot8",
+                "tj_win_btls_on_at_lvl2_slot8",
+                "tj_win_btls_on_lt_lvl2_slot9",
+                "tj_win_btls_on_mt_lvl2_slot9",
+                "tj_win_btls_on_ht_lvl2_slot9",
+                "tj_win_btls_on_at_lvl2_slot9"
+                ]
+        tj_win_btls_on_at_lvl2_slot6_v2:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5_v2",
+                "tj_win_btls_on_mt_lvl2_slot5_v2",
+                "tj_win_btls_on_ht_lvl2_slot5_v2",
+                "tj_win_btls_on_at_lvl2_slot5_v2",
+                "tj_win_btls_on_lt_lvl2_slot8_v2",
+                "tj_win_btls_on_mt_lvl2_slot8_v2",
+                "tj_win_btls_on_ht_lvl2_slot8_v2",
+                "tj_win_btls_on_at_lvl2_slot8_v2",
+                "tj_win_btls_on_lt_lvl2_slot9_v2",
+                "tj_win_btls_on_mt_lvl2_slot9_v2",
+                "tj_win_btls_on_ht_lvl2_slot9_v2",
+                "tj_win_btls_on_at_lvl2_slot9_v2"
+                ]
+6:
+    complexityFactor: 1
+    quests:
+        tj_kill_one_btl_lvl2_slot7:
+         blocks: [
+                "tj_kill_one_btl_lvl2_slot4"
+                ]     
+        tj_kill_one_btl_lvl2_slot7_v2:
+         blocks: [
+                "tj_kill_one_btl_lvl2_slot4"
+                ]     
+        tj_wins_series_lvl2_slot7:
+        tj_damage_one_battle_lvl2_slot7:
+         blocks: [
+                "tj_damage_one_battle_lvl2_slot4"
+                ]     
+        tj_damage_one_battle_lvl2_slot7_v2:
+         blocks: [
+                "tj_damage_one_battle_lvl2_slot4"
+                ]     
+        tj_xp_one_battle_lvl2_slot7:
+         blocks: [
+                "tj_xp_one_battle_lvl2_slot4"
+                ]     
+        tj_class2_medal_lvl2_slot7:
+        tj_class2_medal_lvl2_slot7_v2:
+        tj_class3_medal_lvl2_slot7:
+        tj_class3_medal_lvl2_slot7_v2:
+        tj_top2_damage_lvl2_slot7:
+7:
+    complexityFactor: 1
+    quests:
+        tj_damage_btls_lvl2_slot8:
+            blocks: [
+                "tj_damage_btls_lvl2_slot9"
+                ]              
+        tj_win_btls_lvl2_slot8:
+            blocks: [
+                "tj_win_btls_lvl2_slot9"
+                ]              
+        tj_kill_btls_lvl2_slot8:
+            blocks: [
+                "tj_kill_btls_lvl2_slot9"
+                ]              
+        tj_make_n_xp_lvl2_slot8:
+            blocks: [
+                "tj_make_n_xp_lvl2_slot9"
+                ]              
+        tj_win_btls_alive_lvl2_slot8:
+            blocks: [
+                "tj_win_btls_alive_lvl2_slot9"
+                ]              
+        tj_get_x2_lvl2_slot8:
+            blocks: [
+                "tj_get_x2_lvl2_slot9"
+                ]              
+        tj_kill_lt_mt_btls_lvl2_slot8:
+            blocks: [
+                "tj_kill_lt_mt_btls_lvl2_slot9"
+                ]              
+        tj_kill_ht_btls_lvl2_slot8:
+            blocks: [
+                "tj_kill_ht_btls_lvl2_slot9"
+                ]              
+        tj_win_btls_supremacy_lvl2_slot8:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot5",
+                "tj_win_btls_encounter_lvl2_slot5",
+                "tj_kill_btls_supremacy_lvl2_slot5",
+                "tj_kill_btls_encounter_lvl2_slot5",
+                "tj_damage_btls_supremacy_lvl2_slot5",
+                "tj_damage_btls_encounter_lvl2_slot5",
+                "tj_win_btls_supremacy_lvl2_slot6",
+                "tj_win_btls_encounter_lvl2_slot6",
+                "tj_kill_btls_supremacy_lvl2_slot6",
+                "tj_kill_btls_encounter_lvl2_slot6",
+                "tj_damage_btls_supremacy_lvl2_slot6",
+                "tj_damage_btls_encounter_lvl2_slot6",
+                "tj_win_btls_supremacy_lvl2_slot9",
+                "tj_win_btls_encounter_lvl2_slot9",
+                "tj_kill_btls_supremacy_lvl2_slot9",
+                "tj_kill_btls_encounter_lvl2_slot9",
+                "tj_damage_btls_supremacy_lvl2_slot9",
+                "tj_damage_btls_encounter_lvl2_slot9"
+                ]
+        tj_win_btls_encounter_lvl2_slot8:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot5",
+                "tj_win_btls_encounter_lvl2_slot5",
+                "tj_kill_btls_supremacy_lvl2_slot5",
+                "tj_kill_btls_encounter_lvl2_slot5",
+                "tj_damage_btls_supremacy_lvl2_slot5",
+                "tj_damage_btls_encounter_lvl2_slot5",
+                "tj_win_btls_supremacy_lvl2_slot6",
+                "tj_win_btls_encounter_lvl2_slot6",
+                "tj_kill_btls_supremacy_lvl2_slot6",
+                "tj_kill_btls_encounter_lvl2_slot6",
+                "tj_damage_btls_supremacy_lvl2_slot6",
+                "tj_damage_btls_encounter_lvl2_slot6",
+                "tj_win_btls_supremacy_lvl2_slot9",
+                "tj_win_btls_encounter_lvl2_slot9",
+                "tj_kill_btls_supremacy_lvl2_slot9",
+                "tj_kill_btls_encounter_lvl2_slot9",
+                "tj_damage_btls_supremacy_lvl2_slot9",
+                "tj_damage_btls_encounter_lvl2_slot9"
+                ]
+        tj_kill_btls_supremacy_lvl2_slot8:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot5",
+                "tj_win_btls_encounter_lvl2_slot5",
+                "tj_kill_btls_supremacy_lvl2_slot5",
+                "tj_kill_btls_encounter_lvl2_slot5",
+                "tj_damage_btls_supremacy_lvl2_slot5",
+                "tj_damage_btls_encounter_lvl2_slot5",
+                "tj_win_btls_supremacy_lvl2_slot6",
+                "tj_win_btls_encounter_lvl2_slot6",
+                "tj_kill_btls_supremacy_lvl2_slot6",
+                "tj_kill_btls_encounter_lvl2_slot6",
+                "tj_damage_btls_supremacy_lvl2_slot6",
+                "tj_damage_btls_encounter_lvl2_slot6",
+                "tj_win_btls_supremacy_lvl2_slot9",
+                "tj_win_btls_encounter_lvl2_slot9",
+                "tj_kill_btls_supremacy_lvl2_slot9",
+                "tj_kill_btls_encounter_lvl2_slot9",
+                "tj_damage_btls_supremacy_lvl2_slot9",
+                "tj_damage_btls_encounter_lvl2_slot9"
+                ]
+        tj_kill_btls_encounter_lvl2_slot8:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot5",
+                "tj_win_btls_encounter_lvl2_slot5",
+                "tj_kill_btls_supremacy_lvl2_slot5",
+                "tj_kill_btls_encounter_lvl2_slot5",
+                "tj_damage_btls_supremacy_lvl2_slot5",
+                "tj_damage_btls_encounter_lvl2_slot5",
+                "tj_win_btls_supremacy_lvl2_slot6",
+                "tj_win_btls_encounter_lvl2_slot6",
+                "tj_kill_btls_supremacy_lvl2_slot6",
+                "tj_kill_btls_encounter_lvl2_slot6",
+                "tj_damage_btls_supremacy_lvl2_slot6",
+                "tj_damage_btls_encounter_lvl2_slot6",
+                "tj_win_btls_supremacy_lvl2_slot9",
+                "tj_win_btls_encounter_lvl2_slot9",
+                "tj_kill_btls_supremacy_lvl2_slot9",
+                "tj_kill_btls_encounter_lvl2_slot9",
+                "tj_damage_btls_supremacy_lvl2_slot9",
+                "tj_damage_btls_encounter_lvl2_slot9"
+                ]
+        tj_damage_btls_supremacy_lvl2_slot8:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot5",
+                "tj_win_btls_encounter_lvl2_slot5",
+                "tj_kill_btls_supremacy_lvl2_slot5",
+                "tj_kill_btls_encounter_lvl2_slot5",
+                "tj_damage_btls_supremacy_lvl2_slot5",
+                "tj_damage_btls_encounter_lvl2_slot5",
+                "tj_win_btls_supremacy_lvl2_slot6",
+                "tj_win_btls_encounter_lvl2_slot6",
+                "tj_kill_btls_supremacy_lvl2_slot6",
+                "tj_kill_btls_encounter_lvl2_slot6",
+                "tj_damage_btls_supremacy_lvl2_slot6",
+                "tj_damage_btls_encounter_lvl2_slot6",
+                "tj_win_btls_supremacy_lvl2_slot9",
+                "tj_win_btls_encounter_lvl2_slot9",
+                "tj_kill_btls_supremacy_lvl2_slot9",
+                "tj_kill_btls_encounter_lvl2_slot9",
+                "tj_damage_btls_supremacy_lvl2_slot9",
+                "tj_damage_btls_encounter_lvl2_slot9"
+                ]
+        tj_damage_btls_encounter_lvl2_slot8:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot5",
+                "tj_win_btls_encounter_lvl2_slot5",
+                "tj_kill_btls_supremacy_lvl2_slot5",
+                "tj_kill_btls_encounter_lvl2_slot5",
+                "tj_damage_btls_supremacy_lvl2_slot5",
+                "tj_damage_btls_encounter_lvl2_slot5",
+                "tj_win_btls_supremacy_lvl2_slot6",
+                "tj_win_btls_encounter_lvl2_slot6",
+                "tj_kill_btls_supremacy_lvl2_slot6",
+                "tj_kill_btls_encounter_lvl2_slot6",
+                "tj_damage_btls_supremacy_lvl2_slot6",
+                "tj_damage_btls_encounter_lvl2_slot6",
+                "tj_win_btls_supremacy_lvl2_slot9",
+                "tj_win_btls_encounter_lvl2_slot9",
+                "tj_kill_btls_supremacy_lvl2_slot9",
+                "tj_kill_btls_encounter_lvl2_slot9",
+                "tj_damage_btls_supremacy_lvl2_slot9",
+                "tj_damage_btls_encounter_lvl2_slot9"
+                ]
+        tj_win_btls_on_lt_lvl2_slot8:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5",
+                "tj_win_btls_on_mt_lvl2_slot5",
+                "tj_win_btls_on_ht_lvl2_slot5",
+                "tj_win_btls_on_at_lvl2_slot5",
+                "tj_win_btls_on_lt_lvl2_slot6",
+                "tj_win_btls_on_mt_lvl2_slot6",
+                "tj_win_btls_on_ht_lvl2_slot6",
+                "tj_win_btls_on_at_lvl2_slot6",
+                "tj_win_btls_on_lt_lvl2_slot9",
+                "tj_win_btls_on_mt_lvl2_slot9",
+                "tj_win_btls_on_ht_lvl2_slot9",
+                "tj_win_btls_on_at_lvl2_slot9"
+                ]
+        tj_win_btls_on_lt_lvl2_slot8_v2:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5_v2",
+                "tj_win_btls_on_mt_lvl2_slot5_v2",
+                "tj_win_btls_on_ht_lvl2_slot5_v2",
+                "tj_win_btls_on_at_lvl2_slot5_v2",
+                "tj_win_btls_on_lt_lvl2_slot6_v2",
+                "tj_win_btls_on_mt_lvl2_slot6_v2",
+                "tj_win_btls_on_ht_lvl2_slot6_v2",
+                "tj_win_btls_on_at_lvl2_slot6_v2",
+                "tj_win_btls_on_lt_lvl2_slot9_v2",
+                "tj_win_btls_on_mt_lvl2_slot9_v2",
+                "tj_win_btls_on_ht_lvl2_slot9_v2",
+                "tj_win_btls_on_at_lvl2_slot9_v2"
+                ]
+        tj_win_btls_on_mt_lvl2_slot8:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5",
+                "tj_win_btls_on_mt_lvl2_slot5",
+                "tj_win_btls_on_ht_lvl2_slot5",
+                "tj_win_btls_on_at_lvl2_slot5",
+                "tj_win_btls_on_lt_lvl2_slot6",
+                "tj_win_btls_on_mt_lvl2_slot6",
+                "tj_win_btls_on_ht_lvl2_slot6",
+                "tj_win_btls_on_at_lvl2_slot6",
+                "tj_win_btls_on_lt_lvl2_slot9",
+                "tj_win_btls_on_mt_lvl2_slot9",
+                "tj_win_btls_on_ht_lvl2_slot9",
+                "tj_win_btls_on_at_lvl2_slot9"
+                ]
+        tj_win_btls_on_mt_lvl2_slot8_v2:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5_v2",
+                "tj_win_btls_on_mt_lvl2_slot5_v2",
+                "tj_win_btls_on_ht_lvl2_slot5_v2",
+                "tj_win_btls_on_at_lvl2_slot5_v2",
+                "tj_win_btls_on_lt_lvl2_slot6_v2",
+                "tj_win_btls_on_mt_lvl2_slot6_v2",
+                "tj_win_btls_on_ht_lvl2_slot6_v2",
+                "tj_win_btls_on_at_lvl2_slot6_v2",
+                "tj_win_btls_on_lt_lvl2_slot9_v2",
+                "tj_win_btls_on_mt_lvl2_slot9_v2",
+                "tj_win_btls_on_ht_lvl2_slot9_v2",
+                "tj_win_btls_on_at_lvl2_slot9_v2"
+                ]
+        tj_win_btls_on_ht_lvl2_slot8:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5",
+                "tj_win_btls_on_mt_lvl2_slot5",
+                "tj_win_btls_on_ht_lvl2_slot5",
+                "tj_win_btls_on_at_lvl2_slot5",
+                "tj_win_btls_on_lt_lvl2_slot6",
+                "tj_win_btls_on_mt_lvl2_slot6",
+                "tj_win_btls_on_ht_lvl2_slot6",
+                "tj_win_btls_on_at_lvl2_slot6",
+                "tj_win_btls_on_lt_lvl2_slot9",
+                "tj_win_btls_on_mt_lvl2_slot9",
+                "tj_win_btls_on_ht_lvl2_slot9",
+                "tj_win_btls_on_at_lvl2_slot9"
+                ]
+        tj_win_btls_on_ht_lvl2_slot8_v2:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5_v2",
+                "tj_win_btls_on_mt_lvl2_slot5_v2",
+                "tj_win_btls_on_ht_lvl2_slot5_v2",
+                "tj_win_btls_on_at_lvl2_slot5_v2",
+                "tj_win_btls_on_lt_lvl2_slot6_v2",
+                "tj_win_btls_on_mt_lvl2_slot6_v2",
+                "tj_win_btls_on_ht_lvl2_slot6_v2",
+                "tj_win_btls_on_at_lvl2_slot6_v2",
+                "tj_win_btls_on_lt_lvl2_slot9_v2",
+                "tj_win_btls_on_mt_lvl2_slot9_v2",
+                "tj_win_btls_on_ht_lvl2_slot9_v2",
+                "tj_win_btls_on_at_lvl2_slot9_v2"
+                ]
+        tj_win_btls_on_at_lvl2_slot8:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5",
+                "tj_win_btls_on_mt_lvl2_slot5",
+                "tj_win_btls_on_ht_lvl2_slot5",
+                "tj_win_btls_on_at_lvl2_slot5",
+                "tj_win_btls_on_lt_lvl2_slot6",
+                "tj_win_btls_on_mt_lvl2_slot6",
+                "tj_win_btls_on_ht_lvl2_slot6",
+                "tj_win_btls_on_at_lvl2_slot6",
+                "tj_win_btls_on_lt_lvl2_slot9",
+                "tj_win_btls_on_mt_lvl2_slot9",
+                "tj_win_btls_on_ht_lvl2_slot9",
+                "tj_win_btls_on_at_lvl2_slot9"
+                ]
+        tj_win_btls_on_at_lvl2_slot8_v2:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5_v2",
+                "tj_win_btls_on_mt_lvl2_slot5_v2",
+                "tj_win_btls_on_ht_lvl2_slot5_v2",
+                "tj_win_btls_on_at_lvl2_slot5_v2",
+                "tj_win_btls_on_lt_lvl2_slot6_v2",
+                "tj_win_btls_on_mt_lvl2_slot6_v2",
+                "tj_win_btls_on_ht_lvl2_slot6_v2",
+                "tj_win_btls_on_at_lvl2_slot6_v2",
+                "tj_win_btls_on_lt_lvl2_slot9_v2",
+                "tj_win_btls_on_mt_lvl2_slot9_v2",
+                "tj_win_btls_on_ht_lvl2_slot9_v2",
+                "tj_win_btls_on_at_lvl2_slot9_v2"
+                ]
+8:
+    complexityFactor: 1
+    quests:
+        tj_damage_btls_lvl2_slot9:
+            blocks: [
+                "tj_damage_btls_lvl2_slot8"
+                ]              
+        tj_win_btls_lvl2_slot9:
+            blocks: [
+                "tj_win_btls_lvl2_slot8"
+                ]              
+        tj_kill_btls_lvl2_slot9:
+            blocks: [
+                "tj_kill_btls_lvl2_slot8"
+                ]              
+        tj_make_n_xp_lvl2_slot9:
+            blocks: [
+                "tj_make_n_xp_lvl2_slot8"
+                ]              
+        tj_win_btls_alive_lvl2_slot9:
+            blocks: [
+                "tj_win_btls_alive_lvl2_slot8"
+                ]              
+        tj_get_x2_lvl2_slot9:
+            blocks: [
+                "tj_get_x2_lvl2_slot8"
+                ]              
+        tj_kill_lt_mt_btls_lvl2_slot9:
+            blocks: [
+                "tj_kill_lt_mt_btls_lvl2_slot8"
+                ]              
+        tj_kill_ht_btls_lvl2_slot9:
+            blocks: [
+                "tj_kill_ht_btls_lvl2_slot8"
+                ]              
+        tj_kill_at_btls_lvl2_slot9:
+        tj_win_btls_supremacy_lvl2_slot9:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot5",
+                "tj_win_btls_encounter_lvl2_slot5",
+                "tj_kill_btls_supremacy_lvl2_slot5",
+                "tj_kill_btls_encounter_lvl2_slot5",
+                "tj_damage_btls_supremacy_lvl2_slot5",
+                "tj_damage_btls_encounter_lvl2_slot5",
+                "tj_win_btls_supremacy_lvl2_slot6",
+                "tj_win_btls_encounter_lvl2_slot6",
+                "tj_kill_btls_supremacy_lvl2_slot6",
+                "tj_kill_btls_encounter_lvl2_slot6",
+                "tj_damage_btls_supremacy_lvl2_slot6",
+                "tj_damage_btls_encounter_lvl2_slot6",
+                "tj_win_btls_supremacy_lvl2_slot8",
+                "tj_win_btls_encounter_lvl2_slot8",
+                "tj_kill_btls_supremacy_lvl2_slot8",
+                "tj_kill_btls_encounter_lvl2_slot8",
+                "tj_damage_btls_supremacy_lvl2_slot8",
+                "tj_damage_btls_encounter_lvl2_slot8"
+                ]
+        tj_win_btls_encounter_lvl2_slot9:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot5",
+                "tj_win_btls_encounter_lvl2_slot5",
+                "tj_kill_btls_supremacy_lvl2_slot5",
+                "tj_kill_btls_encounter_lvl2_slot5",
+                "tj_damage_btls_supremacy_lvl2_slot5",
+                "tj_damage_btls_encounter_lvl2_slot5",
+                "tj_win_btls_supremacy_lvl2_slot6",
+                "tj_win_btls_encounter_lvl2_slot6",
+                "tj_kill_btls_supremacy_lvl2_slot6",
+                "tj_kill_btls_encounter_lvl2_slot6",
+                "tj_damage_btls_supremacy_lvl2_slot6",
+                "tj_damage_btls_encounter_lvl2_slot6",
+                "tj_win_btls_supremacy_lvl2_slot8",
+                "tj_win_btls_encounter_lvl2_slot8",
+                "tj_kill_btls_supremacy_lvl2_slot8",
+                "tj_kill_btls_encounter_lvl2_slot8",
+                "tj_damage_btls_supremacy_lvl2_slot8",
+                "tj_damage_btls_encounter_lvl2_slot8"
+                ]
+        tj_kill_btls_supremacy_lvl2_slot9:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot5",
+                "tj_win_btls_encounter_lvl2_slot5",
+                "tj_kill_btls_supremacy_lvl2_slot5",
+                "tj_kill_btls_encounter_lvl2_slot5",
+                "tj_damage_btls_supremacy_lvl2_slot5",
+                "tj_damage_btls_encounter_lvl2_slot5",
+                "tj_win_btls_supremacy_lvl2_slot6",
+                "tj_win_btls_encounter_lvl2_slot6",
+                "tj_kill_btls_supremacy_lvl2_slot6",
+                "tj_kill_btls_encounter_lvl2_slot6",
+                "tj_damage_btls_supremacy_lvl2_slot6",
+                "tj_damage_btls_encounter_lvl2_slot6",
+                "tj_win_btls_supremacy_lvl2_slot8",
+                "tj_win_btls_encounter_lvl2_slot8",
+                "tj_kill_btls_supremacy_lvl2_slot8",
+                "tj_kill_btls_encounter_lvl2_slot8",
+                "tj_damage_btls_supremacy_lvl2_slot8",
+                "tj_damage_btls_encounter_lvl2_slot8"
+                ]
+        tj_kill_btls_encounter_lvl2_slot9:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot5",
+                "tj_win_btls_encounter_lvl2_slot5",
+                "tj_kill_btls_supremacy_lvl2_slot5",
+                "tj_kill_btls_encounter_lvl2_slot5",
+                "tj_damage_btls_supremacy_lvl2_slot5",
+                "tj_damage_btls_encounter_lvl2_slot5",
+                "tj_win_btls_supremacy_lvl2_slot6",
+                "tj_win_btls_encounter_lvl2_slot6",
+                "tj_kill_btls_supremacy_lvl2_slot6",
+                "tj_kill_btls_encounter_lvl2_slot6",
+                "tj_damage_btls_supremacy_lvl2_slot6",
+                "tj_damage_btls_encounter_lvl2_slot6",
+                "tj_win_btls_supremacy_lvl2_slot8",
+                "tj_win_btls_encounter_lvl2_slot8",
+                "tj_kill_btls_supremacy_lvl2_slot8",
+                "tj_kill_btls_encounter_lvl2_slot8",
+                "tj_damage_btls_supremacy_lvl2_slot8",
+                "tj_damage_btls_encounter_lvl2_slot8"
+                ]
+        tj_damage_btls_supremacy_lvl2_slot9:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot5",
+                "tj_win_btls_encounter_lvl2_slot5",
+                "tj_kill_btls_supremacy_lvl2_slot5",
+                "tj_kill_btls_encounter_lvl2_slot5",
+                "tj_damage_btls_supremacy_lvl2_slot5",
+                "tj_damage_btls_encounter_lvl2_slot5",
+                "tj_win_btls_supremacy_lvl2_slot6",
+                "tj_win_btls_encounter_lvl2_slot6",
+                "tj_kill_btls_supremacy_lvl2_slot6",
+                "tj_kill_btls_encounter_lvl2_slot6",
+                "tj_damage_btls_supremacy_lvl2_slot6",
+                "tj_damage_btls_encounter_lvl2_slot6",
+                "tj_win_btls_supremacy_lvl2_slot8",
+                "tj_win_btls_encounter_lvl2_slot8",
+                "tj_kill_btls_supremacy_lvl2_slot8",
+                "tj_kill_btls_encounter_lvl2_slot8",
+                "tj_damage_btls_supremacy_lvl2_slot8",
+                "tj_damage_btls_encounter_lvl2_slot8"
+                ]
+        tj_damage_btls_encounter_lvl2_slot9:
+            blocks: [
+                "tj_win_btls_supremacy_lvl2_slot5",
+                "tj_win_btls_encounter_lvl2_slot5",
+                "tj_kill_btls_supremacy_lvl2_slot5",
+                "tj_kill_btls_encounter_lvl2_slot5",
+                "tj_damage_btls_supremacy_lvl2_slot5",
+                "tj_damage_btls_encounter_lvl2_slot5",
+                "tj_win_btls_supremacy_lvl2_slot6",
+                "tj_win_btls_encounter_lvl2_slot6",
+                "tj_kill_btls_supremacy_lvl2_slot6",
+                "tj_kill_btls_encounter_lvl2_slot6",
+                "tj_damage_btls_supremacy_lvl2_slot6",
+                "tj_damage_btls_encounter_lvl2_slot6",
+                "tj_win_btls_supremacy_lvl2_slot8",
+                "tj_win_btls_encounter_lvl2_slot8",
+                "tj_kill_btls_supremacy_lvl2_slot8",
+                "tj_kill_btls_encounter_lvl2_slot8",
+                "tj_damage_btls_supremacy_lvl2_slot8",
+                "tj_damage_btls_encounter_lvl2_slot8"
+                ]
+        tj_win_btls_on_lt_lvl2_slot9:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5",
+                "tj_win_btls_on_mt_lvl2_slot5",
+                "tj_win_btls_on_ht_lvl2_slot5",
+                "tj_win_btls_on_at_lvl2_slot5",
+                "tj_win_btls_on_lt_lvl2_slot6",
+                "tj_win_btls_on_mt_lvl2_slot6",
+                "tj_win_btls_on_ht_lvl2_slot6",
+                "tj_win_btls_on_at_lvl2_slot6",
+                "tj_win_btls_on_lt_lvl2_slot8",
+                "tj_win_btls_on_mt_lvl2_slot8",
+                "tj_win_btls_on_ht_lvl2_slot8",
+                "tj_win_btls_on_at_lvl2_slot8"
+                ]
+        tj_win_btls_on_lt_lvl2_slot9_v2:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5_v2",
+                "tj_win_btls_on_mt_lvl2_slot5_v2",
+                "tj_win_btls_on_ht_lvl2_slot5_v2",
+                "tj_win_btls_on_at_lvl2_slot5_v2",
+                "tj_win_btls_on_lt_lvl2_slot6_v2",
+                "tj_win_btls_on_mt_lvl2_slot6_v2",
+                "tj_win_btls_on_ht_lvl2_slot6_v2",
+                "tj_win_btls_on_at_lvl2_slot6_v2",
+                "tj_win_btls_on_lt_lvl2_slot8_v2",
+                "tj_win_btls_on_mt_lvl2_slot8_v2",
+                "tj_win_btls_on_ht_lvl2_slot8_v2",
+                "tj_win_btls_on_at_lvl2_slot8_v2"
+                ]
+        tj_win_btls_on_mt_lvl2_slot9:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5",
+                "tj_win_btls_on_mt_lvl2_slot5",
+                "tj_win_btls_on_ht_lvl2_slot5",
+                "tj_win_btls_on_at_lvl2_slot5",
+                "tj_win_btls_on_lt_lvl2_slot6",
+                "tj_win_btls_on_mt_lvl2_slot6",
+                "tj_win_btls_on_ht_lvl2_slot6",
+                "tj_win_btls_on_at_lvl2_slot6",
+                "tj_win_btls_on_lt_lvl2_slot8",
+                "tj_win_btls_on_mt_lvl2_slot8",
+                "tj_win_btls_on_ht_lvl2_slot8",
+                "tj_win_btls_on_at_lvl2_slot8"
+                ]
+        tj_win_btls_on_mt_lvl2_slot9_v2:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5_v2",
+                "tj_win_btls_on_mt_lvl2_slot5_v2",
+                "tj_win_btls_on_ht_lvl2_slot5_v2",
+                "tj_win_btls_on_at_lvl2_slot5_v2",
+                "tj_win_btls_on_lt_lvl2_slot6_v2",
+                "tj_win_btls_on_mt_lvl2_slot6_v2",
+                "tj_win_btls_on_ht_lvl2_slot6_v2",
+                "tj_win_btls_on_at_lvl2_slot6_v2",
+                "tj_win_btls_on_lt_lvl2_slot8_v2",
+                "tj_win_btls_on_mt_lvl2_slot8_v2",
+                "tj_win_btls_on_ht_lvl2_slot8_v2",
+                "tj_win_btls_on_at_lvl2_slot8_v2"
+                ]
+        tj_win_btls_on_ht_lvl2_slot9:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5",
+                "tj_win_btls_on_mt_lvl2_slot5",
+                "tj_win_btls_on_ht_lvl2_slot5",
+                "tj_win_btls_on_at_lvl2_slot5",
+                "tj_win_btls_on_lt_lvl2_slot6",
+                "tj_win_btls_on_mt_lvl2_slot6",
+                "tj_win_btls_on_ht_lvl2_slot6",
+                "tj_win_btls_on_at_lvl2_slot6",
+                "tj_win_btls_on_lt_lvl2_slot8",
+                "tj_win_btls_on_mt_lvl2_slot8",
+                "tj_win_btls_on_ht_lvl2_slot8",
+                "tj_win_btls_on_at_lvl2_slot8"
+                ]
+        tj_win_btls_on_ht_lvl2_slot9_v2:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5_v2",
+                "tj_win_btls_on_mt_lvl2_slot5_v2",
+                "tj_win_btls_on_ht_lvl2_slot5_v2",
+                "tj_win_btls_on_at_lvl2_slot5_v2",
+                "tj_win_btls_on_lt_lvl2_slot6_v2",
+                "tj_win_btls_on_mt_lvl2_slot6_v2",
+                "tj_win_btls_on_ht_lvl2_slot6_v2",
+                "tj_win_btls_on_at_lvl2_slot6_v2",
+                "tj_win_btls_on_lt_lvl2_slot8_v2",
+                "tj_win_btls_on_mt_lvl2_slot8_v2",
+                "tj_win_btls_on_ht_lvl2_slot8_v2",
+                "tj_win_btls_on_at_lvl2_slot8_v2"
+                ]
+        tj_win_btls_on_at_lvl2_slot9:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5",
+                "tj_win_btls_on_mt_lvl2_slot5",
+                "tj_win_btls_on_ht_lvl2_slot5",
+                "tj_win_btls_on_at_lvl2_slot5",
+                "tj_win_btls_on_lt_lvl2_slot6",
+                "tj_win_btls_on_mt_lvl2_slot6",
+                "tj_win_btls_on_ht_lvl2_slot6",
+                "tj_win_btls_on_at_lvl2_slot6",
+                "tj_win_btls_on_lt_lvl2_slot8",
+                "tj_win_btls_on_mt_lvl2_slot8",
+                "tj_win_btls_on_ht_lvl2_slot8",
+                "tj_win_btls_on_at_lvl2_slot8"
+                ]
+        tj_win_btls_on_at_lvl2_slot9_v2:
+            blocks: [
+                "tj_win_btls_on_lt_lvl2_slot5_v2",
+                "tj_win_btls_on_mt_lvl2_slot5_v2",
+                "tj_win_btls_on_ht_lvl2_slot5_v2",
+                "tj_win_btls_on_at_lvl2_slot5_v2",
+                "tj_win_btls_on_lt_lvl2_slot6_v2",
+                "tj_win_btls_on_mt_lvl2_slot6_v2",
+                "tj_win_btls_on_ht_lvl2_slot6_v2",
+                "tj_win_btls_on_at_lvl2_slot6_v2",
+                "tj_win_btls_on_lt_lvl2_slot8_v2",
+                "tj_win_btls_on_mt_lvl2_slot8_v2",
+                "tj_win_btls_on_ht_lvl2_slot8_v2",
+                "tj_win_btls_on_at_lvl2_slot8_v2"
+                ]
+9:
+    complexityFactor: 1
+    quests:
+        tj_win_squad_btls1_lvl2_slot10_1:
+        tj_win_squad_btls_lvl2_slot10_2:
+        tj_win_squad_btls1_lvl2_slot10_3:
+        tj_kill_squad_lvl2_slot10_1:
+        tj_kill_squad_lvl2_slot10_2:
+        tj_kill_squad_lvl2_slot10_3:
+        tj_win_rating_btls_lvl2_slot10_1:
+        tj_win_rating_btls_lvl2_slot10_2:
+        tj_win_rating_btls_lvl2_slot10_3:
+10:
+    complexityFactor: 0
+    quests:
+        tj_views_ads_fxp_lvl_2_slot11:
+11:
+    complexityFactor: 10
+    quests:
+        bp_13_damage_btls_lvl2_slot12:
+        bp_13_win_btls_lvl2_slot12:
+        bp_13_kill_btls_lvl2_slot12:
+        bp_13_make_n_xp_lvl2_slot12:
+        bp_13_win_btls_alive_lvl2_slot12:
+        bp_13_get_x2_lvl2_slot12:
+        bp_13_crit_tracks_lvl2_slot12:

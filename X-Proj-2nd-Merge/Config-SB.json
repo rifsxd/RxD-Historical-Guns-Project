@@ -1,0 +1,314 @@
+#weapon_basic -
+
+"IncludedEvents": [
+	    {"Id": "3427307363",
+            "Name": "gun_12mm_auto_npc"
+           },
+           {
+            "Id": "401248809",
+            "Name": "gun_12mm_auto_pc"
+           },
+           {
+            "Id": "1510439026",
+            "Name": "gun_20mm_auto_npc"
+           },
+           {
+            "Id": "465967494",
+            "Name": "gun_20mm_auto_pc"
+           },
+           {
+            "Id": "3624102576",
+            "Name": "gun_20pdr_npc"
+           },
+		   {
+            "Id": "2214971660",
+            "Name": "gun_20pdr_pc"
+           },
+		   {
+            "Id": "673493749",
+            "Name": "gun_25mm_npc"
+           },
+		   {
+            "Id": "3775914747",
+            "Name": "gun_25mm_pc"
+           },
+		   {
+            "Id": "3259108463",
+            "Name": "gun_30mm_npc"
+           },
+		   {
+            "Id": "3800060453",
+            "Name": "gun_30mm_pc"
+           },
+		   {
+            "Id": "3933524903",
+            "Name": "gun_32pdr_npc"
+           },
+		   {
+            "Id": "2456565885",
+            "Name": "gun_32pdr_pc"
+           },
+		   {
+            "Id": "899205004",
+            "Name": "gun_37mm_npc"
+           },
+		   {
+            "Id": "1799399032",
+            "Name": "gun_37mm_pc"
+           },
+		   {
+            "Id": "22819790",
+            "Name": "gun_40mm_npc"
+		   },
+		   {
+            "Id": "2499358322",
+            "Name": "gun_40mm_pc"
+		   },
+		   {
+            "Id": "1100634479",
+            "Name": "gun_45mm_npc"
+		   },
+		   {
+            "Id": "1567289637",
+            "Name": "gun_45mm_pc"
+		   },
+		   {
+            "Id": "2899389221",
+            "Name": "gun_47mm_npc"
+		   },
+		   {
+            "Id": "550233867",
+            "Name": "gun_47mm_pc"
+		   },
+		   {
+            "Id": "1051961041",
+            "Name": "gun_50mm_npc"
+		   },
+		   {
+            "Id": "394603559",
+            "Name": "gun_50mm_pc"
+		   },
+		   {
+            "Id": "3513227618",
+            "Name": "gun_57mm_npc"
+		   },
+		   {
+            "Id": "3455712662",
+            "Name": "gun_57mm_pc"
+		   },
+		   {
+            "Id": "1579864298",
+            "Name": "gun_75mm_npc"
+		   },
+		   {
+            "Id": "3519849278",
+            "Name": "gun_75mm_pc"
+		   },
+		   {
+            "Id": "106458525",
+            "Name": "gun_76mm_npc"
+		   },
+		   {
+            "Id": "3549028835",
+            "Name": "gun_76mm_pc"
+		   },
+		   {
+            "Id": "1151308552",
+            "Name": "gun_77mm_npc"
+		   },
+		   {
+            "Id": "100325060",
+            "Name": "gun_77mm_pc"
+		   },
+		   {
+            "Id": "3315997570",
+            "Name": "gun_80mm_npc"
+		   },
+		   {
+            "Id": "1796651830",
+            "Name": "gun_80mm_pc"
+		   },
+		   {
+            "Id": "2189204277",
+            "Name": "gun_83mm_npc"
+		   },
+		   {
+            "Id": "2199703355",
+            "Name": "gun_83mm_pc"
+		   },
+		   {
+            "Id": "3575796539",
+            "Name": "gun_85mm_npc"
+		   },
+		   {
+            "Id": "965471265",
+            "Name": "gun_85mm_pc"
+		   },
+		   {
+            "Id": "3025110010",
+            "Name": "gun_88mm_npc"
+		   },
+		   {
+            "Id": "1196786030",
+            "Name": "gun_88mm_pc"
+		   },
+		   {
+            "Id": "4149956709",
+            "Name": "gun_90mm_npc"
+		   },
+		   {
+            "Id": "422783051",
+            "Name": "gun_90mm_pc"
+		   },
+		   
+		   
+		  
+#weapon -
+
+
+"IncludedEvents": [
+	    {"Id": "2844691095",
+            "Name": "gun_100mm_npc"
+		   },
+		   {
+            "Id": "3437696013",
+            "Name": "gun_100mm_pc"
+		   },
+		   {
+            "Id": "3495796502",
+            "Name": "gun_105mm_npc"
+		   },
+		   {
+            "Id": "1364621018",
+            "Name": "gun_105mm_pc"
+		   },
+		   {
+            "Id": "2250486708",
+            "Name": "gun_107mm_npc"
+		   },
+		   {
+            "Id": "3479634656",
+            "Name": "gun_107mm_pc"
+		   },
+		   {
+            "Id": "220023300",
+            "Name": "gun_110mm_npc"
+		   },
+		   {
+            "Id": "1145256080",
+            "Name": "gun_110mm_pc"
+		   },
+		   {
+            "Id": "1280383525",
+            "Name": "gun_120mm_npc"
+		   },
+		   {
+            "Id": "1388157963",
+            "Name": "gun_120mm_pc"
+		   },
+		   {
+            "Id": "3776596079",
+            "Name": "gun_122mm_npc"
+		   },
+		   {
+            "Id": "2405213733",
+            "Name": "gun_122mm_pc"
+		   },
+		   {
+            "Id": "700781490",
+            "Name": "gun_123mm_npc"
+		   },
+		   {
+            "Id": "3924977606",
+            "Name": "gun_123mm_pc"
+		   },
+		    {
+            "Id": "2698781390",
+            "Name": "gun_127mm_npc"
+		   },
+		   {
+            "Id": "3337282418",
+            "Name": "gun_127mm_pc"
+		   },
+		   {
+            "Id": "2586095069",
+            "Name": "gun_128mm_npc"
+		   },
+		   {
+            "Id": "706968355",
+            "Name": "gun_128mm_pc"
+		   },
+		   {
+            "Id": "404847938",
+            "Name": "gun_130mm_npc"
+		   },
+		   {
+            "Id": "2761923830",
+            "Name": "gun_130mm_pc"
+		   },
+		   {
+            "Id": "364878219",
+            "Name": "gun_140mm_npc"
+		   },
+		   {
+            "Id": "3477320401",
+            "Name": "gun_140mm_pc"
+		   },
+		   {
+            "Id": "1080241574",
+            "Name": "gun_149mm_npc"
+		   },
+		   {
+            "Id": "121705418",
+            "Name": "gun_149mm_pc"
+		   },
+		   {
+            "Id": "832161848",
+            "Name": "gun_150mm_npc"
+		   },
+		   {
+            "Id": "3385356692",
+            "Name": "gun_150mm_pc"
+		   },
+		   {
+		    "Id": "107219354",
+            "Name": "gun_152mm_npc"
+		   },
+		   {
+			"Id": "804543630",
+            "Name": "gun_152mm_pc"
+		   },
+		   {
+		    "Id": "3628694313",
+            "Name": "gun_155mm_npc"
+		   },
+		   {
+			"Id": "4132789535",
+            "Name": "gun_155mm_pc"
+		   },
+		   {
+		    "Id": "1337322518",
+            "Name": "gun_170mm_npc"
+		   },
+		   {
+			"Id": "3426817498",
+            "Name": "gun_170mm_pc"
+		   },
+		   {
+            "Id": "709480240",
+            "Name": "gun_183mm_npc"
+		   },
+		   {
+            "Id": "3310789260",
+            "Name": "gun_183mm_pc"
+		   },
+		   {
+            "Id": "896980630",
+            "Name": "guns_152mm_atgm_npc"
+		   },
+		   {
+            "Id": "2354647386",
+            "Name": "gun_152mm_atgm_pc"
+		   },
+		   
+

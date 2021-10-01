@@ -1,0 +1,85 @@
+<root>
+    <name>halloween_sticky_money_10d_2</name>
+    <stages>
+        <stage>
+            <id>1</id>
+            <duration>86400</duration>
+            <bonus>
+                <stuff>gold:50 freeXP:5000</stuff>
+				<premium>86400</premium>
+            </bonus>
+        </stage>
+        <stage>
+            <id>2</id>
+            <duration>86400</duration>
+            <bonus>
+                <stuff>gold:50 freeXP:5000</stuff>
+				<premium>86400</premium>
+            </bonus>
+        </stage>
+		<stage>
+            <id>3</id>
+            <duration>86400</duration>
+            <bonus>
+                <stuff>gold:50 freeXP:5000</stuff>
+				<premium>86400</premium>
+            </bonus>
+        </stage>
+		<stage>
+            <id>4</id>
+            <duration>86400</duration>
+            <bonus>
+                <stuff>gold:50 freeXP:5000</stuff>
+				<premium>86400</premium>
+            </bonus>
+        </stage>
+		<stage>
+            <id>5</id>
+            <duration>86400</duration>
+            <bonus>
+                <stuff>gold:50 freeXP:5000</stuff>
+				<premium>86400</premium>
+            </bonus>
+        </stage>
+		<stage>
+            <id>6</id>
+            <duration>86400</duration>
+            <bonus>
+                <stuff>gold:50 freeXP:5000</stuff>
+				<premium>86400</premium>
+            </bonus>
+        </stage>
+		<stage>
+            <id>7</id>
+            <duration>86400</duration>
+            <bonus>
+                <stuff>gold:50 freeXP:5000</stuff>
+				<premium>86400</premium>
+            </bonus>
+        </stage>
+		<stage>
+            <id>8</id>
+            <duration>86400</duration>
+            <bonus>
+                <stuff>gold:50 freeXP:5000</stuff>
+				<premium>86400</premium>
+            </bonus>
+        </stage>
+		<stage>
+            <id>9</id>
+            <duration>86400</duration>
+            <bonus>
+                <stuff>gold:50 freeXP:5000</stuff>
+				<premium>86400</premium>
+            </bonus>
+        </stage>
+		<stage>
+            <id>10</id>
+            <duration>86400</duration>
+            <bonus>
+                <stuff>gold:50 freeXP:5000</stuff>
+				<premium>86400</premium>
+            </bonus>
+        </stage>
+    </stages>
+</root>

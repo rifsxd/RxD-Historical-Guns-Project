@@ -1,0 +1,19 @@
+currencies:
+    daily: "proxy_task_journal_daily"
+    weekly: "proxy_task_journal_weekly"
+clan_currencies:
+    proxy: "proxy_task_journal_clan"
+tiers_with_instant_reset: [2]
+chests:
+    default: # tier 1
+        daily: ["tj_newbie_dailychest_1", "tj_newbie_dailychest_2", "tj_newbie_dailychest_3"]
+        weekly: []
+    5: # tier 2
+        daily: ["tj_dailychest_1_tier_2", "tj_dailychest_2_tier_2", "tj_dailychest_3_tier_2", "tj_dailychest_4_tier_2"]
+        weekly: ["tj_weeklychest_1_tier_2", "tj_weeklychest_2_tier_2"]
+    8: # tier 3
+        daily: ["tj_dailychest_1_tier_3", "tj_dailychest_2_tier_3", "tj_dailychest_3_tier_3", "tj_dailychest_4_tier_3"]
+        weekly: ["tj_weeklychest_1_tier_3", "tj_weeklychest_2_tier_3"]
+    10: # tier 4
+        daily: ["tj_dailychest_1_tier_4", "tj_dailychest_2_tier_4", "tj_dailychest_3_tier_4", "tj_dailychest_4_tier_4"]
+        weekly: ["tj_weeklychest_1_tier_4", "tj_weeklychest_2_tier_4"]

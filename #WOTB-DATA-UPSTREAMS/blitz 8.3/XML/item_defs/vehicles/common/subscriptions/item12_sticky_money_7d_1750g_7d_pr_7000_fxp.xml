@@ -1,0 +1,61 @@
+<root>
+    <name>item12_sticky_money_7d_1750g_7d_pr_7000_fxp</name>
+    <stages>
+        <stage>
+            <id>1</id>
+            <duration>86400</duration>
+            <bonus>
+				<stuff>gold:250 freeXP:1000</stuff>
+				<premium>86400</premium>
+            </bonus>
+        </stage>
+        <stage>
+            <id>2</id>
+            <duration>86400</duration>
+             <bonus>
+                <stuff>gold:250 freeXP:1000</stuff>
+				<premium>86400</premium>
+            </bonus>
+        </stage>
+		<stage>
+            <id>3</id>
+            <duration>86400</duration>
+             <bonus>
+                <stuff>gold:250 freeXP:1000</stuff>
+				<premium>86400</premium>
+            </bonus>
+        </stage>
+		<stage>
+            <id>4</id>
+            <duration>86400</duration>
+             <bonus>
+                <stuff>gold:250 freeXP:1000</stuff>
+				<premium>86400</premium>
+            </bonus>
+        </stage>
+		<stage>
+            <id>5</id>
+            <duration>86400</duration>
+             <bonus>
+                <stuff>gold:250 freeXP:1000</stuff>
+				<premium>86400</premium>
+            </bonus>
+        </stage>
+		<stage>
+            <id>6</id>
+            <duration>86400</duration>
+             <bonus>
+                <stuff>gold:250 freeXP:1000</stuff>
+				<premium>86400</premium>
+            </bonus>
+        </stage>
+		<stage>
+            <id>7</id>
+            <duration>86400</duration>
+             <bonus>
+                <stuff>gold:250 freeXP:1000</stuff>
+				<premium>86400</premium>
+            </bonus>
+        </stage>
+    </stages>
+</root>

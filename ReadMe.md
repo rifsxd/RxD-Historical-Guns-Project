@@ -69,11 +69,11 @@ Installation Method: -----------------------------------------------------------
 
 *** V-1.1 ~ 8.0 Patch ***
 
- - Additional tanks added,
- - semi-specific internal guns caliber sounds added,
- - 150mm - 183mm new cannonade and surrounding echo updated,
- - most bugs fixed,
- - some under-the-hood improvements.
+    - Additional tanks added,
+     - semi-specific internal guns caliber sounds added,
+      - 150mm - 183mm new cannonade and surrounding echo updated,
+       - most bugs fixed,
+        - some under-the-hood improvements.
 
 
 --------------------------------------------

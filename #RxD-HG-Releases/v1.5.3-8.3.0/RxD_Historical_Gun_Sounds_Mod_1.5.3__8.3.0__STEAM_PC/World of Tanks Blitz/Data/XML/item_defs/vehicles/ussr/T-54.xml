@@ -1,0 +1,806 @@
+<root>
+	<blitz>
+		<smallIconPath>~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/ussr-T-54</smallIconPath>
+		<bigIconPath>~res:/Gfx/UI/BigTankIcons/ussr-T-54</bigIconPath>
+		<blitzModelPath>Tanks/USSR/T-54.sc2</blitzModelPath>
+		<engineSoundPC>tanks/pc/engine/ussr/mt</engineSoundPC>
+		<engineSoundNPC>tanks/npc/engine/ussr/mt</engineSoundNPC>
+		<smokeEffectPath>FX/smoke_tank_type_black_new_2.sc2</smokeEffectPath>
+		<fireEffectPathAlive>FX/SmokeFire_tank_movement_new.sc2</fireEffectPathAlive>
+		<fireEffectPathDead>FX/Fire_and_Smoke.sc2</fireEffectPathDead>
+		<collisionMesh>CollisionMeshes/ussr-T-54.sc2</collisionMesh>
+		<customEffects/>
+	</blitz>
+	<crew>
+		<commander/>
+		<gunner/>
+		<driver/>
+		<loader>radioman</loader>
+	</crew>
+	<speedLimits>
+		<forward>56</forward>
+		<backward>20</backward>
+	</speedLimits>
+	<invisibility>
+		<moving>0.21</moving>
+		<still>0.28</still>
+		<firePenalty>0.42</firePenalty>
+	</invisibility>
+	<repairCost>5.0</repairCost>
+	<crewXpFactor>1.0</crewXpFactor>
+	<consumableSlots>3</consumableSlots>
+	<provisionSlots>3</provisionSlots>
+	<optDevicePreset>defaultPreset</optDevicePreset>
+	<enrichmentBoost>1.5169</enrichmentBoost>
+	<turretBlowEnabled>true</turretBlowEnabled>
+	<effects>
+		<destruction>mediumDestruction</destruction>
+		<explosion>mediumExplosion</explosion>
+		<flaming>mediumFlaming</flaming>
+		<collision/>
+	</effects>
+	<camouflage>
+		<priceFactor>1.8</priceFactor>
+		<tiling>1 1 0 0</tiling>
+		<exclusionMask>vehicles/russian/R40_T-54/T-54_CM.dds</exclusionMask>
+	</camouflage>
+	<emblems>
+		<default>ussr_star</default>
+		<lodDist>MEDIUM</lodDist>
+		<alpha>0.86</alpha>
+	</emblems>
+	<horns>
+		<priceFactor>1</priceFactor>
+		<distanceFactor>1</distanceFactor>
+		<volumeFactor>1</volumeFactor>
+	</horns>
+	<hull>
+		<blitz>
+			<averageThickness>
+				<turret_01>193.188263</turret_01>
+				<turret_02>161.999466</turret_02>
+			</averageThickness>
+			<blitzPartName>hull</blitzPartName>
+			<bbox>
+				<min>-1.211562 -2.973283 -0.563500</min>
+				<max>1.212033 2.895319 0.527433</max>
+			</bbox>
+			<points>
+				<normal>0.000003 0.004741 -1.006039</normal>
+			</points>
+			<detachedTurret>
+				<cylinderPos>0.000000 0.000000 0.972000</cylinderPos>
+				<cylinderXYScale>1.014000</cylinderXYScale>
+			</detachedTurret>
+		</blitz>
+		<models>
+			<undamaged>vehicles/russian/R40_T-54/normal/lod0/Hull.model</undamaged>
+			<destroyed>vehicles/russian/R40_T-54/normal/lod0/Hull.model</destroyed>
+			<exploded>vehicles/russian/R40_T-54/normal/lod0/Hull.model</exploded>
+		</models>
+		<swinging>
+			<lodDist>FAR</lodDist>
+			<pitchParams>0.26 36.00 0.42 1.00 0.05 0.32</pitchParams>
+			<rollParams>1.00 0.26 36.00 0.42 1.00 0.05 0.32</rollParams>
+			<sensitivityToImpulse>0.36</sensitivityToImpulse>
+		</swinging>
+		<exhaust>
+			<pixie>particles/Tank/engine_exit_gass.xml</pixie>
+			<nodes>HP_Track_Exhaus_1 HP_Track_Exhaus_2</nodes>
+			<rates>5.0 10.0 25.0</rates>
+		</exhaust>
+		<turretPositions>
+			<turret>0.000000 0.4206 -0.0768</turret>
+		</turretPositions>
+		<hitTester>
+			<collisionModel>vehicles/russian/R40_T-54/collision/Hull.model</collisionModel>
+		</hitTester>
+		<armor>
+			<armor_1>124.8</armor_1>
+			<armor_2>124.8</armor_2>
+			<armor_3>83.2</armor_3>
+			<armor_4>46.8</armor_4>
+			<armor_5>166.4</armor_5>
+			<armor_6>46.8</armor_6>
+			<armor_7>31.2</armor_7>
+			<armor_8>20.8</armor_8>
+			<armor_9>20.8</armor_9>
+			<armor_10>0</armor_10>
+			<armor_16>72.8</armor_16>
+		</armor>
+		<primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
+		<weight>15400</weight>
+		<maxHealth>1200</maxHealth>
+		<ammoBayHealth>
+			<maxHealth>200</maxHealth>
+			<maxRegenHealth>135</maxRegenHealth>
+			<repairCost>2.0</repairCost>
+			</ammoBayHealth>
+		<emblemSlots>
+			<clan>
+				<rayStart>0.0204387 0.532575 2.15268</rayStart>
+				<rayEnd>0.0204387 0.184407 1.95577</rayEnd>
+				<rayUp>0.000000 0.000000 -1</rayUp>
+				<size>0.3</size>
+				<hideIfDamaged>true</hideIfDamaged>
+			</clan>
+		</emblemSlots>
+	</hull>
+	<chassis>
+		<Chassis_T-54_2>
+			<blitz>
+				<blitzPartName>chassis</blitzPartName>
+				<bbox>
+					<min>-1.587176 -2.913085 -0.000000</min>
+					<max>1.587176 3.018869 1.087064</max>
+				</bbox>
+				<points>
+					<normal>0.001070 0.021557 -0.012934</normal>
+				</points>
+				<soundPC>tanks/pc/treads/mt</soundPC>
+				<soundNPC>tanks/npc/treads/mt</soundNPC>
+			</blitz>
+			<userString>#ussr_vehicles:Chassis_T-54_2</userString>
+			<description>#ussr_vehicles:Chassis_T-54_2_descr</description>
+			<tags/>
+			<level>8</level>
+			<price>0</price>
+			<unlocks>
+				<chassis>Chassis_T-54_3<cost>29500</cost>
+				</chassis>
+			</unlocks>
+			<models>
+				<undamaged>vehicles/russian/R40_T-54/normal/lod0/Chassis.model</undamaged>
+				<destroyed>vehicles/russian/R40_T-54/normal/lod0/Chassis.model</destroyed>
+				<exploded>vehicles/russian/R40_T-54/normal/lod0/Chassis.model</exploded>
+			</models>
+			<traces>
+				<lodDist>FAR</lodDist>
+				<bufferPrefs>mediumTank</bufferPrefs>
+				<textureSet>ussr_01</textureSet>
+				<size>0.46 0.6</size>
+			</traces>
+			<tracks>
+				<lodDist>MEDIUM</lodDist>
+				<leftMaterial>track_mat_L_skinned</leftMaterial>
+				<rightMaterial>track_mat_R_skinned</rightMaterial>
+				<textureScale>-0.65</textureScale>
+			</tracks>
+			<wheels>
+				<lodDist>MEDIUM</lodDist>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>WD_L0</name>
+					<radius>0.265012</radius>
+				</wheel>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>WD_L1</name>
+					<radius>0.302443</radius>
+				</wheel>
+				<wheel>
+					<isLeft>false</isLeft>
+					<name>WD_R0</name>
+					<radius>0.265012</radius>
+				</wheel>
+				<wheel>
+					<isLeft>false</isLeft>
+					<name>WD_R1</name>
+					<radius>0.302443</radius>
+				</wheel>
+				<group>
+					<isLeft>true</isLeft>
+					<template>W_L</template>
+					<radius>0.407983</radius>
+					<startIndex>0</startIndex>
+					<count>5</count>
+				</group>
+				<group>
+					<isLeft>false</isLeft>
+					<template>W_R</template>
+					<radius>0.407983</radius>
+					<startIndex>0</startIndex>
+					<count>5</count>
+				</group>
+			</wheels>
+			<drivingWheels>WD_L0 WD_L1</drivingWheels>
+			<effects>
+				<lodDist>MEDIUM</lodDist>
+				<dust>mediumTankDust</dust>
+				<mud>mediumTankMud</mud>
+			</effects>
+			<sound>/vehicles/tanks/treads/treads_2</sound>
+			<hullPosition>0.000000 1.0035 0.000000</hullPosition>
+			<hitTester>
+				<collisionModel>vehicles/russian/R40_T-54/collision/Chassis.model</collisionModel>
+			</hitTester>
+			<armor>
+				<leftTrack>20</leftTrack>
+				<rightTrack>20</rightTrack>
+			</armor>
+			<topRightCarryingPoint>1.33116 1.79638</topRightCarryingPoint>
+			<maxClimbAngle>25</maxClimbAngle>
+			<navmeshGirth>6.0</navmeshGirth>
+			<weight>7700</weight>
+			<maxLoad>39800</maxLoad>
+			<terrainResistance>1.1 1.4 1.7</terrainResistance>
+			<brakeForce>37800</brakeForce>
+			<rotationIsAroundCenter>false</rotationIsAroundCenter>
+			<rotationSpeed>46</rotationSpeed>
+			<shotDispersionFactors>
+				<vehicleMovement>0.13</vehicleMovement>
+				<vehicleRotation>0.13</vehicleRotation>
+			</shotDispersionFactors>
+			<bulkHealthFactor>3.0</bulkHealthFactor>
+			<maxHealth>230</maxHealth>
+			<maxRegenHealth>175</maxRegenHealth>
+			<repairCost>7.5</repairCost>
+			</Chassis_T-54_2>
+		<Chassis_T-54_3>
+			<blitz>
+				<blitzPartName>chassis</blitzPartName>
+				<bbox>
+					<min>-1.587176 -2.913085 -0.000000</min>
+					<max>1.587176 3.018869 1.087064</max>
+				</bbox>
+				<points>
+					<normal>0.001070 0.021557 -0.012934</normal>
+				</points>
+				<soundPC>tanks/pc/treads/mt</soundPC>
+				<soundNPC>tanks/npc/treads/mt</soundNPC>
+			</blitz>
+			<userString>#ussr_vehicles:Chassis_T-54_3</userString>
+			<description>#ussr_vehicles:Chassis_T-54_3_descr</description>
+			<tags/>
+			<level>9</level>
+			<price>0</price>
+			<models>
+				<undamaged>vehicles/russian/R40_T-54/normal/lod0/Chassis.model</undamaged>
+				<destroyed>vehicles/russian/R40_T-54/normal/lod0/Chassis.model</destroyed>
+				<exploded>vehicles/russian/R40_T-54/normal/lod0/Chassis.model</exploded>
+			</models>
+			<traces>
+				<lodDist>FAR</lodDist>
+				<bufferPrefs>mediumTank</bufferPrefs>
+				<textureSet>ussr_01</textureSet>
+				<size>0.46 0.6</size>
+			</traces>
+			<tracks>
+				<lodDist>MEDIUM</lodDist>
+				<leftMaterial>track_mat_L_skinned</leftMaterial>
+				<rightMaterial>track_mat_R_skinned</rightMaterial>
+				<textureScale>-0.65</textureScale>
+			</tracks>
+			<wheels>
+				<lodDist>MEDIUM</lodDist>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>WD_L0</name>
+					<radius>0.265012</radius>
+				</wheel>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>WD_L1</name>
+					<radius>0.302443</radius>
+				</wheel>
+				<wheel>
+					<isLeft>false</isLeft>
+					<name>WD_R0</name>
+					<radius>0.265012</radius>
+				</wheel>
+				<wheel>
+					<isLeft>false</isLeft>
+					<name>WD_R1</name>
+					<radius>0.302443</radius>
+				</wheel>
+				<group>
+					<isLeft>true</isLeft>
+					<template>W_L</template>
+					<radius>0.407983</radius>
+					<startIndex>0</startIndex>
+					<count>5</count>
+				</group>
+				<group>
+					<isLeft>false</isLeft>
+					<template>W_R</template>
+					<radius>0.407983</radius>
+					<startIndex>0</startIndex>
+					<count>5</count>
+				</group>
+			</wheels>
+			<drivingWheels>WD_L0 WD_L1</drivingWheels>
+			<effects>
+				<lodDist>MEDIUM</lodDist>
+				<dust>mediumTankDust</dust>
+				<mud>mediumTankMud</mud>
+			</effects>
+			<sound>/vehicles/tanks/treads/treads_2</sound>
+			<hullPosition>0.000000 0.949306 0.000000</hullPosition>
+			<hitTester>
+				<collisionModel>vehicles/russian/R40_T-54/collision/Chassis.model</collisionModel>
+			</hitTester>
+			<armor>
+				<leftTrack>20</leftTrack>
+				<rightTrack>20</rightTrack>
+			</armor>
+			<topRightCarryingPoint>1.33116 1.79638</topRightCarryingPoint>
+			<maxClimbAngle>25</maxClimbAngle>
+			<navmeshGirth>6.0</navmeshGirth>
+			<weight>7700</weight>
+			<maxLoad>39800</maxLoad>
+			<terrainResistance>1 1.1 1.6</terrainResistance>
+			<brakeForce>42500</brakeForce>
+			<rotationIsAroundCenter>false</rotationIsAroundCenter>
+			<rotationSpeed>48</rotationSpeed>
+			<shotDispersionFactors>
+				<vehicleMovement>0.11</vehicleMovement>
+				<vehicleRotation>0.11</vehicleRotation>
+			</shotDispersionFactors>
+			<bulkHealthFactor>3.0</bulkHealthFactor>
+			<maxHealth>240</maxHealth>
+			<maxRegenHealth>180</maxRegenHealth>
+			<repairCost>7.5</repairCost>
+			</Chassis_T-54_3>
+	</chassis>
+	<turrets0>
+		<Turret_1_T-54_2>
+			<blitz>
+				<blitzPartName>turret_01</blitzPartName>
+				<bbox>
+					<min>-1.215032 -1.506865 -0.394469</min>
+					<max>1.256411 1.340935 0.846270</max>
+				</bbox>
+				<points>
+					<normal>0.019569 0.096934 -1.456630</normal>
+				</points>
+				<clipParams>
+					<clippingPlaneZPos>1.465000</clippingPlaneZPos>
+					<textureScaleFactor>0.700000</textureScaleFactor>
+					<shouldClipGun>false</shouldClipGun>
+				</clipParams>
+			</blitz>
+			<userString>#ussr_vehicles:Turret_1_T-54_2</userString>
+			<description>#ussr_vehicles:Turret_1_T-54_2_descr</description>
+			<tags/>
+			<level>8</level>
+			<price>0</price>
+			<models>
+				<undamaged>vehicles/russian/R40_T-54/normal/lod0/Turret_01.model</undamaged>
+				<destroyed>vehicles/russian/R40_T-54/normal/lod0/Turret_01.model</destroyed>
+				<exploded>vehicles/russian/R40_T-54/normal/lod0/Turret_01.model</exploded>
+			</models>
+			<hitTester>
+				<collisionModel>vehicles/russian/R40_T-54/collision/Turret_01.model</collisionModel>
+			</hitTester>
+			<yawLimits>-180 180</yawLimits>
+			<gunPosition>0.0152 0.3052 1.0418</gunPosition>
+			<armor>
+				<armor_1>200</armor_1>
+				<armor_2>160</armor_2>
+				<armor_3>108</armor_3>
+				<armor_4>65</armor_4>
+				<armor_5>86</armor_5>
+				<armor_6>48</armor_6>
+				<armor_7>160</armor_7>
+				<armor_8>30</armor_8>
+				<armor_9>20</armor_9>
+				<armor_10>0</armor_10>
+				<armor_11>20<vehicleDamageFactor>0.0</vehicleDamageFactor>
+				</armor_11>
+				<armor_16>30</armor_16>
+			</armor>
+			<primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
+			<weight>7500</weight>
+			<maxHealth>300</maxHealth>
+			<rotationSpeed>48</rotationSpeed>
+			<turretRotatorHealth>
+				<maxHealth>150</maxHealth>
+				<maxRegenHealth>75</maxRegenHealth>
+				<repairCost>1.0</repairCost>
+				</turretRotatorHealth>
+			<circularVisionRadius>260</circularVisionRadius>
+			<surveyingDeviceHealth>
+				<maxHealth>110</maxHealth>
+				<maxRegenHealth>55</maxRegenHealth>
+				<repairCost>1.0</repairCost>
+				</surveyingDeviceHealth>
+			<guns>
+				<_100mm_D10T_obr_45>shared<blitz>
+						<blitzPartName>gun_01</blitzPartName>
+						<bbox>
+							<min>-0.477717 -0.599430 -0.234183</min>
+							<max>0.483576 4.517829 0.364377</max>
+						</bbox>
+						<points>
+							<normal>0.000016 -0.943028 -1.779805</normal>
+						</points>
+					</blitz>
+					<maxAmmo>50</maxAmmo>
+					<unlocks>
+						<gun>_100mm_LB-1<cost>23880</cost>
+						</gun>
+					</unlocks>
+					<models>
+						<undamaged>vehicles/russian/R40_T-54/normal/lod0/Gun_01.model</undamaged>
+						<destroyed>vehicles/russian/R40_T-54/normal/lod0/Gun_01.model</destroyed>
+						<exploded>vehicles/russian/R40_T-54/normal/lod0/Gun_01.model</exploded>
+					</models>
+					<hitTester>
+						<collisionModel>vehicles/russian/R40_T-54/collision/Gun_01.model</collisionModel>
+					</hitTester>
+					<armor>
+						<armor_1>200<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_1>
+						<armor_2>160<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_2>
+						<armor_3>108<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_3>
+						<gun>40</gun>
+					</armor>
+					<shotDispersionRadius>0.39</shotDispersionRadius>
+					<aimingTime>2.9</aimingTime>
+					<reloadTime>9.22138646066274</reloadTime>
+					<invisibilityFactorAtShot>0.22</invisibilityFactorAtShot>
+					<shotDispersionFactors>
+						<turretRotation>0.07</turretRotation>
+						<afterShot>4.0</afterShot>
+						<whileGunDamaged>2.0</whileGunDamaged>
+					</shotDispersionFactors>
+				</_100mm_D10T_obr_45>
+				<_100mm_LB-1>shared<blitz>
+						<blitzPartName>gun_02</blitzPartName>
+						<bbox>
+							<min>-0.477717 -0.603945 -0.224583</min>
+							<max>0.483576 5.081048 0.373978</max>
+						</bbox>
+						<points>
+							<normal>0.000021 -0.947529 -1.772955</normal>
+						</points>
+					</blitz>
+					<maxAmmo>50</maxAmmo>
+					<unlocks>
+						<turret>Turret_2_T-54_2<cost>29430</cost>
+						</turret>
+					</unlocks>
+					<models>
+						<undamaged>vehicles/russian/R40_T-54/normal/lod0/Gun_02.model</undamaged>
+						<destroyed>vehicles/russian/R40_T-54/normal/lod0/Gun_02.model</destroyed>
+						<exploded>vehicles/russian/R40_T-54/normal/lod0/Gun_02.model</exploded>
+					</models>
+					<hitTester>
+						<collisionModel>vehicles/russian/R40_T-54/collision/Gun_02.model</collisionModel>
+					</hitTester>
+					<armor>
+						<armor_1>200<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_1>
+						<armor_2>160<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_2>
+						<armor_3>108<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_3>
+						<gun>40</gun>
+					</armor>
+					<shotDispersionRadius>0.35</shotDispersionRadius>
+					<reloadTime>8.18181818181818</reloadTime>
+					<aimingTime>2.3</aimingTime>
+					<invisibilityFactorAtShot>0.209</invisibilityFactorAtShot>
+					<shotDispersionFactors>
+						<turretRotation>0.07</turretRotation>
+						<afterShot>4.0</afterShot>
+						<whileGunDamaged>2.0</whileGunDamaged>
+					</shotDispersionFactors>
+				</_100mm_LB-1>
+			</guns>
+			<emblemSlots>
+				<player>
+					<rayStart>-1.12253 0.579282 0.0543544</rayStart>
+					<rayEnd>-0.853754 0.288501 -0.00224981</rayEnd>
+					<rayUp>0.790544 0.576355 -0.207014</rayUp>
+					<size>0.28</size>
+					<hideIfDamaged>true</hideIfDamaged>
+				</player>
+				<inscription>
+					<rayStart>-1.15775 0.63122 -0.917631</rayStart>
+					<rayEnd>-0.922715 0.313202 -0.857482</rayEnd>
+					<rayUp>0.651546 0.717343 0.246793</rayUp>
+					<size>0.64</size>
+					<hideIfDamaged>true</hideIfDamaged>
+				</inscription>
+				<player>
+					<rayStart>1.12253 0.579282 0.0543544</rayStart>
+					<rayEnd>0.853754 0.288501 -0.00224981</rayEnd>
+					<rayUp>-0.782022 0.574991 -0.240472</rayUp>
+					<size>0.28</size>
+					<hideIfDamaged>true</hideIfDamaged>
+				</player>
+				<inscription>
+					<rayStart>1.13265 0.643701 -0.962948</rayStart>
+					<rayEnd>0.897618 0.325682 -0.9028</rayEnd>
+					<rayUp>-0.640484 0.715336 0.279418</rayUp>
+					<size>0.64</size>
+					<hideIfDamaged>true</hideIfDamaged>
+				</inscription>
+			</emblemSlots>
+			<showEmblemsOnGun>false</showEmblemsOnGun>
+			<physicsShape>1.000 0.000 1.000 0.000 1.000 0.000 0.500 0.100 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
+		</Turret_1_T-54_2>
+		<Turret_2_T-54_2>
+			<blitz>
+				<blitzPartName>turret_02</blitzPartName>
+				<bbox>
+					<min>-1.255565 -1.446987 -0.415029</min>
+					<max>1.284966 1.350622 0.911676</max>
+				</bbox>
+				<points>
+					<normal>0.013208 -0.000521 -1.423918</normal>
+				</points>
+				<clipParams>
+					<clippingPlaneZPos>1.484000</clippingPlaneZPos>
+					<textureScaleFactor>0.761000</textureScaleFactor>
+					<shouldClipGun>false</shouldClipGun>
+				</clipParams>
+			</blitz>
+			<userString>#ussr_vehicles:Turret_2_T-54_2</userString>
+			<description>#ussr_vehicles:Turret_2_T-54_2_descr</description>
+			<tags/>
+			<level>9</level>
+			<price>0</price>
+			<unlocks>
+				<gun>_100mm_D54_obr_45<cost>59300</cost>
+				</gun>
+				<gun>_100mm_D-10T2S<cost>59300</cost>
+				</gun>
+			</unlocks>
+			<models>
+				<undamaged>vehicles/russian/R40_T-54/normal/lod0/Turret_02.model</undamaged>
+				<destroyed>vehicles/russian/R40_T-54/normal/lod0/Turret_02.model</destroyed>
+				<exploded>vehicles/russian/R40_T-54/normal/lod0/Turret_02.model</exploded>
+			</models>
+			<hitTester>
+				<collisionModel>vehicles/russian/R40_T-54/collision/Turret_02.model</collisionModel>
+			</hitTester>
+			<yawLimits>-180 180</yawLimits>
+			<gunPosition>0.0704 0.2921 1.0418</gunPosition>
+			<armor>
+				<armor_1>200</armor_1>
+				<armor_2>160</armor_2>
+				<armor_3>108</armor_3>
+				<armor_4>65</armor_4>
+				<armor_5>86</armor_5>
+				<armor_6>48</armor_6>
+				<armor_7>160</armor_7>
+				<armor_8>108</armor_8>
+				<armor_9>30</armor_9>
+				<armor_10>20</armor_10>
+				<armor_11>0</armor_11>
+				<armor_12>48<vehicleDamageFactor>0.0</vehicleDamageFactor>
+				</armor_12>
+				<armor_13>20<vehicleDamageFactor>0.0</vehicleDamageFactor>
+				</armor_13>
+				<armor_16>30</armor_16>
+			</armor>
+			<primaryArmor>armor_1 armor_2 armor_4</primaryArmor>
+			<weight>8500</weight>
+			<maxHealth>400</maxHealth>
+			<rotationSpeed>44</rotationSpeed>
+			<turretRotatorHealth>
+				<maxHealth>150</maxHealth>
+				<maxRegenHealth>75</maxRegenHealth>
+				<repairCost>1.0</repairCost>
+				</turretRotatorHealth>
+			<circularVisionRadius>260</circularVisionRadius>
+			<surveyingDeviceHealth>
+				<maxHealth>110</maxHealth>
+				<maxRegenHealth>55</maxRegenHealth>
+				<repairCost>1.0</repairCost>
+				</surveyingDeviceHealth>
+			<guns>
+				<_100mm_D10T_obr_45>shared<blitz>
+						<blitzPartName>gun_03</blitzPartName>
+						<bbox>
+							<min>-0.224323 -0.666733 -0.221252</min>
+							<max>0.222430 4.528169 0.360641</max>
+						</bbox>
+						<points>
+							<normal>-0.055574 -1.018095 -1.749932</normal>
+						</points>
+					</blitz>
+					<maxAmmo>50</maxAmmo>
+					<models>
+						<undamaged>vehicles/russian/R40_T-54/normal/lod0/Gun_03.model</undamaged>
+						<destroyed>vehicles/russian/R40_T-54/normal/lod0/Gun_03.model</destroyed>
+						<exploded>vehicles/russian/R40_T-54/normal/lod0/Gun_03.model</exploded>
+					</models>
+					<hitTester>
+						<collisionModel>vehicles/russian/R40_T-54/collision/Gun_03.model</collisionModel>
+					</hitTester>
+					<armor>
+						<armor_1>200<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_1>
+						<armor_2>160<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_2>
+						<armor_3>108<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_3>
+						<gun>40</gun>
+					</armor>
+					<shotDispersionRadius>0.39</shotDispersionRadius>
+					<aimingTime>2.9</aimingTime>
+					<reloadTime>8.87444128403088</reloadTime>
+					<shotDispersionFactors>
+						<turretRotation>0.05</turretRotation>
+						<afterShot>4.0</afterShot>
+						<whileGunDamaged>2.0</whileGunDamaged>
+					</shotDispersionFactors>
+					<invisibilityFactorAtShot>0.22</invisibilityFactorAtShot>
+				</_100mm_D10T_obr_45>
+				<_100mm_LB-1>shared<blitz>
+						<blitzPartName>gun_04</blitzPartName>
+						<bbox>
+							<min>-0.224229 -0.667039 -0.219187</min>
+							<max>0.222523 5.093158 0.360283</max>
+						</bbox>
+						<points>
+							<normal>-0.054587 -1.018164 -1.751010</normal>
+						</points>
+					</blitz>
+					<maxAmmo>50</maxAmmo>
+					<models>
+						<undamaged>vehicles/russian/R40_T-54/normal/lod0/Gun_04.model</undamaged>
+						<destroyed>vehicles/russian/R40_T-54/normal/lod0/Gun_04.model</destroyed>
+						<exploded>vehicles/russian/R40_T-54/normal/lod0/Gun_04.model</exploded>
+					</models>
+					<hitTester>
+						<collisionModel>vehicles/russian/R40_T-54/collision/Gun_04.model</collisionModel>
+					</hitTester>
+					<armor>
+						<armor_1>200<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_1>
+						<armor_2>160<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_2>
+						<armor_3>108<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_3>
+						<gun>40</gun>
+					</armor>
+					<shotDispersionRadius>0.35</shotDispersionRadius>
+					<reloadTime>7.83613871425674</reloadTime>
+					<aimingTime>2.3</aimingTime>
+					<shotDispersionFactors>
+						<turretRotation>0.05</turretRotation>
+						<afterShot>4.0</afterShot>
+						<whileGunDamaged>2.0</whileGunDamaged>
+					</shotDispersionFactors>
+					<invisibilityFactorAtShot>0.209</invisibilityFactorAtShot>
+				</_100mm_LB-1>
+				<_100mm_D54_obr_45>shared<blitz>
+						<blitzPartName>gun_05</blitzPartName>
+						<bbox>
+							<min>-0.223688 -0.660368 -0.220105</min>
+							<max>0.223064 4.911616 0.359365</max>
+						</bbox>
+						<points>
+							<normal>-0.054578 -1.018164 -1.745969</normal>
+						</points>
+					</blitz>
+					<maxAmmo>50</maxAmmo>
+					<unlocks>
+						<vehicle>T62A<cost>275000</cost>
+						</vehicle>
+					</unlocks>
+					<models>
+						<undamaged>vehicles/russian/R40_T-54/normal/lod0/Gun_05.model</undamaged>
+						<destroyed>vehicles/russian/R40_T-54/normal/lod0/Gun_05.model</destroyed>
+						<exploded>vehicles/russian/R40_T-54/normal/lod0/Gun_05.model</exploded>
+					</models>
+					<hitTester>
+						<collisionModel>vehicles/russian/R40_T-54/collision/Gun_05.model</collisionModel>
+					</hitTester>
+					<armor>
+						<armor_1>200<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_1>
+						<armor_2>160<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_2>
+						<armor_3>108<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_3>
+						<gun>40</gun>
+					</armor>
+					<shotDispersionRadius>0.39</shotDispersionRadius>
+					<reloadTime>7.85</reloadTime>
+					<aimingTime>2.3</aimingTime>
+					<invisibilityFactorAtShot>0.154</invisibilityFactorAtShot>
+					<shotDispersionFactors>
+						<turretRotation>0.05</turretRotation>
+						<afterShot>4.0</afterShot>
+						<whileGunDamaged>2.0</whileGunDamaged>
+					</shotDispersionFactors>
+				</_100mm_D54_obr_45>
+				<_100mm_D-10T2S>shared<blitz>
+						<blitzPartName>gun_06</blitzPartName>
+						<bbox>
+							<min>-0.225375 -0.660733 -0.227103</min>
+							<max>0.221378 4.526769 0.359613</max>
+						</bbox>
+						<points>
+							<normal>-0.057572 -1.018165 -1.748994</normal>
+						</points>
+					</blitz>
+					<maxAmmo>50</maxAmmo>
+					<unlocks>
+						<vehicle>Object_140<cost>280000</cost>
+						</vehicle>
+					</unlocks>
+					<models>
+						<undamaged>vehicles/russian/R40_T-54/normal/lod0/Gun_06.model</undamaged>
+						<destroyed>vehicles/russian/R40_T-54/normal/lod0/Gun_06.model</destroyed>
+						<exploded>vehicles/russian/R40_T-54/normal/lod0/Gun_06.model</exploded>
+					</models>
+					<hitTester>
+						<collisionModel>vehicles/russian/R40_T-54/collision/Gun_06.model</collisionModel>
+					</hitTester>
+					<armor>
+						<armor_1>200<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_1>
+						<armor_2>160<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_2>
+						<armor_3>108<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_3>
+						<gun>40</gun>
+					</armor>
+					<shotDispersionRadius>0.35</shotDispersionRadius>
+					<aimingTime>2.3</aimingTime>
+					<reloadTime>7.5</reloadTime>
+					<shotDispersionFactors>
+						<turretRotation>0.1</turretRotation>
+						<afterShot>3.5</afterShot>
+						<whileGunDamaged>2.0</whileGunDamaged>
+					</shotDispersionFactors>
+					<invisibilityFactorAtShot>0.209</invisibilityFactorAtShot>
+				</_100mm_D-10T2S>
+			</guns>
+			<emblemSlots>
+				<player>
+					<rayStart>-1.12034 0.387097 0.571021</rayStart>
+					<rayEnd>-0.826441 0.137419 0.464805</rayEnd>
+					<rayUp>0.000000 1 0.000000</rayUp>
+					<size>0.28</size>
+					<hideIfDamaged>false</hideIfDamaged>
+				</player>
+				<player>
+					<rayStart>1.12034 0.387097 0.571021</rayStart>
+					<rayEnd>0.826441 0.137419 0.464805</rayEnd>
+					<rayUp>0.000000 1 0.000000</rayUp>
+					<size>0.28</size>
+					<hideIfDamaged>false</hideIfDamaged>
+				</player>
+				<inscription>
+					<rayStart>-1.34314 0.331037 -0.80842</rayStart>
+					<rayEnd>-0.971269 0.313974 -0.662093</rayEnd>
+					<rayUp>0.000000 1 -0.000000</rayUp>
+					<size>0.64</size>
+					<hideIfDamaged>false</hideIfDamaged>
+				</inscription>
+				<inscription>
+					<rayStart>1.34314 0.331037 -0.80842</rayStart>
+					<rayEnd>0.971269 0.313974 -0.662093</rayEnd>
+					<rayUp>0.000000 1 -0.000000</rayUp>
+					<size>0.64</size>
+					<hideIfDamaged>false</hideIfDamaged>
+				</inscription>
+			</emblemSlots>
+			<showEmblemsOnGun>false</showEmblemsOnGun>
+			<physicsShape>1.000 0.000 1.000 0.000 1.000 0.000 0.500 0.100 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
+		</Turret_2_T-54_2>
+	</turrets0>
+	<engines>
+		<V-2-54>shared<unlocks>
+				<engine>V-55U<cost>34000</cost>
+				</engine>
+			</unlocks>
+		</V-2-54>
+		<V-55U>shared</V-55U>
+	</engines>
+	<fuelTanks>
+		<Large>shared</Large>
+	</fuelTanks>
+	<radios>
+		<_9RM>shared</_9RM>
+	</radios>
+</root>

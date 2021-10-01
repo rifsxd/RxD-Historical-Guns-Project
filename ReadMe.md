@@ -33,7 +33,7 @@ Installation Method: -----------------------------------------------------------
           /    
           \----> /Android/data/[blitz data folder]/packs/wwisesound/[copy - paste - overwrite]
 
-          Uninstall Stock WoTB ---> Install - World of Tanks Blitz - RXD Ediotion
+          Uninstall Stock WoTB ---> Install - World of Tanks Blitz - RXD Edition
           
           }.
            

@@ -1,12 +1,12 @@
 ************************************************ Basic Info ****************************************************
-RxD Historical Gun Sounds ~
-Blitz Version: 8.3
-Mod Version: 1.5.3
-Historical Samples Version: 1.0 
-XML Config Version: 8.3.X
-Build Date & Time: 10:19 UTC+06 - 01/10/2021
-Author: RifsxD
-Guilded Server: https://www.guilded.gg/r/zzORL9m25l?i=dODw9xem
+- RxD Historical Gun Sounds ~
+- Blitz Version: 8.3
+- Mod Version: 1.5.3
+- Historical Samples Version: 1.0 
+- XML Config Version: 8.3.X
+- Build Date & Time: 10:19 UTC+06 - 01/10/2021
+- Author: RifsxD
+- Guilded Server: https://www.guilded.gg/r/zzORL9m25l?i=dODw9xem
 
 ****************************************** Credentials *************************************************
 

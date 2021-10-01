@@ -81,4 +81,4 @@ Installation Method: -----------------------------------------------------------
 
 *** V-1.0 ~ 8.0 Patch ***
 
-   - Open Release #1
+    - Open Release #1

@@ -1,5 +1,7 @@
-// weapon_basic -
+ // Soundbank json configs
 
+  // weapon_basic -
+   
 "IncludedEvents": [
 	    {"Id": "3427307363",
             "Name": "gun_12mm_auto_npc"
@@ -163,7 +165,7 @@
 		   
 		   
 		  
-#weapon -
+  // weapon -
 
 
 "IncludedEvents": [

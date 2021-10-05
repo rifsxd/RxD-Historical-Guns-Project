@@ -1,3 +1,5 @@
+ # Gun effects xml configs	
+	
 	<shot_12mm_auto>
 		<stages>
 			<shooting>4.0</shooting>

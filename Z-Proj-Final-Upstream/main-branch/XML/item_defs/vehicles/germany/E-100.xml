@@ -28,7 +28,7 @@
 		<still>0.051</still>
 		<firePenalty>0.077</firePenalty>
 	</invisibility>
-	<repairCost>5.5</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -62,12 +62,12 @@
 			<armorScale>0.0150 0.0150 0.0350</armorScale>
 			<pushNormalsScale/>
 			<averageThickness>
-				<turret_02>227.407410</turret_02>
+				<turret_02>227.405487</turret_02>
 			</averageThickness>
 			<blitzPartName>hull</blitzPartName>
 			<bbox>
 				<min>-2.239421 -4.045197 0.468265</min>
-				<max>2.239421 4.356197 1.912265</max>
+				<max>2.239421 4.356197 1.912266</max>
 			</bbox>
 			<points>
 				<normal>-0.001896 0.000270 -0.000817</normal>
@@ -124,7 +124,7 @@
 		<ammoBayHealth>
 			<maxHealth>280</maxHealth>
 			<maxRegenHealth>190</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -334,7 +334,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>300</maxHealth>
 			<maxRegenHealth>225</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_E-100>
 	</chassis>
 	<turrets0>
@@ -345,7 +345,7 @@
 				<blitzPartName>turret_02</blitzPartName>
 				<bbox>
 					<min>-1.499885 -2.174288 -0.079776</min>
-					<max>1.499885 2.045088 1.453622</max>
+					<max>1.499885 2.045087 1.453622</max>
 				</bbox>
 				<points>
 					<normal>-0.001671 -0.072081 -1.899109</normal>
@@ -389,7 +389,7 @@
 				</armor_9>
 				<armor_10>65</armor_10>
 				<armor_12>65</armor_12>
-				<armor_16>150</armor_16>
+				<armor_16>250</armor_16>
 			</armor>
 			<primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
 			<weight>58000</weight>
@@ -398,13 +398,13 @@
 			<turretRotatorHealth>
 				<maxHealth>180</maxHealth>
 				<maxRegenHealth>90</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>120</maxHealth>
 				<maxRegenHealth>60</maxRegenHealth>
-				<repairCost>2.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_128mm_KwK44_L55>shared<blitz>

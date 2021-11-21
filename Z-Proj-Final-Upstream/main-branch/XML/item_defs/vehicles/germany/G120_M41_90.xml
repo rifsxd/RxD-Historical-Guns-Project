@@ -27,7 +27,7 @@
 		<still>0.249</still>
 		<firePenalty>0.374</firePenalty>
 	</invisibility>
-	<repairCost>5</repairCost>
+	<repairCost>0</repairCost>
 	<premiumVehicleXPFactor>0.2</premiumVehicleXPFactor>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
@@ -81,7 +81,7 @@
 		<ammoBayHealth>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
-			<repairCost>2.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<models>
 			<undamaged>vehicles/german/G120_M41_90/normal/lod0/Hull.model</undamaged>
@@ -161,7 +161,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>220</maxHealth>
 			<maxRegenHealth>165</maxRegenHealth>
-			<repairCost>7.5</repairCost>
+			<repairCost>0</repairCost>
 			<models>
 				<undamaged>vehicles/german/G120_M41_90/normal/lod0/Chassis.model</undamaged>
 				<destroyed>vehicles/german/G120_M41_90/normal/lod0/Chassis.model</destroyed>
@@ -438,13 +438,13 @@
 			<turretRotatorHealth>
 				<maxHealth>140</maxHealth>
 				<maxRegenHealth>70</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_90_76mm_US_Kanone_M_32>shared<blitz>

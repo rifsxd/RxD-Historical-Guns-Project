@@ -26,7 +26,7 @@
 		<still>0.122</still>
 		<firePenalty>0.183</firePenalty>
 	</invisibility>
-	<repairCost>5.7</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -121,7 +121,7 @@
 		<ammoBayHealth>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -255,7 +255,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</IS-3>
 		<IS-3M>
 			<blitz>
@@ -374,7 +374,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>220</maxHealth>
 			<maxRegenHealth>165</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</IS-3M>
 	</chassis>
 	<turrets0>
@@ -438,13 +438,13 @@
 			<turretRotatorHealth>
 				<maxHealth>150</maxHealth>
 				<maxRegenHealth>75</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>230</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_122-mm_D-25T_with_a_piston_shutter>shared<blitz>
@@ -723,13 +723,13 @@
 			<turretRotatorHealth>
 				<maxHealth>150</maxHealth>
 				<maxRegenHealth>75</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>240</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_122-mm_D-25T_with_a_piston_shutter>shared<blitz>
@@ -899,7 +899,7 @@
 						<gun>50</gun>
 					</armor>
 					<reloadTime>14.5</reloadTime>
-					<aimingTime>3.4</aimingTime>
+					<aimingTime>3.1</aimingTime>
 					<invisibilityFactorAtShot>0.18</invisibilityFactorAtShot>
 					<shotDispersionFactors>
 						<turretRotation>0.16</turretRotation>

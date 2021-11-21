@@ -27,7 +27,7 @@
 		<still>0.195</still>
 		<firePenalty>0.293</firePenalty>
 	</invisibility>
-	<repairCost>5.7</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -115,7 +115,7 @@
 		<ammoBayHealth>
 			<maxHealth>240</maxHealth>
 			<maxRegenHealth>160</maxRegenHealth>
-			<repairCost>2.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -229,7 +229,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>240</maxHealth>
 			<maxRegenHealth>180</maxRegenHealth>
-			<repairCost>7.5</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_F19_Lorraine40t_Com>
 	</chassis>
 	<turrets0>
@@ -283,13 +283,13 @@
 			<turretRotatorHealth>
 				<maxHealth>140</maxHealth>
 				<maxRegenHealth>70</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
-			<circularVisionRadius>250</circularVisionRadius>
+			<circularVisionRadius>260</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_90mm_canon_DCA_45_Com>shared<blitz>
@@ -327,9 +327,9 @@
 						<gun>40</gun>
 					</armor>
 					<shotDispersionRadius>0.35</shotDispersionRadius>
-					<reloadTime>22.5</reloadTime>
+					<reloadTime>22</reloadTime>
 					<shotDispersionFactors>
-						<turretRotation>0.1</turretRotation>
+						<turretRotation>0.12</turretRotation>
 						<afterShot>4</afterShot>
 						<whileGunDamaged>2.0</whileGunDamaged>
 					</shotDispersionFactors>

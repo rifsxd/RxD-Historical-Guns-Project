@@ -461,8 +461,8 @@
 						</armor_4>
 						<gun>40</gun>
 					</armor>
-					<shotDispersionRadius>0.36</shotDispersionRadius>
-					<aimingTime>2</aimingTime>
+					<shotDispersionRadius>0.33</shotDispersionRadius>
+					<aimingTime>1.7</aimingTime>
 					<reloadTime>8</reloadTime>
 					<shotDispersionFactors>
 						<turretRotation>0.1</turretRotation>

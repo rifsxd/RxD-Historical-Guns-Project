@@ -27,7 +27,7 @@
 		<still>0.139</still>
 		<firePenalty>0.209</firePenalty>
 	</invisibility>
-	<repairCost>5.7</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<optDevicePreset>defaultPreset</optDevicePreset>
 	<consumableSlots>3</consumableSlots>
@@ -123,7 +123,7 @@
 		<ammoBayHealth>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -229,7 +229,7 @@
 			<terrainResistance>0.8 0.9 1.8</terrainResistance>
 			<brakeForce>50000</brakeForce>
 			<rotationIsAroundCenter>true</rotationIsAroundCenter>
-			<rotationSpeed>33</rotationSpeed>
+			<rotationSpeed>40</rotationSpeed>
 			<shotDispersionFactors>
 				<vehicleMovement>0.14</vehicleMovement>
 				<vehicleRotation>0.14</vehicleRotation>
@@ -237,7 +237,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_G142_M48RPz>
 	</chassis>
 	<turrets0>
@@ -300,13 +300,13 @@
 			<turretRotatorHealth>
 				<maxHealth>140</maxHealth>
 				<maxRegenHealth>70</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_90mm_Kanone_M41>shared<blitz>
@@ -343,8 +343,8 @@
 						</armor_5>
 						<gun>35</gun>
 					</armor>
-					<shotDispersionRadius>0.36</shotDispersionRadius>
-					<aimingTime>1.8</aimingTime>
+					<shotDispersionRadius>0.35</shotDispersionRadius>
+					<aimingTime>2</aimingTime>
 					<reloadTime>6.4</reloadTime>
 					<shotDispersionFactors>
 						<turretRotation>0.08</turretRotation>

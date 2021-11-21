@@ -29,7 +29,7 @@
 		<still>0.069</still>
 		<firePenalty>0.104</firePenalty>
 	</invisibility>
-	<repairCost>4.5</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -115,7 +115,7 @@
 		<ammoBayHealth>
 			<maxHealth>240</maxHealth>
 			<maxRegenHealth>160</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -284,7 +284,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>220</maxHealth>
 			<maxRegenHealth>165</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</T80E3_Freedom>
 	</chassis>
 	<turrets0>
@@ -341,13 +341,13 @@
 			<turretRotatorHealth>
 				<maxHealth>150</maxHealth>
 				<maxRegenHealth>75</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>240</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_120mm_Gun_T53A1_Freedom>shared<blitz>

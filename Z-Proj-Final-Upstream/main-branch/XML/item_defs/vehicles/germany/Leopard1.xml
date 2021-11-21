@@ -26,7 +26,7 @@
 		<still>0.247</still>
 		<firePenalty>0.371</firePenalty>
 	</invisibility>
-	<repairCost>5.7</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -118,7 +118,7 @@
 		<ammoBayHealth>
 			<maxHealth>260</maxHealth>
 			<maxRegenHealth>180</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -249,7 +249,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>250</maxHealth>
 			<maxRegenHealth>190</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_Leopard1>
 	</chassis>
 	<turrets0>
@@ -310,13 +310,13 @@
 			<turretRotatorHealth>
 				<maxHealth>170</maxHealth>
 				<maxRegenHealth>85</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>265</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>120</maxHealth>
 				<maxRegenHealth>60</maxRegenHealth>
-				<repairCost>2.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<emblemSlots>
 				<player>

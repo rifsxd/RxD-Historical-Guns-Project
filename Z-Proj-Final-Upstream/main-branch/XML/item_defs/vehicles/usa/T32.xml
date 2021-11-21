@@ -28,7 +28,7 @@
 		<still>0.102</still>
 		<firePenalty>0.153</firePenalty>
 	</invisibility>
-	<repairCost>5.8</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -119,7 +119,7 @@
 		<ammoBayHealth>
 			<maxHealth>240</maxHealth>
 			<maxRegenHealth>160</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -260,7 +260,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</T84E1A>
 		<T84E3A>
 			<blitz>
@@ -379,7 +379,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>220</maxHealth>
 			<maxRegenHealth>165</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</T84E3A>
 	</chassis>
 	<turrets0>
@@ -439,13 +439,13 @@
 			<turretRotatorHealth>
 				<maxHealth>150</maxHealth>
 				<maxRegenHealth>75</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>2.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_90mm_Gun_T15E2>shared<blitz>
@@ -461,7 +461,7 @@
 					<maxAmmo>54</maxAmmo>
 					<pitchLimits>-20 10</pitchLimits>
 					<unlocks>
-						<gun>_105mm_Gun_T5E1<cost>18100</cost>
+						<gun>_105mm_Gun_T5E1M1<cost>18100</cost>
 						</gun>
 					</unlocks>
 					<models>
@@ -498,7 +498,7 @@
 						<whileGunDamaged>2.0</whileGunDamaged>
 					</shotDispersionFactors>
 				</_90mm_Gun_T15E2>
-				<_105mm_Gun_T5E1>shared<blitz>
+				<_105mm_Gun_T5E1M1>shared<blitz>
 						<blitzPartName>gun_02</blitzPartName>
 						<bbox>
 							<min>-0.696239 -0.993214 -0.358128</min>
@@ -543,7 +543,7 @@
 						<afterShot>4</afterShot>
 						<whileGunDamaged>2.0</whileGunDamaged>
 					</shotDispersionFactors>
-				</_105mm_Gun_T5E1>
+				</_105mm_Gun_T5E1M1>
 			</guns>
 			<emblemSlots>
 				<player>
@@ -619,13 +619,13 @@
 			<turretRotatorHealth>
 				<maxHealth>150</maxHealth>
 				<maxRegenHealth>75</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>2.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_90mm_Gun_T15E2>shared<blitz>
@@ -674,7 +674,7 @@
 						<whileGunDamaged>2.0</whileGunDamaged>
 					</shotDispersionFactors>
 				</_90mm_Gun_T15E2>
-				<_105mm_Gun_T5E1>shared<blitz>
+				<_105mm_Gun_T5E1M1>shared<blitz>
 						<blitzPartName>gun_04</blitzPartName>
 						<bbox>
 							<min>-0.671623 -1.143607 -0.371401</min>
@@ -719,7 +719,7 @@
 					</armor>
 					<aimingTime>2.3</aimingTime>
 					<invisibilityFactorAtShot>0.209</invisibilityFactorAtShot>
-				</_105mm_Gun_T5E1>
+				</_105mm_Gun_T5E1M1>
 			</guns>
 			<emblemSlots>
 				<player>

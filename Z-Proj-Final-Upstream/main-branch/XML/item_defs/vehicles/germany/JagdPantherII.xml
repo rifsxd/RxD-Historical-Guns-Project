@@ -19,7 +19,7 @@
 		<loader/>
 	</crew>
 	<speedLimits>
-		<forward>55</forward>
+		<forward>50</forward>
 		<backward>12</backward>
 	</speedLimits>
 	<invisibility>
@@ -27,7 +27,7 @@
 		<still>0.179</still>
 		<firePenalty>0.269</firePenalty>
 	</invisibility>
-	<repairCost>6.5</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -120,7 +120,7 @@
 		<ammoBayHealth>
 			<maxHealth>220</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -268,7 +268,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>190</maxHealth>
 			<maxRegenHealth>145</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_JagdPantherII>
 		<Chassis_JagdPantherII_2>
 			<blitz>
@@ -373,7 +373,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>210</maxHealth>
 			<maxRegenHealth>160</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_JagdPantherII_2>
 	</chassis>
 	<turrets0>
@@ -422,13 +422,13 @@
 			<turretRotatorHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_88mm_PaK_43_L71>shared<blitz>
@@ -547,8 +547,8 @@
 						<gun>60</gun>
 					</armor>
 					<shotDispersionRadius>0.35</shotDispersionRadius>
-					<reloadTime>10.8540889381869</reloadTime>
-					<aimingTime>2.3</aimingTime>
+					<reloadTime>10.86</reloadTime>
+					<aimingTime>1.9</aimingTime>
 					<pitchLimits>-15 6.5</pitchLimits>
 					<invisibilityFactorAtShot>0.264</invisibilityFactorAtShot>
 					<turretYawLimits>-10 10</turretYawLimits>

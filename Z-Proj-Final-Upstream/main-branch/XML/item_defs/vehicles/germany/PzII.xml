@@ -57,21 +57,23 @@
 	</horns>
 	<hull>
 		<blitz>
+			<armorScale>0.0085 0.0270 0.0210</armorScale>
+			<pushNormalsScale/>
 			<averageThickness>
-				<turret_01>31.685127</turret_01>
-				<turret_02>32.908474</turret_02>
+				<turret_01>33.692574</turret_01>
+				<turret_02>34.322857</turret_02>
 			</averageThickness>
 			<blitzPartName>hull</blitzPartName>
 			<bbox>
-				<min>-1.023863 -2.025463 -0.420803</min>
-				<max>0.966535 2.360018 0.764174</max>
+				<min>-1.022259 -2.086994 0.356160</min>
+				<max>0.946111 2.287986 1.532400</max>
 			</bbox>
 			<points>
-				<normal>0.000000 0.069200 -0.780179</normal>
+				<normal>0.000000 0.000200 -0.000179</normal>
 			</points>
 			<detachedTurret>
-				<cylinderPos>0.000000 -0.063000 0.761000</cylinderPos>
-				<cylinderXYScale>0.845000</cylinderXYScale>
+				<cylinderPos>0.000000 -0.063000 -0.063383</cylinderPos>
+				<cylinderXYScale>0.704223</cylinderXYScale>
 			</detachedTurret>
 		</blitz>
 		<models>
@@ -91,7 +93,7 @@
 			<rates>5.0 10.0 25.0</rates>
 		</exhaust>
 		<turretPositions>
-			<turret>-0.145808 0.713245 0.421037</turret>
+			<turret>-0.14580000 1.47276994 0.34975991</turret>
 		</turretPositions>
 		<hitTester>
 			<collisionModel>vehicles/german/G06_PzII/collision/Hull.model</collisionModel>
@@ -111,6 +113,7 @@
 			<armor_12>59.4</armor_12>
 			<armor_13>5.4</armor_13>
 			<armor_14>21.6</armor_14>
+			<armor_16>10</armor_16>
 			<driver>0<chanceToHitByProjectile>0</chanceToHitByProjectile>
 				<chanceToHitByExplosion>0</chanceToHitByExplosion>
 			</driver>
@@ -166,8 +169,8 @@
 			<blitz>
 				<blitzPartName>chassis</blitzPartName>
 				<bbox>
-					<min>-1.106495 -2.321342 -0.000383</min>
-					<max>1.106495 2.319567 1.089182</max>
+					<min>-1.060993 -2.301745 0.000208</min>
+					<max>1.062054 2.320568 1.058566</max>
 				</bbox>
 				<points>
 					<normal>0.000000 -0.000002 0.000001</normal>
@@ -256,7 +259,7 @@
 				<mud>smallTankMud</mud>
 			</effects>
 			<sound>/vehicles/tanks/treads/treads_1</sound>
-			<hullPosition>0.000000 0.7806 -0.0802</hullPosition>
+			<hullPosition>0.0 0.0 0.0</hullPosition>
 			<hitTester>
 				<collisionModel>vehicles/german/G06_PzII/collision/Chassis.model</collisionModel>
 			</hitTester>
@@ -286,17 +289,19 @@
 	<turrets0>
 		<PzII_Standartturm>
 			<blitz>
+				<armorScale>0.0423 0.0170 0.0350</armorScale>
+				<pushNormalsScale/>
 				<blitzPartName>turret_01</blitzPartName>
 				<bbox>
-					<min>-0.788978 -0.772000 -0.572208</min>
-					<max>0.788978 0.772000 0.607129</max>
+					<min>-0.787505 -0.771342 -0.538048</min>
+					<max>0.788780 0.771112 0.623536</max>
 				</bbox>
 				<points>
-					<normal>0.145807 -0.341629 -1.493845</normal>
+					<normal>0.145807 -0.349629 -1.471844</normal>
 				</points>
 				<clipParams>
-					<clippingPlaneZPos>1.493845</clippingPlaneZPos>
-					<textureScaleFactor>0.613000</textureScaleFactor>
+					<clippingPlaneZPos>1.468931</clippingPlaneZPos>
+					<textureScaleFactor>0.591547</textureScaleFactor>
 					<shouldClipGun>false</shouldClipGun>
 				</clipParams>
 			</blitz>
@@ -319,7 +324,7 @@
 				<collisionModel>vehicles/german/G06_PzII/collision/Turret_01.model</collisionModel>
 			</hitTester>
 			<yawLimits>-180 180</yawLimits>
-			<gunPosition>-0.263988 0.255616 0.621694</gunPosition>
+			<gunPosition>-0.25723181 0.26325457 0.62169982</gunPosition>
 			<armor>
 				<armor_1>32.4</armor_1>
 				<armor_2>16.2</armor_2>
@@ -332,6 +337,7 @@
 				<armor_9>16.2<vehicleDamageFactor>0.0</vehicleDamageFactor>
 				</armor_9>
 				<armor_10>10.8</armor_10>
+				<armor_16>10</armor_16>
 				<commander>0<chanceToHitByProjectile>0</chanceToHitByProjectile>
 					<chanceToHitByExplosion>0</chanceToHitByExplosion>
 				</commander>
@@ -356,13 +362,15 @@
 				</surveyingDeviceHealth>
 			<guns>
 				<_20mm_KwK_38_L55>shared<blitz>
+						<armorScale>0.0366 0.0070 0.0127</armorScale>
+						<pushNormalsScale/>
 						<blitzPartName>gun_02</blitzPartName>
 						<bbox>
-							<min>-0.071808 -0.224569 -0.129517</min>
-							<max>0.671042 1.007353 0.130313</max>
+							<min>-0.071736 -0.361465 -0.126592</min>
+							<max>0.670371 1.007414 0.126003</max>
 						</bbox>
 						<points>
-							<normal>0.409797 -0.958402 -1.747813</normal>
+							<normal>0.403796 -0.971402 -1.735812</normal>
 						</points>
 					</blitz>
 					<maxAmmo>264</maxAmmo>
@@ -420,17 +428,19 @@
 		</PzII_Standartturm>
 		<PzII_Luchsturm>
 			<blitz>
+				<armorScale>0.0465 0.0150 0.0310</armorScale>
+				<pushNormalsScale/>
 				<blitzPartName>turret_02</blitzPartName>
 				<bbox>
-					<min>-0.788978 -0.772000 -0.475203</min>
-					<max>0.788978 0.772000 0.628520</max>
+					<min>-0.787505 -0.771342 -0.538048</min>
+					<max>0.788780 0.771112 0.636022</max>
 				</bbox>
 				<points>
-					<normal>0.145807 -0.340828 -1.493845</normal>
+					<normal>0.146807 -0.349828 -1.472844</normal>
 				</points>
 				<clipParams>
-					<clippingPlaneZPos>1.493845</clippingPlaneZPos>
-					<textureScaleFactor>0.613000</textureScaleFactor>
+					<clippingPlaneZPos>1.477141</clippingPlaneZPos>
+					<textureScaleFactor>0.591547</textureScaleFactor>
 					<shouldClipGun>false</shouldClipGun>
 				</clipParams>
 			</blitz>
@@ -453,7 +463,7 @@
 				<collisionModel>vehicles/german/G06_PzII/collision/Turret_02.model</collisionModel>
 			</hitTester>
 			<yawLimits>-180 180</yawLimits>
-			<gunPosition>-0.263988 0.255616 0.621694</gunPosition>
+			<gunPosition>-0.25723181 0.26325457 0.62169982</gunPosition>
 			<armor>
 				<armor_1>32.4</armor_1>
 				<armor_2>21.6</armor_2>
@@ -466,6 +476,7 @@
 				<armor_9>10.8</armor_9>
 				<armor_10>0</armor_10>
 				<armor_11>16.2</armor_11>
+				<armor_16>10</armor_16>
 				<commander>0<chanceToHitByProjectile>0</chanceToHitByProjectile>
 					<chanceToHitByExplosion>0</chanceToHitByExplosion>
 				</commander>
@@ -490,13 +501,15 @@
 				</surveyingDeviceHealth>
 			<guns>
 				<_20mm_KwK_38_L55>shared<blitz>
+						<armorScale>0.0324 0.0324 0.0211</armorScale>
+						<pushNormalsScale/>
 						<blitzPartName>gun_10</blitzPartName>
 						<bbox>
-							<min>-0.071808 -0.224569 -0.129517</min>
-							<max>0.671042 1.004449 0.130313</max>
+							<min>-0.071736 -0.361465 -0.126592</min>
+							<max>0.670371 1.007414 0.126003</max>
 						</bbox>
 						<points>
-							<normal>0.409796 -0.962533 -1.749461</normal>
+							<normal>0.402795 -0.970533 -1.735461</normal>
 						</points>
 					</blitz>
 					<maxAmmo>324</maxAmmo>
@@ -536,13 +549,15 @@
 					</burst>
 				</_20mm_KwK_38_L55>
 				<_20mm_Flak_38_L112>shared<blitz>
+						<armorScale>0.0338 0.0310 0.0183</armorScale>
+						<pushNormalsScale/>
 						<blitzPartName>gun_07</blitzPartName>
 						<bbox>
-							<min>-0.071808 -0.224569 -0.129517</min>
-							<max>0.671042 2.111824 0.130313</max>
+							<min>-0.071738 -0.361465 -0.126592</min>
+							<max>0.670369 2.116827 0.126003</max>
 						</bbox>
 						<points>
-							<normal>0.409796 -0.962530 -1.749461</normal>
+							<normal>0.402796 -0.971530 -1.735460</normal>
 						</points>
 					</blitz>
 					<maxAmmo>324</maxAmmo>

@@ -27,7 +27,7 @@
 		<still>0.09</still>
 		<firePenalty>0.135</firePenalty>
 	</invisibility>
-	<repairCost>5.0</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -90,7 +90,7 @@
 		<ammoBayHealth>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<models>
 			<undamaged>vehicles/german/G118_VK4503/normal/lod0/Hull.model</undamaged>
@@ -171,7 +171,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>190</maxHealth>
 			<maxRegenHealth>145</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			<models>
 				<undamaged>vehicles/german/G118_VK4503/normal/lod0/Chassis.model</undamaged>
 				<destroyed>vehicles/german/G118_VK4503/normal/lod0/Chassis.model</destroyed>
@@ -631,13 +631,13 @@
 			<turretRotatorHealth>
 				<maxHealth>140</maxHealth>
 				<maxRegenHealth>70</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>90</maxHealth>
 				<maxRegenHealth>45</maxRegenHealth>
-				<repairCost>2.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_88mm_KwK_43_L71B>shared<blitz>

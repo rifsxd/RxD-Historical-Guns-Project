@@ -1,0 +1,766 @@
+<root>
+	<blitz>
+		<smallIconPath>~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/japan-Chi_To</smallIconPath>
+		<bigIconPath>~res:/Gfx/UI/BigTankIcons/japan-Chi_To</bigIconPath>
+		<blitzModelPath>Tanks/Japan/Chi_To.sc2</blitzModelPath>
+		<engineSoundPC>tanks/pc/engine/jp/mt</engineSoundPC>
+		<engineSoundNPC>tanks/npc/engine/jp/mt</engineSoundNPC>
+		<smokeEffectPath>FX/smoke_tank_type_black_new_2.sc2</smokeEffectPath>
+		<fireEffectPathAlive>FX/SmokeFire_tank_movement_new.sc2</fireEffectPathAlive>
+		<fireEffectPathDead>FX/Fire_and_Smoke.sc2</fireEffectPathDead>
+		<collisionMesh>CollisionMeshes/japan-Chi_To.sc2</collisionMesh>
+		<exclusionMask>Camouflages/japan/CamouflageMasks/Chi_To_CM.tex</exclusionMask>
+	</blitz>
+	<crew>
+		<commander/>
+		<gunner/>
+		<driver/>
+		<radioman/>
+		<loader/>
+	</crew>
+	<speedLimits>
+		<forward>50</forward>
+		<backward>18</backward>
+	</speedLimits>
+	<invisibility>
+		<moving>0.163</moving>
+		<still>0.217</still>
+		<firePenalty>0.326</firePenalty>
+	</invisibility>
+	<repairCost>0</repairCost>
+	<crewXpFactor>1.0</crewXpFactor>
+	<consumableSlots>3</consumableSlots>
+	<provisionSlots>3</provisionSlots>
+	<optDevicePreset>HEprotectionPreset</optDevicePreset>
+	<enrichmentBoost>1.3280</enrichmentBoost>
+	<turretBlowEnabled>true</turretBlowEnabled>
+	<effects>
+		<destruction>mediumDestruction</destruction>
+		<explosion>mediumExplosion</explosion>
+		<flaming>mediumFlaming</flaming>
+		<collision/>
+	</effects>
+	<camouflage>
+		<priceFactor>1.2</priceFactor>
+		<tiling>1 1 0 0</tiling>
+		<exclusionMask>vehicles/japan/J10_Chi_To/Chi_To_CM.dds</exclusionMask>
+	</camouflage>
+	<emblems>
+		<default>japanese_sun</default>
+		<lodDist>MEDIUM</lodDist>
+		<alpha>0.8</alpha>
+	</emblems>
+	<horns>
+		<priceFactor>1</priceFactor>
+		<distanceFactor>1</distanceFactor>
+		<volumeFactor>1</volumeFactor>
+	</horns>
+	<hull>
+		<blitz>
+			<averageThickness>
+				<turret_01>57.045406</turret_01>
+				<turret_02>50.995495</turret_02>
+			</averageThickness>
+			<blitzPartName>hull</blitzPartName>
+			<bbox>
+				<min>-1.380280 -3.096661 -0.704144</min>
+				<max>1.388319 3.077774 0.715155</max>
+			</bbox>
+			<points>
+				<normal>0.000000 0.001000 -1.104635</normal>
+			</points>
+			<detachedTurret>
+				<cylinderPos>0.000000 0.000000 1.056000</cylinderPos>
+				<cylinderXYScale>0.824000</cylinderXYScale>
+			</detachedTurret>
+		</blitz>
+		<models>
+			<undamaged>vehicles/japan/J10_Chi_To/normal/lod0/Hull.model</undamaged>
+			<destroyed>vehicles/japan/J10_Chi_To/normal/lod0/Hull.model</destroyed>
+			<exploded>vehicles/japan/J10_Chi_To/normal/lod0/Hull.model</exploded>
+		</models>
+		<swinging>
+			<lodDist>FAR</lodDist>
+			<pitchParams>0.26 34.00 0.42 1.00 0.05 0.30</pitchParams>
+			<rollParams>1.00 0.26 34.00 0.42 1.00 0.05 0.30</rollParams>
+			<sensitivityToImpulse>0.48</sensitivityToImpulse>
+		</swinging>
+		<exhaust>
+			<pixie>particles/Tank/engine_exit_diesel.xml</pixie>
+			<nodes>HP_Track_Exhaus_1 HP_Track_Exhaus_2</nodes>
+			<rates>5.0 10.0 25.0</rates>
+		</exhaust>
+		<turretPositions>
+			<turret>0.0022 0.637246 0.25132</turret>
+		</turretPositions>
+		<hitTester>
+			<collisionModel>vehicles/japan/J10_Chi_To/collision/Hull.model</collisionModel>
+		</hitTester>
+		<armor>
+			<armor_1>75</armor_1>
+			<armor_2>50</armor_2>
+			<armor_3>35</armor_3>
+			<armor_4>35</armor_4>
+			<armor_5>20</armor_5>
+			<armor_6>20</armor_6>
+			<armor_7>25</armor_7>
+			<armor_8>20</armor_8>
+			<armor_9>75</armor_9>
+			<armor_10>75</armor_10>
+			<armor_11>12</armor_11>
+			<armor_12>0</armor_12>
+			<armor_13>75</armor_13>
+			<armor_14>75</armor_14>
+			<armor_15>35</armor_15>
+		</armor>
+		<primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
+		<weight>11631</weight>
+		<maxHealth>720</maxHealth>
+		<ammoBayHealth>
+			<maxHealth>160</maxHealth>
+			<maxRegenHealth>110</maxRegenHealth>
+			<repairCost>0</repairCost>
+			</ammoBayHealth>
+		<emblemSlots>
+			<clan>
+				<rayStart>0.451864 0.222548 2.11615</rayStart>
+				<rayEnd>0.451864 0.0285833 2.06739</rayEnd>
+				<rayUp>0.000000 0.000000 -1</rayUp>
+				<size>0.3</size>
+				<hideIfDamaged>true</hideIfDamaged>
+			</clan>
+		</emblemSlots>
+	</hull>
+	<chassis>
+		<Chassis_Chi_To>
+			<blitz>
+				<blitzPartName>chassis</blitzPartName>
+				<bbox>
+					<min>-1.432381 -3.190956 -0.000001</min>
+					<max>1.432389 3.042405 1.202870</max>
+				</bbox>
+				<points>
+					<normal>0.000004 0.002440 -0.000001</normal>
+				</points>
+				<soundPC>tanks/pc/treads/mt</soundPC>
+				<soundNPC>tanks/npc/treads/mt</soundNPC>
+			</blitz>
+			<userString>#japan_vehicles:Chassis_Chi_To</userString>
+			<tags/>
+			<level>5</level>
+			<price>0</price>
+			<unlocks>
+				<chassis>Chassis_Chi_To_2<cost>6140</cost>
+				</chassis>
+			</unlocks>
+			<models>
+				<undamaged>vehicles/japan/J10_Chi_To/normal/lod0/Chassis.model</undamaged>
+				<destroyed>vehicles/japan/J10_Chi_To/normal/lod0/Chassis.model</destroyed>
+				<exploded>vehicles/japan/J10_Chi_To/normal/lod0/Chassis.model</exploded>
+			</models>
+			<traces>
+				<lodDist>FAR</lodDist>
+				<bufferPrefs>mediumTank</bufferPrefs>
+				<textureSet>germany_01</textureSet>
+				<size>0.6 0.49</size>
+			</traces>
+			<tracks>
+				<lodDist>MEDIUM</lodDist>
+				<leftMaterial>track_mat_L_skinned</leftMaterial>
+				<rightMaterial>track_mat_R_skinned</rightMaterial>
+				<textureScale>-0.870000</textureScale>
+			</tracks>
+			<wheels>
+				<lodDist>MEDIUM</lodDist>
+				<wheel>
+					<isLeft>false</isLeft>
+					<name>WD_R0</name>
+					<radius>0.367762</radius>
+				</wheel>
+				<group>
+					<isLeft>false</isLeft>
+					<template>WD_R</template>
+					<radius>0.15244</radius>
+					<startIndex>1</startIndex>
+					<count>3</count>
+				</group>
+				<wheel>
+					<isLeft>false</isLeft>
+					<name>WD_R4</name>
+					<radius>0.323839</radius>
+				</wheel>
+				<group>
+					<isLeft>false</isLeft>
+					<template>W_R</template>
+					<radius>0.282983</radius>
+					<startIndex>0</startIndex>
+					<count>7</count>
+				</group>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>WD_L0</name>
+					<radius>0.367762</radius>
+				</wheel>
+				<group>
+					<isLeft>true</isLeft>
+					<template>WD_L</template>
+					<radius>0.15244</radius>
+					<startIndex>1</startIndex>
+					<count>3</count>
+				</group>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>WD_L4</name>
+					<radius>0.323839</radius>
+				</wheel>
+				<group>
+					<isLeft>true</isLeft>
+					<template>W_L</template>
+					<radius>0.282983</radius>
+					<startIndex>0</startIndex>
+					<count>7</count>
+				</group>
+			</wheels>
+			<drivingWheels>WD_L0 WD_L4</drivingWheels>
+			<effects>
+				<lodDist>MEDIUM</lodDist>
+				<dust>mediumTankDust</dust>
+				<mud>mediumTankMud</mud>
+			</effects>
+			<sound>/vehicles/tanks/treads/treads_2</sound>
+			<hullPosition>0.000000 1.10425 0.000000</hullPosition>
+			<hitTester>
+				<collisionModel>vehicles/japan/J10_Chi_To/collision/Chassis.model</collisionModel>
+			</hitTester>
+			<armor>
+				<leftTrack>20</leftTrack>
+				<rightTrack>20</rightTrack>
+			</armor>
+			<topRightCarryingPoint>1.2093 2.17664</topRightCarryingPoint>
+			<maxClimbAngle>25</maxClimbAngle>
+			<navmeshGirth>6.0</navmeshGirth>
+			<weight>10500</weight>
+			<maxLoad>35000</maxLoad>
+			<terrainResistance>1 1 1.2</terrainResistance>
+			<brakeForce>29000</brakeForce>
+			<rotationIsAroundCenter>true</rotationIsAroundCenter>
+			<rotationSpeed>26</rotationSpeed>
+			<shotDispersionFactors>
+				<vehicleMovement>0.15</vehicleMovement>
+				<vehicleRotation>0.15</vehicleRotation>
+			</shotDispersionFactors>
+			<bulkHealthFactor>3.0</bulkHealthFactor>
+			<maxHealth>110</maxHealth>
+			<maxRegenHealth>85</maxRegenHealth>
+			<repairCost>0</repairCost>
+			</Chassis_Chi_To>
+		<Chassis_Chi_To_2>
+			<blitz>
+				<blitzPartName>chassis</blitzPartName>
+				<bbox>
+					<min>-1.432381 -3.190956 -0.000001</min>
+					<max>1.432389 3.042405 1.202870</max>
+				</bbox>
+				<points>
+					<normal>0.000004 0.002440 -0.000001</normal>
+				</points>
+				<soundPC>tanks/pc/treads/mt</soundPC>
+				<soundNPC>tanks/npc/treads/mt</soundNPC>
+			</blitz>
+			<userString>#japan_vehicles:Chassis_Chi_To_2</userString>
+			<tags/>
+			<level>6</level>
+			<price>0</price>
+			<models>
+				<undamaged>vehicles/japan/J10_Chi_To/normal/lod0/Chassis.model</undamaged>
+				<destroyed>vehicles/japan/J10_Chi_To/normal/lod0/Chassis.model</destroyed>
+				<exploded>vehicles/japan/J10_Chi_To/normal/lod0/Chassis.model</exploded>
+			</models>
+			<traces>
+				<lodDist>FAR</lodDist>
+				<bufferPrefs>mediumTank</bufferPrefs>
+				<textureSet>germany_01</textureSet>
+				<size>0.6 0.49</size>
+			</traces>
+			<tracks>
+				<lodDist>MEDIUM</lodDist>
+				<leftMaterial>track_mat_L_skinned</leftMaterial>
+				<rightMaterial>track_mat_R_skinned</rightMaterial>
+				<textureScale>-1.100000</textureScale>
+			</tracks>
+			<wheels>
+				<lodDist>MEDIUM</lodDist>
+				<wheel>
+					<isLeft>false</isLeft>
+					<name>WD_R0</name>
+					<radius>0.367762</radius>
+				</wheel>
+				<group>
+					<isLeft>false</isLeft>
+					<template>WD_R</template>
+					<radius>0.15244</radius>
+					<startIndex>1</startIndex>
+					<count>3</count>
+				</group>
+				<wheel>
+					<isLeft>false</isLeft>
+					<name>WD_R4</name>
+					<radius>0.323839</radius>
+				</wheel>
+				<group>
+					<isLeft>false</isLeft>
+					<template>W_R</template>
+					<radius>0.282983</radius>
+					<startIndex>0</startIndex>
+					<count>7</count>
+				</group>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>WD_L0</name>
+					<radius>0.367762</radius>
+				</wheel>
+				<group>
+					<isLeft>true</isLeft>
+					<template>WD_L</template>
+					<radius>0.15244</radius>
+					<startIndex>1</startIndex>
+					<count>3</count>
+				</group>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>WD_L4</name>
+					<radius>0.323839</radius>
+				</wheel>
+				<group>
+					<isLeft>true</isLeft>
+					<template>W_L</template>
+					<radius>0.282983</radius>
+					<startIndex>0</startIndex>
+					<count>7</count>
+				</group>
+			</wheels>
+			<drivingWheels>WD_L0 WD_L4</drivingWheels>
+			<effects>
+				<lodDist>MEDIUM</lodDist>
+				<dust>mediumTankDust</dust>
+				<mud>mediumTankMud</mud>
+			</effects>
+			<sound>/vehicles/tanks/treads/treads_2</sound>
+			<hullPosition>0.000000 1.10425 0.000000</hullPosition>
+			<hitTester>
+				<collisionModel>vehicles/japan/J10_Chi_To/collision/Chassis.model</collisionModel>
+			</hitTester>
+			<armor>
+				<leftTrack>20</leftTrack>
+				<rightTrack>20</rightTrack>
+			</armor>
+			<topRightCarryingPoint>1.2093 2.17664</topRightCarryingPoint>
+			<maxClimbAngle>25</maxClimbAngle>
+			<navmeshGirth>6.0</navmeshGirth>
+			<weight>10500</weight>
+			<maxLoad>35000</maxLoad>
+			<terrainResistance>0.8 0.9 1.1</terrainResistance>
+			<brakeForce>32000</brakeForce>
+			<rotationIsAroundCenter>true</rotationIsAroundCenter>
+			<rotationSpeed>30</rotationSpeed>
+			<shotDispersionFactors>
+				<vehicleMovement>0.13</vehicleMovement>
+				<vehicleRotation>0.13</vehicleRotation>
+			</shotDispersionFactors>
+			<bulkHealthFactor>3.0</bulkHealthFactor>
+			<maxHealth>120</maxHealth>
+			<maxRegenHealth>90</maxRegenHealth>
+			<repairCost>0</repairCost>
+			</Chassis_Chi_To_2>
+	</chassis>
+	<turrets0>
+		<Turret_1_Chi_To>
+			<blitz>
+				<blitzPartName>turret_01</blitzPartName>
+				<bbox>
+					<min>-0.925563 -1.457968 -0.513564</min>
+					<max>0.928153 1.076421 1.022336</max>
+				</bbox>
+				<points>
+					<normal>-0.006200 -0.251320 -1.740922</normal>
+				</points>
+				<clipParams>
+					<clippingPlaneZPos>1.751000</clippingPlaneZPos>
+					<textureScaleFactor>0.700000</textureScaleFactor>
+					<shouldClipGun>false</shouldClipGun>
+				</clipParams>
+			</blitz>
+			<userString>#japan_vehicles:Turret_1_Chi_To</userString>
+			<tags/>
+			<level>5</level>
+			<price>0</price>
+			<unlocks>
+				<turret>Turret_2_Chi_To<cost>6490</cost>
+				</turret>
+			</unlocks>
+			<models>
+				<undamaged>vehicles/japan/J10_Chi_To/normal/lod0/Turret_01.model</undamaged>
+				<destroyed>vehicles/japan/J10_Chi_To/normal/lod0/Turret_01.model</destroyed>
+				<exploded>vehicles/japan/J10_Chi_To/normal/lod0/Turret_01.model</exploded>
+			</models>
+			<hitTester>
+				<collisionModel>vehicles/japan/J10_Chi_To/collision/Turret_01.model</collisionModel>
+			</hitTester>
+			<gunPosition>-0.0022 0.373475 0.970374</gunPosition>
+			<armor>
+				<armor_1>150</armor_1>
+				<armor_2>95</armor_2>
+				<armor_3>50</armor_3>
+				<armor_4>50</armor_4>
+				<armor_5>75</armor_5>
+				<armor_6>50</armor_6>
+				<armor_7>50</armor_7>
+				<armor_8>0</armor_8>
+				<armor_9>20</armor_9>
+				<armor_10>75</armor_10>
+				<armor_11>20</armor_11>
+				<armor_12>20</armor_12>
+				<armor_13>40</armor_13>
+			</armor>
+			<primaryArmor>armor_5 armor_3 armor_4</primaryArmor>
+			<weight>6500</weight>
+			<maxHealth>180</maxHealth>
+			<rotationSpeed>36</rotationSpeed>
+			<turretRotatorHealth>
+				<maxHealth>120</maxHealth>
+				<maxRegenHealth>60</maxRegenHealth>
+				<repairCost>0</repairCost>
+				</turretRotatorHealth>
+			<circularVisionRadius>240</circularVisionRadius>
+			<surveyingDeviceHealth>
+				<maxHealth>80</maxHealth>
+				<maxRegenHealth>40</maxRegenHealth>
+				<repairCost>0</repairCost>
+				</surveyingDeviceHealth>
+			<emblemSlots>
+				<inscription>
+					<rayStart>-0.825878 0.454711 0.457696</rayStart>
+					<rayEnd>-0.639925 0.4124 0.397446</rayEnd>
+					<rayUp>0.000000 1 0.000000</rayUp>
+					<size>0.8</size>
+					<hideIfDamaged>true</hideIfDamaged>
+				</inscription>
+				<inscription>
+					<rayStart>0.825878 0.454711 0.457696</rayStart>
+					<rayEnd>0.639925 0.4124 0.397446</rayEnd>
+					<rayUp>0.000000 1 0.000000</rayUp>
+					<size>0.8</size>
+					<hideIfDamaged>true</hideIfDamaged>
+				</inscription>
+				<player>
+					<rayStart>-0.773284 0.47451 -0.712883</rayStart>
+					<rayEnd>-0.58293 0.431096 -0.669521</rayEnd>
+					<rayUp>0.000000 1 0.000000</rayUp>
+					<size>0.3</size>
+					<hideIfDamaged>false</hideIfDamaged>
+				</player>
+				<player>
+					<rayStart>0.773284 0.47451 -0.712883</rayStart>
+					<rayEnd>0.58293 0.431096 -0.669521</rayEnd>
+					<rayUp>0.000000 1 0.000000</rayUp>
+					<size>0.3</size>
+					<hideIfDamaged>false</hideIfDamaged>
+				</player>
+			</emblemSlots>
+			<guns>
+				<_75mm_Gun_Type5>shared<blitz>
+						<blitzPartName>gun_02</blitzPartName>
+						<bbox>
+							<min>-0.258189 -0.946999 -0.250990</min>
+							<max>0.153551 3.130414 0.318955</max>
+						</bbox>
+						<points>
+							<normal>0.000280 -1.221693 -2.114975</normal>
+						</points>
+					</blitz>
+					<maxAmmo>65</maxAmmo>
+					<unlocks>
+						<gun>_75mm_Gun_Type5_M1<cost>6370</cost>
+						</gun>
+					</unlocks>
+					<models>
+						<undamaged>vehicles/japan/J10_Chi_To/normal/lod0/Gun_02.model</undamaged>
+						<destroyed>vehicles/japan/J10_Chi_To/normal/lod0/Gun_02.model</destroyed>
+						<exploded>vehicles/japan/J10_Chi_To/normal/lod0/Gun_02.model</exploded>
+					</models>
+					<hitTester>
+						<collisionModel>vehicles/japan/J10_Chi_To/collision/Gun_02.model</collisionModel>
+					</hitTester>
+					<armor>
+						<armor_1>150<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_1>
+						<armor_2>20<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_2>
+						<gun>20</gun>
+					</armor>
+					<pitchLimits>-20 6.5</pitchLimits>
+					<extraPitchLimits>
+						<back>-20 6 10</back>
+						<transition>5</transition>
+					</extraPitchLimits>
+					<shotDispersionRadius>0.38</shotDispersionRadius>
+					<aimingTime>2.3</aimingTime>
+					<invisibilityFactorAtShot>0.26</invisibilityFactorAtShot>
+					<effects>shot_medium</effects>
+					<shotDispersionFactors>
+						<turretRotation>0.1</turretRotation>
+						<afterShot>4</afterShot>
+						<whileGunDamaged>2.0</whileGunDamaged>
+					</shotDispersionFactors>
+					<reloadTime>7.5</reloadTime>
+				</_75mm_Gun_Type5>
+				<_75mm_Gun_Type5_M1>shared<blitz>
+						<blitzPartName>gun_02</blitzPartName>
+						<bbox>
+							<min>-0.258189 -0.946999 -0.250990</min>
+							<max>0.153551 3.130414 0.318955</max>
+						</bbox>
+						<points>
+							<normal>0.000280 -1.221693 -2.114975</normal>
+						</points>
+					</blitz>
+					<maxAmmo>65</maxAmmo>
+					<unlocks>
+						<vehicle>J23_Chi_To_SPG<cost>43400</cost>
+						</vehicle>
+					</unlocks>
+					<models>
+						<undamaged>vehicles/japan/J10_Chi_To/normal/lod0/Gun_02.model</undamaged>
+						<destroyed>vehicles/japan/J10_Chi_To/normal/lod0/Gun_02.model</destroyed>
+						<exploded>vehicles/japan/J10_Chi_To/normal/lod0/Gun_02.model</exploded>
+					</models>
+					<hitTester>
+						<collisionModel>vehicles/japan/J10_Chi_To/collision/Gun_02.model</collisionModel>
+					</hitTester>
+					<armor>
+						<armor_1>150<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_1>
+						<armor_2>20<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_2>
+						<gun>20</gun>
+					</armor>
+					<pitchLimits>-20 6.5</pitchLimits>
+					<extraPitchLimits>
+						<back>-20 6 10</back>
+						<transition>5</transition>
+					</extraPitchLimits>
+					<shotDispersionRadius>0.36</shotDispersionRadius>
+					<reloadTime>5.8</reloadTime>
+					<aimingTime>2.3</aimingTime>
+					<invisibilityFactorAtShot>0.247</invisibilityFactorAtShot>
+					<shotDispersionFactors>
+						<turretRotation>0.08</turretRotation>
+						<afterShot>4</afterShot>
+						<whileGunDamaged>2.0</whileGunDamaged>
+					</shotDispersionFactors>
+				</_75mm_Gun_Type5_M1>
+			</guns>
+			<showEmblemsOnGun>false</showEmblemsOnGun>
+			<physicsShape>1.000 0.000 1.000 0.000 1.000 0.000 0.500 0.100 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
+			<yawLimits>-180 180</yawLimits>
+		</Turret_1_Chi_To>
+		<Turret_2_Chi_To>
+			<blitz>
+				<blitzPartName>turret_02</blitzPartName>
+				<bbox>
+					<min>-1.016040 -1.455057 -0.513564</min>
+					<max>1.011289 1.158655 1.031215</max>
+				</bbox>
+				<points>
+					<normal>-0.002200 -0.253629 -1.743780</normal>
+				</points>
+				<clipParams>
+					<clippingPlaneZPos>1.745000</clippingPlaneZPos>
+					<textureScaleFactor>0.700000</textureScaleFactor>
+					<shouldClipGun>false</shouldClipGun>
+				</clipParams>
+			</blitz>
+			<userString>#japan_vehicles:Turret_2_Chi_To</userString>
+			<tags/>
+			<level>6</level>
+			<price>0</price>
+			<unlocks>
+				<vehicle>Chi_Ri<cost>62130</cost>
+				</vehicle>
+			</unlocks>
+			<models>
+				<undamaged>vehicles/japan/J10_Chi_To/normal/lod0/Turret_02.model</undamaged>
+				<destroyed>vehicles/japan/J10_Chi_To/normal/lod0/Turret_02.model</destroyed>
+				<exploded>vehicles/japan/J10_Chi_To/normal/lod0/Turret_02.model</exploded>
+			</models>
+			<hitTester>
+				<collisionModel>vehicles/japan/J10_Chi_To/collision/Turret_02.model</collisionModel>
+			</hitTester>
+			<gunPosition>-0.003239 0.331159 0.998601</gunPosition>
+			<armor>
+				<armor_1>150</armor_1>
+				<armor_2>95</armor_2>
+				<armor_3>35</armor_3>
+				<armor_4>50</armor_4>
+				<armor_5>75</armor_5>
+				<armor_6>50</armor_6>
+				<armor_7>35</armor_7>
+				<armor_8>0</armor_8>
+				<armor_9>20</armor_9>
+				<armor_10>95</armor_10>
+				<armor_11>95</armor_11>
+				<armor_12>20</armor_12>
+				<armor_13>35</armor_13>
+				<armor_14>50</armor_14>
+			</armor>
+			<primaryArmor>armor_5 armor_6 armor_4</primaryArmor>
+			<weight>7000</weight>
+			<maxHealth>250</maxHealth>
+			<rotationSpeed>36</rotationSpeed>
+			<turretRotatorHealth>
+				<maxHealth>120</maxHealth>
+				<maxRegenHealth>60</maxRegenHealth>
+				<repairCost>0</repairCost>
+				</turretRotatorHealth>
+			<circularVisionRadius>240</circularVisionRadius>
+			<surveyingDeviceHealth>
+				<maxHealth>80</maxHealth>
+				<maxRegenHealth>40</maxRegenHealth>
+				<repairCost>0</repairCost>
+				</surveyingDeviceHealth>
+			<emblemSlots>
+				<inscription>
+					<rayStart>-0.810964 0.390147 -0.990306</rayStart>
+					<rayEnd>-0.619053 0.352286 -0.948639</rayEnd>
+					<rayUp>0.000000 1 0.000000</rayUp>
+					<size>0.8</size>
+					<hideIfDamaged>true</hideIfDamaged>
+				</inscription>
+				<inscription>
+					<rayStart>0.810964 0.390147 -0.990306</rayStart>
+					<rayEnd>0.619053 0.352286 -0.948639</rayEnd>
+					<rayUp>0.000000 1 0.000000</rayUp>
+					<size>0.8</size>
+					<hideIfDamaged>true</hideIfDamaged>
+				</inscription>
+				<player>
+					<rayStart>-0.837264 0.392375 0.520857</rayStart>
+					<rayEnd>-0.660874 0.348505 0.437422</rayEnd>
+					<rayUp>0.000000 1 0.000000</rayUp>
+					<size>0.3</size>
+					<hideIfDamaged>true</hideIfDamaged>
+				</player>
+				<player>
+					<rayStart>0.837264 0.392375 0.520857</rayStart>
+					<rayEnd>0.660874 0.348505 0.437422</rayEnd>
+					<rayUp>0.000000 1 0.000000</rayUp>
+					<size>0.3</size>
+					<hideIfDamaged>false</hideIfDamaged>
+				</player>
+			</emblemSlots>
+			<invisibilityFactor>1.016</invisibilityFactor>
+			<guns>
+				<_75mm_Gun_Type5>shared<blitz>
+						<blitzPartName>gun_05</blitzPartName>
+						<bbox>
+							<min>-0.220730 -0.947375 -0.245750</min>
+							<max>0.205378 3.130038 0.304457</max>
+						</bbox>
+						<points>
+							<normal>0.000291 -1.249921 -2.072659</normal>
+						</points>
+					</blitz>
+					<maxAmmo>65</maxAmmo>
+					<models>
+						<undamaged>vehicles/japan/J10_Chi_To/normal/lod0/Gun_05.model</undamaged>
+						<destroyed>vehicles/japan/J10_Chi_To/normal/lod0/Gun_05.model</destroyed>
+						<exploded>vehicles/japan/J10_Chi_To/normal/lod0/Gun_05.model</exploded>
+					</models>
+					<hitTester>
+						<collisionModel>vehicles/japan/J10_Chi_To/collision/Gun_05.model</collisionModel>
+					</hitTester>
+					<armor>
+						<armor_1>150<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_1>
+						<armor_2>20<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_2>
+						<gun>20</gun>
+					</armor>
+					<pitchLimits>-20 10</pitchLimits>
+					<extraPitchLimits>
+						<back>-20 5 50</back>
+						<transition>5</transition>
+					</extraPitchLimits>
+					<shotDispersionRadius>0.37</shotDispersionRadius>
+					<shotDispersionFactors>
+						<turretRotation>0.08</turretRotation>
+						<afterShot>3.5</afterShot>
+						<whileGunDamaged>2.0</whileGunDamaged>
+					</shotDispersionFactors>
+					<aimingTime>2.1</aimingTime>
+					<invisibilityFactorAtShot>0.26</invisibilityFactorAtShot>
+					<reloadTime>7.5</reloadTime>
+				</_75mm_Gun_Type5>
+				<_75mm_Gun_Type5_M1>shared<blitz>
+						<blitzPartName>gun_05</blitzPartName>
+						<bbox>
+							<min>-0.220730 -0.947375 -0.245750</min>
+							<max>0.205378 3.130038 0.304457</max>
+						</bbox>
+						<points>
+							<normal>0.000291 -1.249921 -2.072659</normal>
+						</points>
+					</blitz>
+					<maxAmmo>65</maxAmmo>
+					<models>
+						<undamaged>vehicles/japan/J10_Chi_To/normal/lod0/Gun_05.model</undamaged>
+						<destroyed>vehicles/japan/J10_Chi_To/normal/lod0/Gun_05.model</destroyed>
+						<exploded>vehicles/japan/J10_Chi_To/normal/lod0/Gun_05.model</exploded>
+					</models>
+					<hitTester>
+						<collisionModel>vehicles/japan/J10_Chi_To/collision/Gun_05.model</collisionModel>
+					</hitTester>
+					<armor>
+						<armor_1>150<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_1>
+						<armor_2>20<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_2>
+						<gun>20</gun>
+					</armor>
+					<pitchLimits>-20 10</pitchLimits>
+					<extraPitchLimits>
+						<back>-20 5 50</back>
+						<transition>5</transition>
+					</extraPitchLimits>
+					<shotDispersionRadius>0.35</shotDispersionRadius>
+					<reloadTime>5.8</reloadTime>
+					<shotDispersionFactors>
+						<turretRotation>0.06</turretRotation>
+						<afterShot>3.5</afterShot>
+						<whileGunDamaged>2.0</whileGunDamaged>
+					</shotDispersionFactors>
+					<aimingTime>2.1</aimingTime>
+					<invisibilityFactorAtShot>0.247</invisibilityFactorAtShot>
+					<effects>shot_medium</effects>
+				</_75mm_Gun_Type5_M1>
+			</guns>
+			<showEmblemsOnGun>false</showEmblemsOnGun>
+			<physicsShape>1.000 0.000 1.000 0.000 1.000 0.000 0.500 0.100 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
+			<yawLimits>-180 180</yawLimits>
+		</Turret_2_Chi_To>
+	</turrets0>
+	<engines>
+		<_Type100_V12_Kakyuu>shared<unlocks>
+				<engine>_Type4_V12_Kuurei<cost>6310</cost>
+				</engine>
+			</unlocks>
+		</_Type100_V12_Kakyuu>
+		<_Type4_V12_Kuurei>shared</_Type4_V12_Kuurei>
+	</engines>
+	<fuelTanks>
+		<Average>shared</Average>
+	</fuelTanks>
+	<radios>
+		<_Hei>shared</_Hei>
+	</radios>
+</root>

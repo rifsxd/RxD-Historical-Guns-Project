@@ -27,7 +27,7 @@
 		<still>0.146</still>
 		<firePenalty>0.219</firePenalty>
 	</invisibility>
-	<repairCost>5.6</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -115,7 +115,7 @@
 		<ammoBayHealth>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -243,7 +243,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>190</maxHealth>
 			<maxRegenHealth>145</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_Panther_II>
 		<Chassis_Panther_II_2>
 			<blitz>
@@ -349,7 +349,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>210</maxHealth>
 			<maxRegenHealth>160</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_Panther_II_2>
 	</chassis>
 	<turrets0>
@@ -406,13 +406,13 @@
 			<turretRotatorHealth>
 				<maxHealth>140</maxHealth>
 				<maxRegenHealth>70</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>260</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_75mm_KwK45_L100>shared<blitz>
@@ -543,13 +543,13 @@
 			<turretRotatorHealth>
 				<maxHealth>140</maxHealth>
 				<maxRegenHealth>70</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>260</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_75mm_KwK45_L100>shared<blitz>

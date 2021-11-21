@@ -26,7 +26,7 @@
 		<still>0.115</still>
 		<firePenalty>0.173</firePenalty>
 	</invisibility>
-	<repairCost>6.0</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<optDevicePreset>drumGunVehiclePreset</optDevicePreset>
 	<consumableSlots>3</consumableSlots>
@@ -119,7 +119,7 @@
 		<ammoBayHealth>
 			<maxHealth>240</maxHealth>
 			<maxRegenHealth>160</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -237,7 +237,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>220</maxHealth>
 			<maxRegenHealth>165</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_S18_EMIL_1951_E1>
 		<Chassis_S18_EMIL_1951_E1_2>
 			<blitz>
@@ -333,7 +333,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>240</maxHealth>
 			<maxRegenHealth>180</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_S18_EMIL_1951_E1_2>
 	</chassis>
 	<turrets0>
@@ -393,13 +393,13 @@
 			<turretRotatorHealth>
 				<maxHealth>140</maxHealth>
 				<maxRegenHealth>70</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>2.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_105mm_lvkan_m_42>shared<blitz>

@@ -27,7 +27,7 @@
 		<still>0.08</still>
 		<firePenalty>0.12</firePenalty>
 	</invisibility>
-	<repairCost>5.4</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -58,8 +58,8 @@
 	<hull>
 		<blitz>
 			<averageThickness>
-				<turret_01>125.669655</turret_01>
-				<turret_02>129.921860</turret_02>
+				<turret_01>129.409607</turret_01>
+				<turret_02>141.697861</turret_02>
 			</averageThickness>
 			<blitzPartName>hull</blitzPartName>
 			<bbox>
@@ -97,11 +97,11 @@
 			<collisionModel>vehicles/german/G67_VK4502A/collision/Hull.model</collisionModel>
 		</hitTester>
 		<armor>
-			<armor_1>124.8</armor_1>
-			<armor_2>124.8</armor_2>
-			<armor_3>83.2</armor_3>
-			<armor_4>83.2</armor_4>
-			<armor_5>83.2</armor_5>
+			<armor_1>160</armor_1>
+			<armor_2>85</armor_2>
+			<armor_3>85</armor_3>
+			<armor_4>85</armor_4>
+			<armor_5>85</armor_5>
 			<armor_6>124.8</armor_6>
 			<armor_7>41.6</armor_7>
 			<armor_8>20.8</armor_8>
@@ -120,7 +120,7 @@
 		<ammoBayHealth>
 			<maxHealth>220</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -253,7 +253,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_VK4502A>
 		<Chassis_VK4502A_2>
 			<blitz>
@@ -371,7 +371,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>220</maxHealth>
 			<maxRegenHealth>165</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_VK4502A_2>
 	</chassis>
 	<turrets0>
@@ -430,13 +430,13 @@
 			<turretRotatorHealth>
 				<maxHealth>150</maxHealth>
 				<maxRegenHealth>75</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>2.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_88mm_KwK_36_L56>shared<blitz>
@@ -649,14 +649,14 @@
 			<yawLimits>-180 180</yawLimits>
 			<gunPosition>0.062704 0.407381 1.37323</gunPosition>
 			<armor>
-				<armor_1>194.3</armor_1>
-				<armor_2>194.3</armor_2>
+				<armor_1>250</armor_1>
+				<armor_2>250</armor_2>
 				<armor_3>84</armor_3>
 				<armor_4>73.5</armor_4>
 				<armor_5>278.3</armor_5>
 				<armor_6>147</armor_6>
 				<armor_7>63</armor_7>
-				<armor_8>42</armor_8>
+				<armor_8>55</armor_8>
 				<armor_9>42</armor_9>
 				<armor_10>84</armor_10>
 				<armor_11>31.5</armor_11>
@@ -669,13 +669,13 @@
 			<turretRotatorHealth>
 				<maxHealth>150</maxHealth>
 				<maxRegenHealth>75</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>2.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<invisibilityFactor>0.904</invisibilityFactor>
 			<guns>
@@ -707,15 +707,15 @@
 						<collisionModel>vehicles/german/G67_VK4502A/collision/Gun_03.model</collisionModel>
 					</hitTester>
 					<armor>
-						<armor_1>194.3<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_1>250<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_1>
-						<armor_2>194.3<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_2>220<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_2>
-						<armor_3>194.3<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_3>220<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_3>
-						<armor_4>194.3<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_4>220<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_4>
-						<armor_5>194.3<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_5>220<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_5>
 						<gun>35</gun>
 					</armor>
@@ -750,15 +750,15 @@
 						<collisionModel>vehicles/german/G67_VK4502A/collision/Gun_04.model</collisionModel>
 					</hitTester>
 					<armor>
-						<armor_1>194.3<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_1>250<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_1>
-						<armor_2>194.3<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_2>220<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_2>
-						<armor_3>194.3<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_3>220<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_3>
-						<armor_4>194.3<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_4>220<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_4>
-						<armor_5>194.3<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_5>220<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_5>
 						<gun>35</gun>
 					</armor>
@@ -796,15 +796,15 @@
 						<collisionModel>vehicles/german/G67_VK4502A/collision/Gun_05.model</collisionModel>
 					</hitTester>
 					<armor>
-						<armor_1>194.3<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_1>250<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_1>
-						<armor_2>194.3<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_2>220<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_2>
-						<armor_3>194.3<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_3>220<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_3>
-						<armor_4>194.3<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_4>220<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_4>
-						<armor_5>194.3<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_5>220<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_5>
 						<gun>40</gun>
 					</armor>

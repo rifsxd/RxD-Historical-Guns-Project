@@ -28,7 +28,7 @@
 		<still>0.209</still>
 		<firePenalty>0.314</firePenalty>
 	</invisibility>
-	<repairCost>6.6</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -120,7 +120,7 @@
 		<ammoBayHealth>
 			<maxHealth>240</maxHealth>
 			<maxRegenHealth>160</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -286,7 +286,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_GB72_AT15>
 		<Chassis_GB72_AT15_2>
 			<blitz>
@@ -409,7 +409,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>220</maxHealth>
 			<maxRegenHealth>165</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_GB72_AT15_2>
 	</chassis>
 	<turrets0>
@@ -460,13 +460,13 @@
 			<turretRotatorHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>240</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<emblemSlots/>
 			<guns>
@@ -608,14 +608,14 @@
 					<armor>
 						<gun>40</gun>
 					</armor>
-					<shotDispersionRadius>0.3</shotDispersionRadius>
+					<shotDispersionRadius>0.34</shotDispersionRadius>
 					<reloadTime>4.07142857142857</reloadTime>
 					<shotDispersionFactors>
 						<turretRotation>0.1</turretRotation>
 						<afterShot>3.5</afterShot>
 						<whileGunDamaged>2.0</whileGunDamaged>
 					</shotDispersionFactors>
-					<aimingTime>1.7</aimingTime>
+					<aimingTime>2.3</aimingTime>
 					<invisibilityFactorAtShot>0.338</invisibilityFactorAtShot>
 					<pitchLimits>-10 10</pitchLimits>
 					<turretYawLimits>-25 25</turretYawLimits>

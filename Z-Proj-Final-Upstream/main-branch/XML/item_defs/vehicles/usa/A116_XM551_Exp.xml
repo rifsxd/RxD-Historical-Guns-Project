@@ -27,7 +27,7 @@
 		<still>0.254</still>
 		<firePenalty>0.381</firePenalty>
 	</invisibility>
-	<repairCost>5.7</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<optDevicePreset>defaultPreset</optDevicePreset>
 	<consumableSlots>3</consumableSlots>
@@ -120,7 +120,7 @@
 		<ammoBayHealth>
 			<maxHealth>260</maxHealth>
 			<maxRegenHealth>180</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -234,7 +234,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>250</maxHealth>
 			<maxRegenHealth>190</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_A116_XM551_Exp>
 	</chassis>
 	<turrets0>
@@ -288,13 +288,13 @@
 			<turretRotatorHealth>
 				<maxHealth>170</maxHealth>
 				<maxRegenHealth>85</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>260</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>120</maxHealth>
 				<maxRegenHealth>60</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_152mm_XM150E4_exp>shared<blitz>

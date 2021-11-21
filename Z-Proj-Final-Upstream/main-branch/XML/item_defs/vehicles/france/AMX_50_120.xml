@@ -25,7 +25,7 @@
 		<still>0.07</still>
 		<firePenalty>0.105</firePenalty>
 	</invisibility>
-	<repairCost>5.0</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -109,7 +109,7 @@
 		<ammoBayHealth>
 			<maxHealth>260</maxHealth>
 			<maxRegenHealth>180</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -291,7 +291,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>240</maxHealth>
 			<maxRegenHealth>180</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			<AODecals>
 				<decal>
 					<transform>
@@ -600,7 +600,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>250</maxHealth>
 			<maxRegenHealth>190</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			<AODecals>
 				<decal>
 					<transform>
@@ -804,13 +804,13 @@
 			<turretRotatorHealth>
 				<maxHealth>150</maxHealth>
 				<maxRegenHealth>75</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>110</maxHealth>
 				<maxRegenHealth>55</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_90mm_canon_DCA_45>shared<blitz>

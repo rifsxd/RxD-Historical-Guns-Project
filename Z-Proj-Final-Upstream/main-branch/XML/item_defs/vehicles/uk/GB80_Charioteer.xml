@@ -25,7 +25,7 @@
 		<still>0.306</still>
 		<firePenalty>0.459</firePenalty>
 	</invisibility>
-	<repairCost>6.6</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -119,7 +119,7 @@
 		<ammoBayHealth>
 			<maxHealth>240</maxHealth>
 			<maxRegenHealth>160</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -231,7 +231,7 @@
 			<terrainResistance>1.1 1.3 1.6</terrainResistance>
 			<brakeForce>30000</brakeForce>
 			<rotationIsAroundCenter>true</rotationIsAroundCenter>
-			<rotationSpeed>24</rotationSpeed>
+			<rotationSpeed>28</rotationSpeed>
 			<shotDispersionFactors>
 				<vehicleMovement>0.2</vehicleMovement>
 				<vehicleRotation>0.2</vehicleRotation>
@@ -239,7 +239,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_GB80_Charioteer>
 		<Chassis_GB80_Charioteer_2>
 			<blitz>
@@ -329,7 +329,7 @@
 			<terrainResistance>1 1.1 1.5</terrainResistance>
 			<brakeForce>32000</brakeForce>
 			<rotationIsAroundCenter>true</rotationIsAroundCenter>
-			<rotationSpeed>28</rotationSpeed>
+			<rotationSpeed>32</rotationSpeed>
 			<shotDispersionFactors>
 				<vehicleMovement>0.16</vehicleMovement>
 				<vehicleRotation>0.16</vehicleRotation>
@@ -337,7 +337,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>220</maxHealth>
 			<maxRegenHealth>165</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_GB80_Charioteer_2>
 	</chassis>
 	<turrets0>
@@ -396,13 +396,13 @@
 			<turretRotatorHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_20pdr_AT_Gun_Type_B>shared<blitz>

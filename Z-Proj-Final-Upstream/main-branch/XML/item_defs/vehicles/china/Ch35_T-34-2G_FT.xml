@@ -26,7 +26,7 @@
 		<still>0.444</still>
 		<firePenalty>0.66</firePenalty>
 	</invisibility>
-	<repairCost>6.2</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<optDevicePreset>defaultPreset</optDevicePreset>
 	<consumableSlots>3</consumableSlots>
@@ -113,7 +113,7 @@
 		<ammoBayHealth>
 			<maxHealth>160</maxHealth>
 			<maxRegenHealth>110</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<fakeTurrets>
 			<lobby>0</lobby>
@@ -231,7 +231,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>120</maxHealth>
 			<maxRegenHealth>90</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			<unlocks>
 				<chassis>Chassis_Ch35_T-34-2G_FT_2<cost>8700</cost>
 				</chassis>
@@ -331,7 +331,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>130</maxHealth>
 			<maxRegenHealth>100</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_Ch35_T-34-2G_FT_2>
 	</chassis>
 	<turrets0>
@@ -371,13 +371,13 @@
 			<turretRotatorHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>240</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>90</maxHealth>
 				<maxRegenHealth>45</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_100mm_60_100TG_FT>shared<blitz>

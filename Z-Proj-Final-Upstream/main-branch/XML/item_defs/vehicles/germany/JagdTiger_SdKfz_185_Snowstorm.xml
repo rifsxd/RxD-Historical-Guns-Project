@@ -29,7 +29,7 @@
 		<still>0.187</still>
 		<firePenalty>0.281</firePenalty>
 	</invisibility>
-	<repairCost>6</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -116,7 +116,7 @@
 		<ammoBayHealth>
 			<maxHealth>220</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -261,7 +261,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>240</maxHealth>
 			<maxRegenHealth>180</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_JagdTiger_SdKfz_185_Snowstorm>
 	</chassis>
 	<turrets0>
@@ -310,13 +310,13 @@
 			<turretRotatorHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_88mm_KwK_43_L71A>shared<blitz>

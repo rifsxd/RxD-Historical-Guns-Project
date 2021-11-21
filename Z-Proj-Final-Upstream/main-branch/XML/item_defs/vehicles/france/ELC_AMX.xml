@@ -106,7 +106,7 @@
 			<armor_12>10</armor_12>
 		</armor>
 		<primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
-		<weight>3210</weight>
+		<weight>3530</weight>
 		<maxHealth>500</maxHealth>
 		<ammoBayHealth>
 			<maxHealth>125</maxHealth>
@@ -370,7 +370,7 @@
 			<maxClimbAngle>25</maxClimbAngle>
 			<navmeshGirth>6.0</navmeshGirth>
 			<weight>1500</weight>
-			<maxLoad>7950</maxLoad>
+			<maxLoad>10000</maxLoad>
 			<terrainResistance>1 1.2 1.4</terrainResistance>
 			<brakeForce>25000</brakeForce>
 			<rotationIsAroundCenter>false</rotationIsAroundCenter>
@@ -641,7 +641,7 @@
 			<maxClimbAngle>25</maxClimbAngle>
 			<navmeshGirth>6.0</navmeshGirth>
 			<weight>1500</weight>
-			<maxLoad>7950</maxLoad>
+			<maxLoad>10000</maxLoad>
 			<terrainResistance>0.9 1 1.3</terrainResistance>
 			<brakeForce>25000</brakeForce>
 			<rotationIsAroundCenter>false</rotationIsAroundCenter>

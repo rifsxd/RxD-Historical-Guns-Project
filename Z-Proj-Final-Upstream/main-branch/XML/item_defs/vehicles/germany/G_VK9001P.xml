@@ -28,7 +28,7 @@
 		<still>0.088</still>
 		<firePenalty>0.132</firePenalty>
 	</invisibility>
-	<repairCost>5.7</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<optDevicePreset>defaultPreset</optDevicePreset>
 	<consumableSlots>3</consumableSlots>
@@ -119,7 +119,7 @@
 		<ammoBayHealth>
 			<maxHealth>280</maxHealth>
 			<maxRegenHealth>190</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -235,7 +235,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>300</maxHealth>
 			<maxRegenHealth>225</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_VK9001P>
 	</chassis>
 	<turrets0>
@@ -292,13 +292,13 @@
 			<turretRotatorHealth>
 				<maxHealth>180</maxHealth>
 				<maxRegenHealth>90</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>120</maxHealth>
 				<maxRegenHealth>60</maxRegenHealth>
-				<repairCost>2.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_128mm_KwK44_L61A>shared<blitz>

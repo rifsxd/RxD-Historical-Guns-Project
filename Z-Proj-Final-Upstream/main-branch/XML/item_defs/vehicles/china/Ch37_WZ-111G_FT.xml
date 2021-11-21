@@ -26,7 +26,7 @@
 		<still>0.258</still>
 		<firePenalty>0.387</firePenalty>
 	</invisibility>
-	<repairCost>6.7</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<optDevicePreset>defaultPreset</optDevicePreset>
 	<consumableSlots>3</consumableSlots>
@@ -115,7 +115,7 @@
 		<ammoBayHealth>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<fakeTurrets>
 			<lobby>0</lobby>
@@ -233,7 +233,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			<unlocks>
 				<chassis>Chassis_Ch37_WZ111G_FT_2<cost>23300</cost>
 				</chassis>
@@ -333,7 +333,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>230</maxHealth>
 			<maxRegenHealth>175</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_Ch37_WZ111G_FT_2>
 	</chassis>
 	<turrets0>
@@ -373,13 +373,13 @@
 			<turretRotatorHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>110</maxHealth>
 				<maxRegenHealth>55</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_130mm_59_130JG_FT>shared<blitz>

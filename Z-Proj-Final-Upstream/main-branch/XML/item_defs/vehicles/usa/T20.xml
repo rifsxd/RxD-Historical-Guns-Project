@@ -27,7 +27,7 @@
 		<still>0.265</still>
 		<firePenalty>0.398</firePenalty>
 	</invisibility>
-	<repairCost>6.2</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -118,7 +118,7 @@
 		<ammoBayHealth>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -266,7 +266,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>130</maxHealth>
 			<maxRegenHealth>100</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</HVSS_T48>
 		<HVSS_T51>
 			<blitz>
@@ -385,7 +385,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>140</maxHealth>
 			<maxRegenHealth>105</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</HVSS_T51>
 	</chassis>
 	<turrets0>
@@ -438,13 +438,13 @@
 			<turretRotatorHealth>
 				<maxHealth>130</maxHealth>
 				<maxRegenHealth>65</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>90</maxHealth>
 				<maxRegenHealth>45</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_76mm_Gun_M1A2>shared<blitz>
@@ -566,13 +566,13 @@
 			<turretRotatorHealth>
 				<maxHealth>130</maxHealth>
 				<maxRegenHealth>65</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>260</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>90</maxHealth>
 				<maxRegenHealth>45</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_76mm_Gun_M1A2>shared<blitz>

@@ -328,8 +328,6 @@
 							<normal>-0.069000 -0.943037 -2.110913</normal>
 						</points>
 					</blitz>
-					<invisibilityFactorAtShot>0.247</invisibilityFactorAtShot>
-					<pitchLimits>-20 10</pitchLimits>
 					<maxAmmo>60</maxAmmo>
 					<effects>shot_75mm</effects>
 					<models>
@@ -349,6 +347,7 @@
 						</armor_3>
 						<gun>20</gun>
 					</armor>
+					<shotDispersionRadius>0.33</shotDispersionRadius>
 					<reloadTime>5.2</reloadTime>
 					<shotDispersionFactors>
 						<turretRotation>0.08</turretRotation>
@@ -356,6 +355,8 @@
 						<whileGunDamaged>2.0</whileGunDamaged>
 					</shotDispersionFactors>
 					<aimingTime>1.9</aimingTime>
+					<invisibilityFactorAtShot>0.247</invisibilityFactorAtShot>
+					<pitchLimits>-20 10</pitchLimits>
 				</_75mm_KwK_441_A>
 			</guns>
 			<emblemSlots>

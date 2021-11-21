@@ -32,7 +32,7 @@
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
 	<optDevicePreset>HEprotectionPreset</optDevicePreset>
-	<enrichmentBoost>1.4322</enrichmentBoost>
+	<enrichmentBoost>1.4321</enrichmentBoost>
 	<turretBlowEnabled>true</turretBlowEnabled>
 	<effects>
 		<collision/>

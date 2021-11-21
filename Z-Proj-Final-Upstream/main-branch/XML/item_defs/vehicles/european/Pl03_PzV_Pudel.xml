@@ -341,7 +341,7 @@
 					<invisibilityFactorAtShot>0.234</invisibilityFactorAtShot>
 					<shotDispersionRadius>0.33</shotDispersionRadius>
 					<reloadTime>6</reloadTime>
-					<aimingTime>2.3</aimingTime>
+					<aimingTime>2.1</aimingTime>
 					<shotDispersionFactors>
 						<turretRotation>0.08</turretRotation>
 						<afterShot>4</afterShot>

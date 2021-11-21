@@ -27,7 +27,7 @@
 		<still>0.245</still>
 		<firePenalty>0.368</firePenalty>
 	</invisibility>
-	<repairCost>6.2</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -111,7 +111,7 @@
 		<ammoBayHealth>
 			<maxHealth>150</maxHealth>
 			<maxRegenHealth>90</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -255,7 +255,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>90</maxHealth>
 			<maxRegenHealth>70</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</chassis_WZ-135G_FT>
 	</chassis>
 	<turrets0>
@@ -308,13 +308,13 @@
 			<turretRotatorHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>230</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>70</maxHealth>
 				<maxRegenHealth>35</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_122mm-D25_SA>shared<blitz>

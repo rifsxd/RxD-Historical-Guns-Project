@@ -27,7 +27,7 @@
 		<still>0.173</still>
 		<firePenalty>0.26</firePenalty>
 	</invisibility>
-	<repairCost>5.4</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -115,7 +115,7 @@
 		<ammoBayHealth>
 			<maxHealth>280</maxHealth>
 			<maxRegenHealth>190</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -238,7 +238,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>300</maxHealth>
 			<maxRegenHealth>225</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_E50_Ausf_M>
 	</chassis>
 	<turrets0>
@@ -293,13 +293,13 @@
 			<turretRotatorHealth>
 				<maxHealth>180</maxHealth>
 				<maxRegenHealth>90</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>260</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>120</maxHealth>
 				<maxRegenHealth>60</maxRegenHealth>
-				<repairCost>2.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_105mm_KwK45_L52_ausf_K>shared<blitz>

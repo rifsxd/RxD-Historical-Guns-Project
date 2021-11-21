@@ -333,7 +333,7 @@
 					<pitchLimits>-12 6</pitchLimits>
 					<shotDispersionRadius>0.36</shotDispersionRadius>
 					<aimingTime>2.3</aimingTime>
-					<reloadTime>5.5</reloadTime>
+					<reloadTime>5.3</reloadTime>
 					<shotDispersionFactors>
 						<turretRotation>0.1</turretRotation>
 						<afterShot>4</afterShot>

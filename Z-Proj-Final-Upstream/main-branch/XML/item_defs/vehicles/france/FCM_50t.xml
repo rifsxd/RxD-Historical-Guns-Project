@@ -28,7 +28,7 @@
 		<still>0.076</still>
 		<firePenalty>0.114</firePenalty>
 	</invisibility>
-	<repairCost>5.13</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -59,7 +59,7 @@
 	<hull>
 		<blitz>
 			<averageThickness>
-				<turret_01>97.631454</turret_01>
+				<turret_01>103.760612</turret_01>
 			</averageThickness>
 			<blitzPartName>hull</blitzPartName>
 			<bbox>
@@ -115,7 +115,7 @@
 		<ammoBayHealth>
 			<maxHealth>250</maxHealth>
 			<maxRegenHealth>200</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -246,7 +246,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>230</maxHealth>
 			<maxRegenHealth>175</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_FCM_50t>
 	</chassis>
 	<turrets0>
@@ -282,13 +282,13 @@
 			</hitTester>
 			<gunPosition>-0.000000 0.479398 1.13623</gunPosition>
 			<armor>
-				<armor_1>150</armor_1>
+				<armor_1>170</armor_1>
 				<armor_2>80</armor_2>
 				<armor_3>80</armor_3>
 				<armor_4>60</armor_4>
 				<armor_5>80</armor_5>
 				<armor_6>80</armor_6>
-				<armor_7>40</armor_7>
+				<armor_7>50</armor_7>
 				<armor_8>20</armor_8>
 				<armor_9>20</armor_9>
 				<armor_10>150</armor_10>
@@ -302,13 +302,13 @@
 			<turretRotatorHealth>
 				<maxHealth>120</maxHealth>
 				<maxRegenHealth>60</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>110</maxHealth>
 				<maxRegenHealth>55</maxRegenHealth>
-				<repairCost>2.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<emblemSlots>
 				<player>

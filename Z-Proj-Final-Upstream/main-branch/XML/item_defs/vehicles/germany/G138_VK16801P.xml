@@ -30,7 +30,7 @@
 		<camouflageNetBonus>0.05</camouflageNetBonus>
 		<firePenalty>0.062</firePenalty>
 	</invisibility>
-	<repairCost>5</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<optDevicePreset>defaultPreset</optDevicePreset>
 	<consumableSlots>3</consumableSlots>
@@ -126,7 +126,7 @@
 		<ammoBayHealth>
 			<maxHealth>220</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -240,7 +240,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>230</maxHealth>
 			<maxRegenHealth>175</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_G138_VK168_02>
 	</chassis>
 	<turrets0>
@@ -302,13 +302,13 @@
 			<turretRotatorHealth>
 				<maxHealth>150</maxHealth>
 				<maxRegenHealth>75</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>2.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_128mm_L50P>shared<blitz>
@@ -346,7 +346,7 @@
 						<gun>60</gun>
 					</armor>
 					<invisibilityFactorAtShot>0.162</invisibilityFactorAtShot>
-					<shotDispersionRadius>0.46</shotDispersionRadius>
+					<shotDispersionRadius>0.43</shotDispersionRadius>
 					<reloadTime>17</reloadTime>
 					<aimingTime>2.4</aimingTime>
 					<shotDispersionFactors>

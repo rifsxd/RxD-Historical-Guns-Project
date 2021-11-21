@@ -58,21 +58,24 @@
 	</horns>
 	<hull>
 		<blitz>
+			<armorScale>0.0374 0.0515 0.0278</armorScale>
+			<pushNormalsScale/>
 			<averageThickness>
-				<turret_01>33.571030</turret_01>
-				<turret_02>34.475742</turret_02>
+				<turret_01>33.399761</turret_01>
+				<turret_02>34.294167</turret_02>
 			</averageThickness>
 			<blitzPartName>hull</blitzPartName>
 			<bbox>
-				<min>-1.099322 -1.940161 -0.429452</min>
-				<max>1.105137 1.910897 0.814625</max>
+				<min>-1.117982 -1.938381 0.430894</min>
+				<max>1.122018 1.898621 1.714171</max>
 			</bbox>
 			<points>
-				<normal>-0.001813 0.000000 -0.811926</normal>
+				<normal>0.000000 0.000000 0.000000</normal>
 			</points>
 			<detachedTurret>
-				<cylinderPos>0.000000 0.000000 0.761000</cylinderPos>
-				<cylinderXYScale>0.655000</cylinderXYScale>
+				<cylinderPos>0.000000 0.000000 -0.069000</cylinderPos>
+				<cylinderXYScale>0.670000</cylinderXYScale>
+				<cylinderZScale>1.000000</cylinderZScale>
 			</detachedTurret>
 		</blitz>
 		<models>
@@ -92,7 +95,7 @@
 			<rates>5.0 10.0 25.0</rates>
 		</exhaust>
 		<turretPositions>
-			<turret>0.002908 0.777154 -0.044673</turret>
+			<turret>0.004300 1.686500 -0.080400</turret>
 		</turretPositions>
 		<hitTester>
 			<collisionModel>vehicles/american/A02_M2_lt/collision/Hull.model</collisionModel>
@@ -108,6 +111,7 @@
 			<armor_8>10.8</armor_8>
 			<armor_9>5.4</armor_9>
 			<armor_10>21.6</armor_10>
+			<armor_16>21.6</armor_16>
 			<driver>0<chanceToHitByProjectile>0</chanceToHitByProjectile>
 				<chanceToHitByExplosion>0</chanceToHitByExplosion>
 			</driver>
@@ -150,11 +154,11 @@
 			<blitz>
 				<blitzPartName>chassis</blitzPartName>
 				<bbox>
-					<min>-1.076742 -2.244333 0.019084</min>
-					<max>1.076741 2.040817 1.025486</max>
+					<min>-1.089551 -2.278045 0.001182</min>
+					<max>1.089551 2.010753 1.060686</max>
 				</bbox>
 				<points>
-					<normal>0.001549 -0.001981 -0.001280</normal>
+					<normal>0.000000 0.000000 0.000000</normal>
 				</points>
 				<soundPC>tanks/pc/treads/lt</soundPC>
 				<soundNPC>tanks/npc/treads/lt</soundNPC>
@@ -239,7 +243,7 @@
 				<mud>smallTankMud</mud>
 			</effects>
 			<sound>/vehicles/tanks/treads/treads_1</sound>
-			<hullPosition>0.000000 0.810827 0.000000</hullPosition>
+			<hullPosition>0.000000 0.000000 0.000000</hullPosition>
 			<hitTester>
 				<collisionModel>vehicles/american/A02_M2_lt/collision/Chassis.model</collisionModel>
 			</hitTester>
@@ -269,17 +273,18 @@
 	<turrets0>
 		<M2D27810>
 			<blitz>
+				<armorScale>1.0137 1.0236 1.0137</armorScale>
 				<blitzPartName>turret_01</blitzPartName>
 				<bbox>
-					<min>-0.639384 -0.635632 -1.029680</min>
-					<max>0.639384 0.903690 0.709961</max>
+					<min>-0.683078 -0.691107 -0.547894</min>
+					<max>0.686266 0.791612 0.743944</max>
 				</bbox>
 				<points>
-					<normal>-0.002699 0.044673 -1.587981</normal>
+					<normal>-0.004222 0.080559 -1.686630</normal>
 				</points>
 				<clipParams>
-					<clippingPlaneZPos>1.604000</clippingPlaneZPos>
-					<textureScaleFactor>0.655000</textureScaleFactor>
+					<clippingPlaneZPos>1.685534</clippingPlaneZPos>
+					<textureScaleFactor>0.569437</textureScaleFactor>
 					<shouldClipGun>false</shouldClipGun>
 				</clipParams>
 			</blitz>
@@ -301,7 +306,7 @@
 				<collisionModel>vehicles/american/A02_M2_lt/collision/Turret_01.model</collisionModel>
 			</hitTester>
 			<yawLimits>-180 180</yawLimits>
-			<gunPosition>0.000000 0.176981 0.854083</gunPosition>
+			<gunPosition>0.024700 0.206200 0.796000</gunPosition>
 			<armor>
 				<armor_1>36.4</armor_1>
 				<armor_2>31.2</armor_2>
@@ -310,8 +315,9 @@
 				<armor_5>31.2</armor_5>
 				<armor_6>10.4</armor_6>
 				<armor_7>10.4</armor_7>
-				<armor_8>5.2</armor_8>
+				<armor_8>8</armor_8>
 				<armor_9>20.8</armor_9>
+				<armor_16>20.8</armor_16>
 				<commander>0<chanceToHitByProjectile>0</chanceToHitByProjectile>
 					<chanceToHitByExplosion>0</chanceToHitByExplosion>
 				</commander>
@@ -339,13 +345,14 @@
 				</surveyingDeviceHealth>
 			<guns>
 				<_20mm_Hispano_Suiza_Birgikt_gun>shared<blitz>
+						<armorScale>1.0650 1.0650 1.0650</armorScale>
 						<blitzPartName>gun_02</blitzPartName>
 						<bbox>
-							<min>-0.259121 -0.306443 -0.120557</min>
-							<max>0.325694 1.727590 0.122656</max>
+							<min>-0.278277 -0.976894 -0.128355</min>
+							<max>0.278244 1.784754 0.128449</max>
 						</bbox>
 						<points>
-							<normal>-0.002908 -0.809410 -1.764962</normal>
+							<normal>-0.029369 -0.715787 -1.892297</normal>
 						</points>
 					</blitz>
 					<maxAmmo>564</maxAmmo>
@@ -372,7 +379,7 @@
 						</armor_2>
 						<armor_3>26<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_3>
-						<armor_4>0<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_4>10<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_4>
 						<gun>10<chanceToHitByProjectile>0</chanceToHitByProjectile>
 							<chanceToHitByExplosion>0</chanceToHitByExplosion>
@@ -391,6 +398,7 @@
 						<count>4</count>
 						<rate>600</rate>
 					</clip>
+					<effects>shot_20mm</effects>
 				</_20mm_Hispano_Suiza_Birgikt_gun>
 			</guns>
 			<emblemSlots>
@@ -421,17 +429,19 @@
 		</M2D27810>
 		<M2D27812>
 			<blitz>
+				<armorScale>0.0142 0.0142 0.0142</armorScale>
+				<pushNormalsScale/>
 				<blitzPartName>turret_02</blitzPartName>
 				<bbox>
-					<min>-0.702280 -0.678615 -0.839339</min>
-					<max>0.694497 0.795037 0.832072</max>
+					<min>-0.685782 -0.693179 -0.560049</min>
+					<max>0.688758 0.799840 0.827832</max>
 				</bbox>
 				<points>
-					<normal>-0.002908 0.043550 -1.588432</normal>
+					<normal>-0.004419 0.079993 -1.686329</normal>
 				</points>
 				<clipParams>
-					<clippingPlaneZPos>1.588432</clippingPlaneZPos>
-					<textureScaleFactor>0.613000</textureScaleFactor>
+					<clippingPlaneZPos>1.685000</clippingPlaneZPos>
+					<textureScaleFactor>-0.584000</textureScaleFactor>
 					<shouldClipGun>false</shouldClipGun>
 				</clipParams>
 			</blitz>
@@ -453,7 +463,7 @@
 				<collisionModel>vehicles/american/A02_M2_lt/collision/Turret_02.model</collisionModel>
 			</hitTester>
 			<yawLimits>-180 180</yawLimits>
-			<gunPosition>0.000000 0.271805 0.626484</gunPosition>
+			<gunPosition>-0.029800 0.244523 0.687900</gunPosition>
 			<armor>
 				<armor_1>36.4</armor_1>
 				<armor_2>36.4</armor_2>
@@ -463,7 +473,8 @@
 				<armor_6>10.4</armor_6>
 				<armor_7>10.4</armor_7>
 				<armor_8>5.2</armor_8>
-				<armor_9>26</armor_9>
+				<armor_9>45</armor_9>
+				<armor_16>26</armor_16>
 				<commander>0<chanceToHitByProjectile>0</chanceToHitByProjectile>
 					<chanceToHitByExplosion>0</chanceToHitByExplosion>
 				</commander>
@@ -491,13 +502,14 @@
 				</surveyingDeviceHealth>
 			<guns>
 				<_20mm_Hispano_Suiza_Birgikt_gun>shared<blitz>
+						<armorScale>1.0537 1.0537 1.0537</armorScale>
 						<blitzPartName>gun_04</blitzPartName>
 						<bbox>
-							<min>-0.272058 -0.173682 -0.216813</min>
-							<max>0.272058 1.932705 0.206133</max>
+							<min>-0.285914 -0.561809 -0.235592</min>
+							<max>0.282777 1.855240 0.216456</max>
 						</bbox>
 						<points>
-							<normal>-0.002908 -0.581810 -1.859786</normal>
+							<normal>0.024959 -0.607455 -1.930833</normal>
 						</points>
 					</blitz>
 					<maxAmmo>624</maxAmmo>
@@ -523,7 +535,7 @@
 						</armor_2>
 						<armor_3>26<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_3>
-						<armor_4>0<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_4>10<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_4>
 						<gun>10<chanceToHitByProjectile>0</chanceToHitByProjectile>
 							<chanceToHitByExplosion>0</chanceToHitByExplosion>
@@ -543,15 +555,18 @@
 						<count>4</count>
 						<rate>600</rate>
 					</clip>
+					<effects>shot_20mm</effects>
 				</_20mm_Hispano_Suiza_Birgikt_gun>
 				<_37mm_M-5>shared<blitz>
+						<armorScale>0.0191 0.0427 0.0078</armorScale>
+						<pushNormalsScale/>
 						<blitzPartName>gun_05</blitzPartName>
 						<bbox>
-							<min>-0.250490 -0.173682 -0.216813</min>
-							<max>0.250490 1.403087 0.206133</max>
+							<min>-0.286233 -0.919525 -0.235592</min>
+							<max>0.282458 1.280359 0.216456</max>
 						</bbox>
 						<points>
-							<normal>-0.002908 -0.583729 -1.859786</normal>
+							<normal>0.025895 -0.607785 -1.930580</normal>
 						</points>
 					</blitz>
 					<maxAmmo>103</maxAmmo>
@@ -575,7 +590,7 @@
 						</armor_2>
 						<armor_3>26<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_3>
-						<armor_4>0<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_4>10<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_4>
 						<gun>10<chanceToHitByProjectile>0</chanceToHitByProjectile>
 							<chanceToHitByExplosion>0</chanceToHitByExplosion>

@@ -19,7 +19,7 @@
 		<loader/>
 	</crew>
 	<speedLimits>
-		<forward>50.5</forward>
+		<forward>45</forward>
 		<backward>12</backward>
 	</speedLimits>
 	<invisibility>
@@ -348,7 +348,7 @@
 			<terrainResistance>1.2 1.4 2.2</terrainResistance>
 			<brakeForce>40000</brakeForce>
 			<rotationIsAroundCenter>true</rotationIsAroundCenter>
-			<rotationSpeed>24</rotationSpeed>
+			<rotationSpeed>26</rotationSpeed>
 			<shotDispersionFactors>
 				<vehicleMovement>0.22</vehicleMovement>
 				<vehicleRotation>0.22</vehicleRotation>

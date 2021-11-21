@@ -32,7 +32,7 @@
 		<still>0.253</still>
 		<firePenalty>0.38</firePenalty>
 	</invisibility>
-	<repairCost>6.5</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -126,7 +126,7 @@
 		<ammoBayHealth>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -240,7 +240,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>140</maxHealth>
 			<maxRegenHealth>105</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_Oth19_BDT-5C>
 	</chassis>
 	<turrets0>
@@ -299,13 +299,13 @@
 			<turretRotatorHealth>
 				<maxHealth>80</maxHealth>
 				<maxRegenHealth>40</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>60</maxHealth>
 				<maxRegenHealth>30</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_75mm_Gun_L1C>shared<blitz>

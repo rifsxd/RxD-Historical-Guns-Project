@@ -28,7 +28,7 @@
 		<still>0.354</still>
 		<firePenalty>0.531</firePenalty>
 	</invisibility>
-	<repairCost>5.7</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<optDevicePreset>defaultPreset</optDevicePreset>
 	<consumableSlots>3</consumableSlots>
@@ -111,7 +111,7 @@
 		<ammoBayHealth>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -225,7 +225,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>140</maxHealth>
 			<maxRegenHealth>105</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_A130_Super_Hellcat>
 	</chassis>
 	<turrets0>
@@ -278,13 +278,13 @@
 			<turretRotatorHealth>
 				<maxHealth>130</maxHealth>
 				<maxRegenHealth>65</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>240</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>90</maxHealth>
 				<maxRegenHealth>45</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_90mm_AT_Gun_M3T>shared<blitz>

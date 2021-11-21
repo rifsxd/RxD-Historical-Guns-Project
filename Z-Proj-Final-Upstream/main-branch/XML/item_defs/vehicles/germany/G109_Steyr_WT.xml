@@ -19,7 +19,7 @@
 	</crew>
 	<isUnlocked>true</isUnlocked>
 	<speedLimits>
-		<forward>45</forward>
+		<forward>50</forward>
 		<backward>17</backward>
 	</speedLimits>
 	<invisibility>
@@ -27,7 +27,7 @@
 		<still>0.397</still>
 		<firePenalty>0.596</firePenalty>
 	</invisibility>
-	<repairCost>5.7</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<optDevicePreset>drumGunVehiclePreset</optDevicePreset>
 	<consumableSlots>3</consumableSlots>
@@ -117,7 +117,7 @@
 		<ammoBayHealth>
 			<maxHealth>190</maxHealth>
 			<maxRegenHealth>130</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -231,7 +231,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>180</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
-			<repairCost>0.5</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_G109_Steyr_WT>
 	</chassis>
 	<turrets0>
@@ -283,13 +283,13 @@
 			<turretRotatorHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
-			<circularVisionRadius>230</circularVisionRadius>
+			<circularVisionRadius>240</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>90</maxHealth>
 				<maxRegenHealth>45</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_88mm_KwK_43_L71St>shared<blitz>
@@ -303,7 +303,7 @@
 							<normal>0.000047 0.415677 -1.708881</normal>
 						</points>
 					</blitz>
-					<maxAmmo>50</maxAmmo>
+					<maxAmmo>60</maxAmmo>
 					<hitTester>
 						<collisionModel>vehicles/german/G109_Steyr_WT/collision/Gun_01.model</collisionModel>
 					</hitTester>
@@ -331,16 +331,16 @@
 						<gunBreech>0</gunBreech>
 					</armor>
 					<shotDispersionRadius>0.36</shotDispersionRadius>
-					<aimingTime>2</aimingTime>
-					<reloadTime>13</reloadTime>
+					<aimingTime>1.6</aimingTime>
+					<reloadTime>14</reloadTime>
 					<shotDispersionFactors>
 						<turretRotation>0.09</turretRotation>
-						<afterShot>4</afterShot>
+						<afterShot>2.4</afterShot>
 						<whileGunDamaged>2.0</whileGunDamaged>
 					</shotDispersionFactors>
 					<invisibilityFactorAtShot>0.225</invisibilityFactorAtShot>
 					<clip>
-						<count>2</count>
+						<count>3</count>
 						<rate>24</rate>
 					</clip>
 					<pitchLimits>-17 7</pitchLimits>

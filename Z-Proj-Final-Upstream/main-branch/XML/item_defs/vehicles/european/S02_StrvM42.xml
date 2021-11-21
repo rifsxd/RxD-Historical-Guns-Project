@@ -601,6 +601,8 @@
 						</vehicle>
 						<vehicle>S07_Strv_74<cost>24350</cost>
 						</vehicle>
+						<vehicle>Pl10_40TP_Habicha<cost>26480</cost>
+						</vehicle>
 					</unlocks>
 					<armor>
 						<armor_1>55<vehicleDamageFactor>0.0</vehicleDamageFactor>

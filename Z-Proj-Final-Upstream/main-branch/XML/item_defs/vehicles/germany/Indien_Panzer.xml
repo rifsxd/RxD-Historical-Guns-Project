@@ -26,7 +26,7 @@
 		<still>0.208</still>
 		<firePenalty>0.312</firePenalty>
 	</invisibility>
-	<repairCost>6.3</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -117,7 +117,7 @@
 		<ammoBayHealth>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -237,7 +237,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>180</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_Indien_Panzer>
 		<Chassis_Indien_Panzer_2>
 			<blitz>
@@ -342,7 +342,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_Indien_Panzer_2>
 	</chassis>
 	<turrets0>
@@ -401,13 +401,13 @@
 			<turretRotatorHealth>
 				<maxHealth>140</maxHealth>
 				<maxRegenHealth>70</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>260</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<emblemSlots>
 				<player>
@@ -578,7 +578,7 @@
 						<gun>35</gun>
 					</armor>
 					<shotDispersionRadius>0.34</shotDispersionRadius>
-					<aimingTime>2.1</aimingTime>
+					<aimingTime>1.8</aimingTime>
 					<pitchLimits>-20 10</pitchLimits>
 					<extraPitchLimits>
 						<back>-20 7 20</back>

@@ -29,7 +29,7 @@
 		<still>0.054</still>
 		<firePenalty>0.081</firePenalty>
 	</invisibility>
-	<repairCost>4.5</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -58,14 +58,9 @@
 		<volumeFactor>1</volumeFactor>
 	</horns>
 	<hull>
-		<models>
-			<undamaged>vehicles/russian/R54_KV-5/normal/lod0/Hull.model</undamaged>
-			<destroyed>vehicles/russian/R54_KV-5/normal/lod0/Hull.model</destroyed>
-			<exploded>vehicles/russian/R54_KV-5/normal/lod0/Hull.model</exploded>
-		</models>
 		<blitz>
 			<averageThickness>
-				<turret_01>182.519943</turret_01>
+				<turret_01>185.625168</turret_01>
 			</averageThickness>
 			<blitzPartName>hull</blitzPartName>
 			<bbox>
@@ -80,6 +75,11 @@
 				<cylinderXYScale>1.162000</cylinderXYScale>
 			</detachedTurret>
 		</blitz>
+		<models>
+			<undamaged>vehicles/russian/R54_KV-5/normal/lod0/Hull.model</undamaged>
+			<destroyed>vehicles/russian/R54_KV-5/normal/lod0/Hull.model</destroyed>
+			<exploded>vehicles/russian/R54_KV-5/normal/lod0/Hull.model</exploded>
+		</models>
 		<swinging>
 			<lodDist>FAR</lodDist>
 			<pitchParams>0.26 36.00 0.48 1.00 0.05 0.32</pitchParams>
@@ -99,12 +99,12 @@
 		</hitTester>
 		<armor>
 			<armor_1>180</armor_1>
-			<armor_2>180</armor_2>
+			<armor_2>225</armor_2>
 			<armor_3>150</armor_3>
 			<armor_4>140</armor_4>
 			<armor_5>40</armor_5>
 			<armor_6>40</armor_6>
-			<armor_7>180</armor_7>
+			<armor_7>220</armor_7>
 			<armor_8>0</armor_8>
 			<armor_9>140</armor_9>
 			<armor_10>150</armor_10>
@@ -119,7 +119,7 @@
 		<ammoBayHealth>
 			<maxHealth>220</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -257,7 +257,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>220</maxHealth>
 			<maxRegenHealth>165</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_KV-5>
 	</chassis>
 	<turrets0>
@@ -295,7 +295,7 @@
 			<gunPosition>-0.000000 1.14418 1.1166</gunPosition>
 			<armor>
 				<armor_1>180</armor_1>
-				<armor_2>180</armor_2>
+				<armor_2>220</armor_2>
 				<armor_3>150</armor_3>
 				<armor_4>140</armor_4>
 				<armor_5>40</armor_5>
@@ -311,13 +311,13 @@
 			<turretRotatorHealth>
 				<maxHealth>160</maxHealth>
 				<maxRegenHealth>80</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>220</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>110</maxHealth>
 				<maxRegenHealth>55</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_107mm_ZiS-6M>shared<blitz>
@@ -344,7 +344,7 @@
 						<collisionModel>vehicles/russian/R54_KV-5/collision/Gun_01.model</collisionModel>
 					</hitTester>
 					<armor>
-						<armor_1>180<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_1>250<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_1>
 						<gun>40</gun>
 					</armor>
@@ -378,12 +378,12 @@
 						<collisionModel>vehicles/russian/R54_KV-5/collision/Gun_01.model</collisionModel>
 					</hitTester>
 					<armor>
-						<armor_1>180<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_1>250<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_1>
 						<gun>40</gun>
 					</armor>
 					<invisibilityFactorAtShot>0.22</invisibilityFactorAtShot>
-					<reloadTime>11.7</reloadTime>
+					<reloadTime>10</reloadTime>
 					<shotDispersionFactors>
 						<turretRotation>0.14</turretRotation>
 						<afterShot>4</afterShot>

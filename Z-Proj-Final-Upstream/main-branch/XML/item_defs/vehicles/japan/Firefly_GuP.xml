@@ -19,7 +19,7 @@
 	</crew>
 	<isUnlocked>true</isUnlocked>
 	<speedLimits>
-		<forward>48</forward>
+		<forward>50</forward>
 		<backward>18</backward>
 	</speedLimits>
 	<invisibility>
@@ -329,7 +329,7 @@
 						</armor_2>
 						<gun>20</gun>
 					</armor>
-					<shotDispersionRadius>0.35</shotDispersionRadius>
+					<shotDispersionRadius>0.33</shotDispersionRadius>
 					<aimingTime>2.1</aimingTime>
 					<reloadTime>5.7</reloadTime>
 					<shotDispersionFactors>

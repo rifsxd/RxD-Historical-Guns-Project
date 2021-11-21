@@ -27,7 +27,7 @@
 		<still>0.296</still>
 		<firePenalty>0.444</firePenalty>
 	</invisibility>
-	<repairCost>5.0</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<optDevicePreset>defaultPreset</optDevicePreset>
 	<consumableSlots>3</consumableSlots>
@@ -115,7 +115,7 @@
 		<ammoBayHealth>
 			<maxHealth>160</maxHealth>
 			<maxRegenHealth>110</maxRegenHealth>
-			<repairCost>2.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -229,7 +229,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>140</maxHealth>
 			<maxRegenHealth>105</maxRegenHealth>
-			<repairCost>7.5</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_T44_85>
 	</chassis>
 	<turrets0>
@@ -284,13 +284,13 @@
 			<turretRotatorHealth>
 				<maxHealth>130</maxHealth>
 				<maxRegenHealth>65</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>90</maxHealth>
 				<maxRegenHealth>45</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_85mm_ZiS_S-53_44>shared<blitz>

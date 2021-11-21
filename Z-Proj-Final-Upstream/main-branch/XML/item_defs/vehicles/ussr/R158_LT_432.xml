@@ -26,7 +26,7 @@
 		<still>0.326</still>
 		<firePenalty>0.489</firePenalty>
 	</invisibility>
-	<repairCost>5.7</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<optDevicePreset>defaultPreset</optDevicePreset>
 	<consumableSlots>3</consumableSlots>
@@ -114,11 +114,11 @@
 		</armor>
 		<primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
 		<weight>11095</weight>
-		<maxHealth>920</maxHealth>
+		<maxHealth>970</maxHealth>
 		<ammoBayHealth>
 			<maxHealth>180</maxHealth>
 			<maxRegenHealth>120</maxRegenHealth>
-			<repairCost>2.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -232,7 +232,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>7.5</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_R158_LT_432>
 	</chassis>
 	<turrets0>
@@ -289,13 +289,13 @@
 			<turretRotatorHealth>
 				<maxHealth>140</maxHealth>
 				<maxRegenHealth>70</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_100mm_D_33>shared<blitz>
@@ -324,7 +324,7 @@
 						</armor_1>
 						<gun>30</gun>
 					</armor>
-					<shotDispersionRadius>0.4</shotDispersionRadius>
+					<shotDispersionRadius>0.38</shotDispersionRadius>
 					<aimingTime>2.2</aimingTime>
 					<reloadTime>9.2</reloadTime>
 					<shotDispersionFactors>

@@ -28,7 +28,7 @@
 		<still>0.245</still>
 		<firePenalty>0.368</firePenalty>
 	</invisibility>
-	<repairCost>6.2</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -116,7 +116,7 @@
 		<ammoBayHealth>
 			<maxHealth>140</maxHealth>
 			<maxRegenHealth>90</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -232,7 +232,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>120</maxHealth>
 			<maxRegenHealth>90</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</T-34-85Bis_Rudy>
 	</chassis>
 	<turrets0>
@@ -287,13 +287,13 @@
 			<turretRotatorHealth>
 				<maxHealth>120</maxHealth>
 				<maxRegenHealth>60</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>240</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>80</maxHealth>
 				<maxRegenHealth>40</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_85mm_ZiS_S-53_Rudy>shared<blitz>

@@ -257,7 +257,7 @@
 			<terrainResistance>1 1.2 1.7</terrainResistance>
 			<brakeForce>32000</brakeForce>
 			<rotationIsAroundCenter>true</rotationIsAroundCenter>
-			<rotationSpeed>22</rotationSpeed>
+			<rotationSpeed>25</rotationSpeed>
 			<shotDispersionFactors>
 				<vehicleMovement>0.22</vehicleMovement>
 				<vehicleRotation>0.22</vehicleRotation>

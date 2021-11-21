@@ -29,7 +29,7 @@
 		<still>0.242</still>
 		<firePenalty>0.363</firePenalty>
 	</invisibility>
-	<repairCost>8.1</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -119,7 +119,7 @@
 		<ammoBayHealth>
 			<maxHealth>260</maxHealth>
 			<maxRegenHealth>180</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<fakeTurrets>
 			<lobby>0</lobby>
@@ -237,7 +237,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>250</maxHealth>
 			<maxRegenHealth>190</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_GB92_FV217>
 	</chassis>
 	<turrets0>
@@ -279,13 +279,13 @@
 			<turretRotatorHealth>
 				<maxHealth>170</maxHealth>
 				<maxRegenHealth>85</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>120</maxHealth>
 				<maxRegenHealth>60</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_123mm_OQF_Mk_1>shared<blitz>

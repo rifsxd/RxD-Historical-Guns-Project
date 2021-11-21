@@ -1,5 +1,5 @@
 <root>
-	<nextAvailableId>85</nextAvailableId>
+	<nextAvailableId>86</nextAvailableId>
 	<ids>
 		<_75mm_SA50>1</_75mm_SA50>
 		<_47mm_SA35>3</_47mm_SA35>
@@ -53,6 +53,7 @@
 		<_105mm_D_1504B>82</_105mm_D_1504B>
 		<_90mm_canon_DCA_45_Com>83</_90mm_canon_DCA_45_Com>
 		<_105mm_CN_105>84</_105mm_CN_105>
+		<_75mm_SA50BP_FR>85</_75mm_SA50BP_FR>
 	</ids>
 	<shared>
 		<_13.2mm_Hotchkiss_mle._1930>
@@ -1385,7 +1386,7 @@
 			<weight>2750</weight>
 			<maxHealth>170</maxHealth>
 			<maxRegenHealth>85</maxRegenHealth>
-			<repairCost>7</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.342857142857143</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1440,7 +1441,7 @@
 			<weight>2750</weight>
 			<maxHealth>170</maxHealth>
 			<maxRegenHealth>85</maxRegenHealth>
-			<repairCost>7</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.411428571428571</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1495,7 +1496,7 @@
 			<weight>2750</weight>
 			<maxHealth>170</maxHealth>
 			<maxRegenHealth>85</maxRegenHealth>
-			<repairCost>7</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.342857142857143</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1549,7 +1550,7 @@
 			<weight>3000</weight>
 			<maxHealth>190</maxHealth>
 			<maxRegenHealth>95</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.342857142857143</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1603,7 +1604,7 @@
 			<weight>3000</weight>
 			<maxHealth>208</maxHealth>
 			<maxRegenHealth>104</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.34</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1657,7 +1658,7 @@
 			<weight>3000</weight>
 			<maxHealth>190</maxHealth>
 			<maxRegenHealth>95</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.342857142857143</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1702,7 +1703,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.6</returnTime>
 			</recoil>
-			<effects>shot_1005mm</effects>
+			<effects>shot_105mm</effects>
 			<pitchLimits>-24 7</pitchLimits>
 			<rotationSpeed>26.25</rotationSpeed>
 			<reloadTime>9.71428571428571</reloadTime>
@@ -1820,7 +1821,7 @@
 			<weight>3580</weight>
 			<maxHealth>210</maxHealth>
 			<maxRegenHealth>105</maxRegenHealth>
-			<repairCost>10</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.32</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1874,7 +1875,7 @@
 			<weight>3580</weight>
 			<maxHealth>210</maxHealth>
 			<maxRegenHealth>105</maxRegenHealth>
-			<repairCost>10</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.28</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1928,7 +1929,7 @@
 			<weight>5000</weight>
 			<maxHealth>240</maxHealth>
 			<maxRegenHealth>120</maxRegenHealth>
-			<repairCost>10</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.285714285714286</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1982,7 +1983,7 @@
 			<weight>5000</weight>
 			<maxHealth>240</maxHealth>
 			<maxRegenHealth>120</maxRegenHealth>
-			<repairCost>10</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.285714285714286</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2027,7 +2028,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.36</returnTime>
 			</recoil>
-			<effects>shot_155mm</effects>
+			<effects>shot_90mm</effects>
 			<pitchLimits>-13 6</pitchLimits>
 			<rotationSpeed>36</rotationSpeed>
 			<reloadTime>10</reloadTime>
@@ -2036,7 +2037,7 @@
 			<weight>2500</weight>
 			<maxHealth>160</maxHealth>
 			<maxRegenHealth>80</maxRegenHealth>
-			<repairCost>7</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.38</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2092,7 +2093,7 @@
 			<weight>3000</weight>
 			<maxHealth>190</maxHealth>
 			<maxRegenHealth>95</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.35</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2202,7 +2203,7 @@
 			<weight>1282</weight>
 			<maxHealth>208</maxHealth>
 			<maxRegenHealth>104</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.150</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.42</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2258,7 +2259,7 @@
 			<weight>1282</weight>
 			<maxHealth>208</maxHealth>
 			<maxRegenHealth>104</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.150</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.42</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2314,7 +2315,7 @@
 			<weight>1500</weight>
 			<maxHealth>130</maxHealth>
 			<maxRegenHealth>65</maxRegenHealth>
-			<repairCost>5</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.35</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2418,7 +2419,7 @@
 			<weight>2980</weight>
 			<maxHealth>210</maxHealth>
 			<maxRegenHealth>105</maxRegenHealth>
-			<repairCost>10</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.153</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2473,7 +2474,7 @@
 			<weight>2200</weight>
 			<maxHealth>160</maxHealth>
 			<maxRegenHealth>80</maxRegenHealth>
-			<repairCost>7</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.37</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2529,7 +2530,7 @@
 			<weight>3000</weight>
 			<maxHealth>190</maxHealth>
 			<maxRegenHealth>95</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.35</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2640,7 +2641,7 @@
 			<weight>1210</weight>
 			<maxHealth>190</maxHealth>
 			<maxRegenHealth>95</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.198</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2695,7 +2696,7 @@
 			<weight>2750</weight>
 			<maxHealth>170</maxHealth>
 			<maxRegenHealth>85</maxRegenHealth>
-			<repairCost>7</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.41</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2751,7 +2752,7 @@
 			<weight>2600</weight>
 			<maxHealth>208</maxHealth>
 			<maxRegenHealth>104</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2783,5 +2784,60 @@
 				</_105mm_OE_105_Mle_60>
 			</shots>
 		</_105mm_CN_105>
+		<_75mm_SA50BP_FR>
+			<userString>#france_vehicles:_75mm_SA50BP</userString>
+			<shortUserString>#france_vehicles:_75mm_SA50BP_short</shortUserString>
+			<description>#france_vehicles:_75mm_SA50BP_descr</description>
+			<tags/>
+			<level>6</level>
+			<price>0</price>
+			<impulse>0.46</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.48</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.38</returnTime>
+			</recoil>
+			<effects>shot_75mm</effects>
+			<pitchLimits>-17 6</pitchLimits>
+			<rotationSpeed>35.0</rotationSpeed>
+			<reloadTime>4.57</reloadTime>
+			<maxAmmo>55</maxAmmo>
+			<aimingTime>2.29</aimingTime>
+			<weight>1740</weight>
+			<maxHealth>130</maxHealth>
+			<maxRegenHealth>65</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.34</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.16</turretRotation>
+				<afterShot>4.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_75mm_Prf1930>
+					<defaultPortion>0.83</defaultPortion>
+					<speed>1000</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>144 128</piercingPower>
+				</_75mm_Prf1930>
+				<_75mm_FrtPrf1944>
+					<defaultPortion>0.0</defaultPortion>
+					<speed>1250</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>202 179</piercingPower>
+				</_75mm_FrtPrf1944>
+				<_75mm_OE_mle_1924>
+					<defaultPortion>0.17</defaultPortion>
+					<speed>1000</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>38 38</piercingPower>
+				</_75mm_OE_mle_1924>
+			</shots>
+		</_75mm_SA50BP_FR>
 	</shared>
 </root>

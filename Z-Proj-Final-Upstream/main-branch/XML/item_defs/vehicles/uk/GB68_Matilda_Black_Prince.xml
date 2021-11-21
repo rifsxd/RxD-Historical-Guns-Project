@@ -20,7 +20,7 @@
 	</crew>
 	<isUnlocked>true</isUnlocked>
 	<speedLimits>
-		<forward>22</forward>
+		<forward>25</forward>
 		<backward>10</backward>
 	</speedLimits>
 	<invisibility>

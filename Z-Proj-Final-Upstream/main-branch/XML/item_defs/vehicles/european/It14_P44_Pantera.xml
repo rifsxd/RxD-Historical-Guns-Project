@@ -26,7 +26,7 @@
 		<still>0.232</still>
 		<firePenalty>0.348</firePenalty>
 	</invisibility>
-	<repairCost>5.6</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<optDevicePreset>drumGunVehiclePreset</optDevicePreset>
 	<consumableSlots>3</consumableSlots>
@@ -61,8 +61,8 @@
 			<armorScale>0.0211 0.1155 0.0211</armorScale>
 			<pushNormalsScale/>
 			<averageThickness>
-				<turret_01>72.465408</turret_01>
-				<turret_02>77.842796</turret_02>
+				<turret_01>76.032349</turret_01>
+				<turret_02>81.333359</turret_02>
 			</averageThickness>
 			<blitzPartName>hull</blitzPartName>
 			<bbox>
@@ -100,7 +100,7 @@
 			<collisionModel>vehicles/european/It14_P44_Pantera/collision/Hull.model</collisionModel>
 		</hitTester>
 		<armor>
-			<armor_1>80</armor_1>
+			<armor_1>100</armor_1>
 			<armor_2>60</armor_2>
 			<armor_3>50</armor_3>
 			<armor_4>50</armor_4>
@@ -116,7 +116,7 @@
 		<ammoBayHealth>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -234,7 +234,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>180</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
-			<repairCost>7.5</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_It14_P44_Pantera>
 		<Chassis_It14_P44_Pantera_2>
 			<blitz>
@@ -330,7 +330,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>7.5</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_It14_P44_Pantera_2>
 	</chassis>
 	<turrets0>
@@ -386,13 +386,13 @@
 			<turretRotatorHealth>
 				<maxHealth>140</maxHealth>
 				<maxRegenHealth>70</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>240</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_90mm_Cannone_da_53>shared<blitz>
@@ -514,13 +514,13 @@
 			<turretRotatorHealth>
 				<maxHealth>140</maxHealth>
 				<maxRegenHealth>70</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_90mm_Cannone_da_53>shared<blitz>

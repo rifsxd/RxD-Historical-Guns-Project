@@ -26,7 +26,7 @@
 		<still>0.119</still>
 		<firePenalty>0.179</firePenalty>
 	</invisibility>
-	<repairCost>4.5</repairCost>
+	<repairCost>0</repairCost>
 	<premiumVehicleXPFactor>0.1</premiumVehicleXPFactor>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
@@ -127,7 +127,7 @@
 		<ammoBayHealth>
 			<maxHealth>220</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<camouflage>
 			<tiling>1.06 1.06 0.000000 0.000000</tiling>
@@ -174,7 +174,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>7.5</repairCost>
+			<repairCost>0</repairCost>
 			<traces>
 				<lodDist>FAR</lodDist>
 				<bufferPrefs>mediumTank</bufferPrefs>
@@ -431,13 +431,13 @@
 			<turretRotatorHealth>
 				<maxHealth>140</maxHealth>
 				<maxRegenHealth>70</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>260</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_90mm_Gun_T208_rifled>shared<blitz>
@@ -480,7 +480,7 @@
 					</extraPitchLimits>
 					<invisibilityFactorAtShot>0.225</invisibilityFactorAtShot>
 					<shotDispersionRadius>0.34</shotDispersionRadius>
-					<reloadTime>6.9</reloadTime>
+					<reloadTime>6.0</reloadTime>
 					<shotDispersionFactors>
 						<turretRotation>0.1</turretRotation>
 						<afterShot>3.5</afterShot>

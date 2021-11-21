@@ -56,15 +56,10 @@
 		<volumeFactor>1</volumeFactor>
 	</horns>
 	<hull>
-		<models>
-			<undamaged>vehicles/british/GB09_Churchill_VII/normal/lod0/Hull.model</undamaged>
-			<destroyed>vehicles/british/GB09_Churchill_VII/normal/lod0/Hull.model</destroyed>
-			<exploded>vehicles/british/GB09_Churchill_VII/normal/lod0/Hull.model</exploded>
-		</models>
 		<blitz>
 			<averageThickness>
-				<turret_01>91.033089</turret_01>
-				<turret_02>102.379623</turret_02>
+				<turret_01>103.290939</turret_01>
+				<turret_02>118.585533</turret_02>
 			</averageThickness>
 			<blitzPartName>hull</blitzPartName>
 			<bbox>
@@ -79,6 +74,11 @@
 				<cylinderXYScale>0.761000</cylinderXYScale>
 			</detachedTurret>
 		</blitz>
+		<models>
+			<undamaged>vehicles/british/GB09_Churchill_VII/normal/lod0/Hull.model</undamaged>
+			<destroyed>vehicles/british/GB09_Churchill_VII/normal/lod0/Hull.model</destroyed>
+			<exploded>vehicles/british/GB09_Churchill_VII/normal/lod0/Hull.model</exploded>
+		</models>
 		<swinging>
 			<lodDist>FAR</lodDist>
 			<pitchParams>0.22 36.00 0.36 1.00 0.04 0.26</pitchParams>
@@ -101,10 +101,10 @@
 			<armor_2>139</armor_2>
 			<armor_3>95.25</armor_3>
 			<armor_4>50.8</armor_4>
-			<armor_5>86</armor_5>
+			<armor_5>120</armor_5>
 			<armor_6>82.55</armor_6>
 			<armor_7>25.4</armor_7>
-			<armor_8>19</armor_8>
+			<armor_8>50</armor_8>
 			<armor_9>15.7</armor_9>
 			<armor_10>19</armor_10>
 			<armor_11>202</armor_11>
@@ -584,12 +584,12 @@
 			<gunPosition>0.000000 0.349531 0.700874</gunPosition>
 			<armor>
 				<armor_1>152</armor_1>
-				<armor_2>139</armor_2>
+				<armor_2>152</armor_2>
 				<armor_3>95.25</armor_3>
 				<armor_4>95.25</armor_4>
 				<armor_5>95.25</armor_5>
 				<armor_6>202.8</armor_6>
-				<armor_7>25.4</armor_7>
+				<armor_7>50</armor_7>
 				<armor_8>19</armor_8>
 				<armor_9>19</armor_9>
 				<armor_10>0</armor_10>
@@ -637,7 +637,7 @@
 						<collisionModel>vehicles/british/GB09_Churchill_VII/collision/Gun_05.model</collisionModel>
 					</hitTester>
 					<armor>
-						<armor_1>139<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_1>152<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_1>
 						<armor_2>152<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_2>
@@ -678,7 +678,7 @@
 						<collisionModel>vehicles/british/GB09_Churchill_VII/collision/Gun_10.model</collisionModel>
 					</hitTester>
 					<armor>
-						<armor_1>139<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_1>152<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_1>
 						<armor_2>152<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_2>
@@ -722,7 +722,7 @@
 						<collisionModel>vehicles/british/GB09_Churchill_VII/collision/Gun_08.model</collisionModel>
 					</hitTester>
 					<armor>
-						<armor_1>139<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_1>152<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_1>
 						<armor_2>152<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_2>
@@ -731,8 +731,8 @@
 					<extraPitchLimits>
 						<back>-12 2 40</back>
 					</extraPitchLimits>
-					<shotDispersionRadius>0.36</shotDispersionRadius>
-					<reloadTime>5.5</reloadTime>
+					<shotDispersionRadius>0.38</shotDispersionRadius>
+					<reloadTime>5.3</reloadTime>
 					<aimingTime>2.3</aimingTime>
 					<invisibilityFactorAtShot>0.247</invisibilityFactorAtShot>
 					<shotDispersionFactors>

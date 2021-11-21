@@ -27,7 +27,7 @@
 		<still>0.38</still>
 		<firePenalty>0.57</firePenalty>
 	</invisibility>
-	<repairCost>5.7</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<optDevicePreset>defaultPreset</optDevicePreset>
 	<consumableSlots>3</consumableSlots>
@@ -60,7 +60,7 @@
 			<armorScale>0.0075 0.0075 0.0169</armorScale>
 			<pushNormalsScale/>
 			<averageThickness>
-				<turret_01>113.757423</turret_01>
+				<turret_01>113.617378</turret_01>
 			</averageThickness>
 			<blitzPartName>hull</blitzPartName>
 			<bbox>
@@ -115,7 +115,7 @@
 		<ammoBayHealth>
 			<maxHealth>240</maxHealth>
 			<maxRegenHealth>160</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<fakeTurrets>
 			<lobby>0</lobby>
@@ -233,7 +233,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>220</maxHealth>
 			<maxRegenHealth>165</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_Chassis_F89_Canon_dassaut_105>
 	</chassis>
 	<turrets0>
@@ -276,13 +276,13 @@
 			<turretRotatorHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>240</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_105mm_CN_105>shared<blitz>
@@ -318,7 +318,7 @@
 					</armor>
 					<shotDispersionRadius>0.34</shotDispersionRadius>
 					<aimingTime>1.7</aimingTime>
-					<reloadTime>8.5</reloadTime>
+					<reloadTime>9.5</reloadTime>
 					<shotDispersionFactors>
 						<turretRotation>0.12</turretRotation>
 						<afterShot>4</afterShot>

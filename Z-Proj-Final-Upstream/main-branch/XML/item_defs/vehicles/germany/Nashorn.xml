@@ -566,7 +566,7 @@
 						<afterShot>3</afterShot>
 						<whileGunDamaged>2.0</whileGunDamaged>
 					</shotDispersionFactors>
-					<aimingTime>1.9</aimingTime>
+					<aimingTime>2.1</aimingTime>
 					<invisibilityFactorAtShot>0.325</invisibilityFactorAtShot>
 				</_88mm_PaK_43_L71>
 			</guns>

@@ -26,7 +26,7 @@
 		<still>0.293</still>
 		<firePenalty>0.44</firePenalty>
 	</invisibility>
-	<repairCost>6.5</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -58,7 +58,7 @@
 		<blitz>
 			<armorScale>1.0111 1.0140 1.0155</armorScale>
 			<averageThickness>
-				<turret_01>124.294472</turret_01>
+				<turret_01>132.018326</turret_01>
 			</averageThickness>
 			<blitzPartName>hull</blitzPartName>
 			<bbox>
@@ -92,7 +92,7 @@
 			<collisionModel>vehicles/chinese/Ch36_WZ-111-1G_FT/collision/Hull.model</collisionModel>
 		</hitTester>
 		<armor>
-			<armor_1>100</armor_1>
+			<armor_1>130</armor_1>
 			<armor_2>120</armor_2>
 			<armor_3>80</armor_3>
 			<armor_4>60</armor_4>
@@ -115,7 +115,7 @@
 		<ammoBayHealth>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<fakeTurrets>
 			<lobby>0</lobby>
@@ -233,7 +233,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>180</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			<unlocks>
 				<chassis>Chassis_Ch36_WZ111_1G_FT_2<cost>15400</cost>
 				</chassis>
@@ -333,7 +333,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_Ch36_WZ111_1G_FT_2>
 	</chassis>
 	<turrets0>
@@ -374,13 +374,13 @@
 			<turretRotatorHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>240</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_122mm_60_122TG_FT>shared<blitz>

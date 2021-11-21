@@ -26,7 +26,7 @@
 		<still>0.293</still>
 		<firePenalty>0.44</firePenalty>
 	</invisibility>
-	<repairCost>5.70</repairCost>
+	<repairCost>0</repairCost>
 	<premiumVehicleXPFactor>0.1</premiumVehicleXPFactor>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
@@ -75,7 +75,7 @@
 		<ammoBayHealth>
 			<maxHealth>180</maxHealth>
 			<maxRegenHealth>120</maxRegenHealth>
-			<repairCost>2.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<models>
 			<undamaged>vehicles/russian/R112_T54_45/normal/lod0/Hull.model</undamaged>
@@ -149,7 +149,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>7.5</repairCost>
+			<repairCost>0</repairCost>
 			<models>
 				<undamaged>vehicles/russian/R112_T54_45/normal/lod0/Chassis.model</undamaged>
 				<destroyed>vehicles/russian/R112_T54_45/normal/lod0/Chassis.model</destroyed>
@@ -546,13 +546,13 @@
 			<turretRotatorHealth>
 				<maxHealth>140</maxHealth>
 				<maxRegenHealth>70</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>260</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_100mm_D10TK>shared<blitz>

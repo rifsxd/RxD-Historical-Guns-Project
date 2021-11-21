@@ -1304,7 +1304,7 @@
 			<weight>826</weight>
 			<maxHealth>144</maxHealth>
 			<maxRegenHealth>72</maxRegenHealth>
-			<repairCost>5</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.180</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.34</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1359,7 +1359,7 @@
 			<weight>1242</weight>
 			<maxHealth>170</maxHealth>
 			<maxRegenHealth>85</maxRegenHealth>
-			<repairCost>6</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.180</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1373,7 +1373,7 @@
 					<speed>1020</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
-					<piercingPower>226 211</piercingPower>
+					<piercingPower>225 211</piercingPower>
 				</_20pdr_AP_Mk1>
 				<_20pdr_APC_Mk2>
 					<defaultPortion>0.0</defaultPortion>
@@ -1408,13 +1408,13 @@
 			<pitchLimits>-20 12.5</pitchLimits>
 			<turretYawLimits>-180 180</turretYawLimits>
 			<rotationSpeed>40.25</rotationSpeed>
-			<reloadTime>3.25714285714286</reloadTime>
+			<reloadTime>3.26</reloadTime>
 			<maxAmmo>65</maxAmmo>
 			<aimingTime>2.1</aimingTime>
 			<weight>1282</weight>
 			<maxHealth>190</maxHealth>
 			<maxRegenHealth>95</maxRegenHealth>
-			<repairCost>6</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.170</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.36</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1423,27 +1423,27 @@
 				<whileGunDamaged>2.0</whileGunDamaged>
 			</shotDispersionFactors>
 			<shots>
-				<_20pdr_AP_Mk1>
+				<_20pdr_AP_Mk1H>
 					<defaultPortion>0.85</defaultPortion>
 					<speed>1020</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
 					<piercingPower>226 211</piercingPower>
-				</_20pdr_AP_Mk1>
-				<_20pdr_APC_Mk2>
+				</_20pdr_AP_Mk1H>
+				<_20pdr_APC_Mk2H>
 					<defaultPortion>0.0</defaultPortion>
 					<speed>1275</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
 					<piercingPower>258 248</piercingPower>
-				</_20pdr_APC_Mk2>
-				<_20pdr_HE_Mk3>
+				</_20pdr_APC_Mk2H>
+				<_20pdr_HE_Mk3H>
 					<defaultPortion>0.15</defaultPortion>
 					<speed>1020</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
 					<piercingPower>42 42</piercingPower>
-				</_20pdr_HE_Mk3>
+				</_20pdr_HE_Mk3H>
 			</shots>
 		</_20pdr_Gun_Type_B>
 		<_105mm_Gun_L7>
@@ -1468,7 +1468,7 @@
 			<weight>1282</weight>
 			<maxHealth>208</maxHealth>
 			<maxRegenHealth>104</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.170</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.422857142857143</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1522,7 +1522,7 @@
 			<weight>1282</weight>
 			<maxHealth>208</maxHealth>
 			<maxRegenHealth>104</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.170</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.42</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1577,7 +1577,7 @@
 			<weight>2850</weight>
 			<maxHealth>210</maxHealth>
 			<maxRegenHealth>105</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.170</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1736,7 +1736,7 @@
 			<weight>2850</weight>
 			<maxHealth>210</maxHealth>
 			<maxRegenHealth>105</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.160</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2033,7 +2033,7 @@
 			<weight>5400</weight>
 			<maxHealth>280</maxHealth>
 			<maxRegenHealth>140</maxRegenHealth>
-			<repairCost>12</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.130</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.377142857142857</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2240,7 +2240,7 @@
 			<weight>1282</weight>
 			<maxHealth>190</maxHealth>
 			<maxRegenHealth>95</maxRegenHealth>
-			<repairCost>6</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.160</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.36</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2293,7 +2293,7 @@
 			<weight>1242</weight>
 			<maxHealth>170</maxHealth>
 			<maxRegenHealth>85</maxRegenHealth>
-			<repairCost>6</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.160</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2399,7 +2399,7 @@
 			<weight>2972</weight>
 			<maxHealth>180</maxHealth>
 			<maxRegenHealth>90</maxRegenHealth>
-			<repairCost>7</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.170</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.354285714285714</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2672,7 +2672,7 @@
 			<weight>1488</weight>
 			<maxHealth>170</maxHealth>
 			<maxRegenHealth>85</maxRegenHealth>
-			<repairCost>7</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2686,7 +2686,7 @@
 					<speed>1143</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
-					<piercingPower>212 190</piercingPower>
+					<piercingPower>215 190</piercingPower>
 				</_90mm_AP_M318>
 				<_90mm_APFSDS_T320>
 					<defaultPortion>0.0</defaultPortion>
@@ -2894,7 +2894,7 @@
 			<weight>1808</weight>
 			<maxHealth>210</maxHealth>
 			<maxRegenHealth>105</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -3034,7 +3034,7 @@
 			<weight>1869</weight>
 			<maxHealth>210</maxHealth>
 			<maxRegenHealth>105</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.46</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -3090,7 +3090,7 @@
 			<weight>1282</weight>
 			<maxHealth>208</maxHealth>
 			<maxRegenHealth>104</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.42</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -3145,7 +3145,7 @@
 			<weight>1282</weight>
 			<maxHealth>208</maxHealth>
 			<maxRegenHealth>104</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.42</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -3201,7 +3201,7 @@
 			<weight>2850</weight>
 			<maxHealth>210</maxHealth>
 			<maxRegenHealth>105</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.170</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -3257,7 +3257,7 @@
 			<weight>2972</weight>
 			<maxHealth>180</maxHealth>
 			<maxRegenHealth>90</maxRegenHealth>
-			<repairCost>7</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -3313,7 +3313,7 @@
 			<weight>1808</weight>
 			<maxHealth>210</maxHealth>
 			<maxRegenHealth>105</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -3369,7 +3369,7 @@
 			<weight>1282</weight>
 			<maxHealth>190</maxHealth>
 			<maxRegenHealth>95</maxRegenHealth>
-			<repairCost>6</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.36</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -3425,7 +3425,7 @@
 			<weight>1282</weight>
 			<maxHealth>190</maxHealth>
 			<maxRegenHealth>95</maxRegenHealth>
-			<repairCost>6</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.36</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -3481,7 +3481,7 @@
 			<weight>2850</weight>
 			<maxHealth>210</maxHealth>
 			<maxRegenHealth>105</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.170</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -3537,7 +3537,7 @@
 			<weight>1282</weight>
 			<maxHealth>208</maxHealth>
 			<maxRegenHealth>104</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.170</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.422857142857143</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -3592,7 +3592,7 @@
 			<weight>826</weight>
 			<maxHealth>144</maxHealth>
 			<maxRegenHealth>72</maxRegenHealth>
-			<repairCost>5</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.180</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -3648,7 +3648,7 @@
 			<weight>1282</weight>
 			<maxHealth>190</maxHealth>
 			<maxRegenHealth>95</maxRegenHealth>
-			<repairCost>6</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.36</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -3704,7 +3704,7 @@
 			<weight>3500</weight>
 			<maxHealth>208</maxHealth>
 			<maxRegenHealth>104</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>

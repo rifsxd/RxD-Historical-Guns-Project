@@ -29,7 +29,9 @@
 		<_105mm_StuH42_L28WH>81</_105mm_StuH42_L28WH>
 		<_80mm_Gun_HWT20>82</_80mm_Gun_HWT20>
 		<_75mm_kan_m_43A>83</_75mm_kan_m_43A>
+		<_105mm_KwK18_L52HW>84</_105mm_KwK18_L52HW>
 		<_75mm_SA50BP>85</_75mm_SA50BP>
+		<QF_6_pounder_Mk_V_HW>86</QF_6_pounder_Mk_V_HW>
 	</ids>
 	<shared>
 		<_75mm_L56_5_kan_Strv_74>
@@ -116,7 +118,7 @@
 			<weight>2150</weight>
 			<maxHealth>150</maxHealth>
 			<maxRegenHealth>75</maxRegenHealth>
-			<repairCost>7</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.180</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.38</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -170,7 +172,7 @@
 			<weight>3000</weight>
 			<maxHealth>180</maxHealth>
 			<maxRegenHealth>90</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.250</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.43</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -232,7 +234,7 @@
 			<weight>3800</weight>
 			<maxHealth>135</maxHealth>
 			<maxRegenHealth>67</maxRegenHealth>
-			<repairCost>6</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.250</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.37</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -286,7 +288,7 @@
 			<weight>2100</weight>
 			<maxHealth>170</maxHealth>
 			<maxRegenHealth>85</maxRegenHealth>
-			<repairCost>7</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.37</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -340,7 +342,7 @@
 			<weight>2250</weight>
 			<maxHealth>170</maxHealth>
 			<maxRegenHealth>85</maxRegenHealth>
-			<repairCost>7</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.225</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.37</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -395,7 +397,7 @@
 			<weight>2590</weight>
 			<maxHealth>192</maxHealth>
 			<maxRegenHealth>96</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.45714285714286</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -450,7 +452,7 @@
 			<weight>2590</weight>
 			<maxHealth>192</maxHealth>
 			<maxRegenHealth>96</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.270</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.41</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -506,7 +508,7 @@
 			<weight>2500</weight>
 			<maxHealth>184</maxHealth>
 			<maxRegenHealth>92</maxRegenHealth>
-			<repairCost>10</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.203</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.5</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -562,7 +564,7 @@
 			<weight>1950</weight>
 			<maxHealth>130</maxHealth>
 			<maxRegenHealth>65</maxRegenHealth>
-			<repairCost>5</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.36</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -617,7 +619,7 @@
 			<weight>2300</weight>
 			<maxHealth>194</maxHealth>
 			<maxRegenHealth>97</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.209</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.38</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -806,7 +808,7 @@
 			<weight>1850</weight>
 			<maxHealth>134</maxHealth>
 			<maxRegenHealth>67</maxRegenHealth>
-			<repairCost>6</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.238</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.36</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -862,7 +864,7 @@
 			<weight>1258</weight>
 			<maxHealth>170</maxHealth>
 			<maxRegenHealth>85</maxRegenHealth>
-			<repairCost>6</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.180</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1028,7 +1030,7 @@
 			<weight>2500</weight>
 			<maxHealth>184</maxHealth>
 			<maxRegenHealth>92</maxRegenHealth>
-			<repairCost>10</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.203</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.5</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1193,7 +1195,7 @@
 			<weight>1740</weight>
 			<maxHealth>130</maxHealth>
 			<maxRegenHealth>65</maxRegenHealth>
-			<repairCost>5</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.180</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1248,7 +1250,7 @@
 			<weight>1740</weight>
 			<maxHealth>130</maxHealth>
 			<maxRegenHealth>65</maxRegenHealth>
-			<repairCost>5</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.35</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1304,7 +1306,7 @@
 			<weight>3000</weight>
 			<maxHealth>180</maxHealth>
 			<maxRegenHealth>90</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.250</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.43</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1359,7 +1361,7 @@
 			<weight>2590</weight>
 			<maxHealth>700</maxHealth>
 			<maxRegenHealth>700</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.270</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.41</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1479,7 +1481,7 @@
 			<weight>5800</weight>
 			<maxHealth>135</maxHealth>
 			<maxRegenHealth>67</maxRegenHealth>
-			<repairCost>6</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.250</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.37</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1566,6 +1568,62 @@
 				</_75mm_sgr_m_38>
 			</shots>
 		</_75mm_kan_m_43A>
+		<_105mm_KwK18_L52HW>
+			<userString>#other_vehicles:_105mm_KwK18_L52HW</userString>
+			<shortUserString>#other_vehicles:_105mm_KwK18_L52HW_short</shortUserString>
+			<description>#other_vehicles:_105mm_KwK18_L52HW_descr</description>
+			<tags/>
+			<level>8</level>
+			<price>0</price>
+			<notInShop>true</notInShop>
+			<impulse>0.38</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.38</amplitude>
+				<backoffTime>0.2</backoffTime>
+				<returnTime>0.6</returnTime>
+			</recoil>
+			<effects>shot_105mm</effects>
+			<pitchLimits>-17 8</pitchLimits>
+			<rotationSpeed>21.875</rotationSpeed>
+			<reloadTime>7.4</reloadTime>
+			<maxAmmo>42</maxAmmo>
+			<aimingTime>2.28</aimingTime>
+			<weight>3000</weight>
+			<maxHealth>170</maxHealth>
+			<maxRegenHealth>85</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.297</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.34</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>3.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_105mm_PzGr39_HW>
+					<defaultPortion>0.85</defaultPortion>
+					<speed>805</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>180 164</piercingPower>
+				</_105mm_PzGr39_HW>
+				<_105mm_Pzgr.40_HW>
+					<defaultPortion>0.0</defaultPortion>
+					<speed>1006</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>250 227</piercingPower>
+				</_105mm_Pzgr.40_HW>
+				<_105mm_Sprg_HW>
+					<defaultPortion>0.15</defaultPortion>
+					<speed>805</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>53 53</piercingPower>
+				</_105mm_Sprg_HW>
+			</shots>
+		</_105mm_KwK18_L52HW>
 		<_75mm_SA50BP>
 			<userString>#other_vehicles:_75mm_SA50BP</userString>
 			<shortUserString>#other_vehicles:_75mm_SA50BP_short</shortUserString>
@@ -1621,5 +1679,61 @@
 				</_75mm_OE_mle_1924BP>
 			</shots>
 		</_75mm_SA50BP>
+		<QF_6_pounder_Mk_V_HW>
+			<userString>#other_vehicles:QF_6_pounder_Mk_V_HW</userString>
+			<shortUserString>#other_vehicles:QF_6_pounder_Mk_V_HW_short</shortUserString>
+			<description>#other_vehicles:QF_6_pounder_Mk_V_HW_descr</description>
+			<tags/>
+			<level>5</level>
+			<price>0</price>
+			<impulse>0.26</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.16</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.4</returnTime>
+			</recoil>
+			<effects>shot_57mm</effects>
+			<pitchLimits>-12 6</pitchLimits>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<rotationSpeed>43.75</rotationSpeed>
+			<reloadTime>2.29</reloadTime>
+			<maxAmmo>92</maxAmmo>
+			<aimingTime>2.29</aimingTime>
+			<weight>450</weight>
+			<maxHealth>104</maxHealth>
+			<maxRegenHealth>52</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.220</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.44</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>4.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_6pdr_AP_HW>
+					<defaultPortion>0.85</defaultPortion>
+					<speed>892</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>130 115</piercingPower>
+				</_6pdr_AP_HW>
+				<_6pdr_APCR_HW>
+					<defaultPortion>0.0</defaultPortion>
+					<speed>1115</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>180 126</piercingPower>
+				</_6pdr_APCR_HW>
+				<_6pdr_HE_HW>
+					<defaultPortion>0.15</defaultPortion>
+					<speed>892</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>15 15</piercingPower>
+				</_6pdr_HE_HW>
+			</shots>
+		</QF_6_pounder_Mk_V_HW>
 	</shared>
 </root>

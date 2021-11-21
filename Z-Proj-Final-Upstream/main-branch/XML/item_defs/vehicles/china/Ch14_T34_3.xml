@@ -28,7 +28,7 @@
 		<camouflageNetBonus>0.1</camouflageNetBonus>
 		<firePenalty>0.293</firePenalty>
 	</invisibility>
-	<repairCost>5.7</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -116,7 +116,7 @@
 		<ammoBayHealth>
 			<maxHealth>180</maxHealth>
 			<maxRegenHealth>120</maxRegenHealth>
-			<repairCost>2.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -230,7 +230,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>7.5</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_Ch14_T34_3>
 	</chassis>
 	<turrets0>
@@ -291,13 +291,13 @@
 			<turretRotatorHealth>
 				<maxHealth>140</maxHealth>
 				<maxRegenHealth>70</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_122-mm_D25-TA_2>shared<blitz>
@@ -336,7 +336,7 @@
 						</armor_10>
 						<gun>45</gun>
 					</armor>
-					<shotDispersionRadius>0.43</shotDispersionRadius>
+					<shotDispersionRadius>0.4</shotDispersionRadius>
 					<reloadTime>15</reloadTime>
 					<aimingTime>1.1</aimingTime>
 					<shotDispersionFactors>

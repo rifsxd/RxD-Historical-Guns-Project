@@ -1,10 +1,10 @@
 ************************************************ Basic Info ****************************************************
 - RxD Historical Gun Sounds ~
-- Blitz Version: 8.3
-- Mod Version: 1.5.3
+- Blitz Version: 8.5
+- Mod Version: 1.5.5
 - Historical Samples Version: 1.0 
-- XML Config Version: 8.3.X
-- Build Date & Time: 10:19 UTC+06 - 01/10/2021
+- XML Config Version: 8.5.X
+- Build Date & Time: 06:10 UTC+06 - 21/11/2021
 - Author: RifsxD
 - Guilded Server: https://www.guilded.gg/r/zzORL9m25l?i=dODw9xem
 
@@ -38,6 +38,10 @@ Installation Method: -----------------------------------------------------------
           },
            
 *************************************** Changelogs *************************************
+
+*** V-1.5.5 ~ 8.5 Patch ***
+
+    - Added European Polish Tech Tree Heavies & Other Additional New Tanks.
 
 *** V-1.5.3 ~ 8.3 Patch ***
 

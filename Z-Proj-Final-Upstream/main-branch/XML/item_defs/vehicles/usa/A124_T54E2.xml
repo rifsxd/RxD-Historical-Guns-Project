@@ -9,6 +9,7 @@
 		<fireEffectPathAlive>FX/SmokeFire_tank_movement_new.sc2</fireEffectPathAlive>
 		<fireEffectPathDead>FX/Fire_and_Smoke.sc2</fireEffectPathDead>
 		<collisionMesh>CollisionMeshes/usa-A124_T54E2.sc2</collisionMesh>
+		<customEffects/>
 	</blitz>
 	<crew>
 		<commander>radioman</commander>
@@ -26,7 +27,7 @@
 		<still>0.08</still>
 		<firePenalty>0.12</firePenalty>
 	</invisibility>
-	<repairCost>5.7</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<optDevicePreset>defaultPreset</optDevicePreset>
 	<consumableSlots>3</consumableSlots>
@@ -68,7 +69,7 @@
 				<max>1.336621 3.315328 1.682086</max>
 			</bbox>
 			<points>
-				<normal>-0.000534 -0.000316 -0.059867</normal>
+				<normal>-0.000534 -0.000316 0.000138</normal>
 			</points>
 			<detachedTurret>
 				<cylinderPos>0.000000 -0.006000 0.000000</cylinderPos>
@@ -119,7 +120,7 @@
 		<ammoBayHealth>
 			<maxHealth>240</maxHealth>
 			<maxRegenHealth>160</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -147,7 +148,7 @@
 					<max>1.821517 3.228221 1.366156</max>
 				</bbox>
 				<points>
-					<normal>0.000000 -0.000526 -0.058276</normal>
+					<normal>0.000000 -0.000526 0.000535</normal>
 				</points>
 				<soundPC>tanks/pc/treads/mt</soundPC>
 				<soundNPC>tanks/npc/treads/mt</soundNPC>
@@ -227,7 +228,7 @@
 			<terrainResistance>1.1 1.5 2.3</terrainResistance>
 			<brakeForce>36500</brakeForce>
 			<rotationIsAroundCenter>true</rotationIsAroundCenter>
-			<rotationSpeed>26</rotationSpeed>
+			<rotationSpeed>28</rotationSpeed>
 			<shotDispersionFactors>
 				<vehicleMovement>0.21</vehicleMovement>
 				<vehicleRotation>0.21</vehicleRotation>
@@ -235,13 +236,13 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>220</maxHealth>
 			<maxRegenHealth>165</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_A124_T54E2>
 	</chassis>
 	<turrets0>
 		<Turret_1_A124_T54E2>
 			<blitz>
-				<armorScale>0.0324 0.0521 0.0070</armorScale>
+				<armorScale>0.0580 0.0620 0.0493</armorScale>
 				<pushNormalsScale/>
 				<blitzPartName>turret_01</blitzPartName>
 				<bbox>
@@ -249,7 +250,7 @@
 					<max>1.265796 1.670379 1.301003</max>
 				</bbox>
 				<points>
-					<normal>-0.000371 -0.574204 -1.623559</normal>
+					<normal>-0.000371 -0.574204 -1.563050</normal>
 				</points>
 				<clipParams>
 					<clippingPlaneZPos>1.689000</clippingPlaneZPos>
@@ -299,13 +300,13 @@
 			<turretRotatorHealth>
 				<maxHealth>150</maxHealth>
 				<maxRegenHealth>75</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>240</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>2.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_105mm_Gun_T140E1>shared<blitz>
@@ -317,7 +318,7 @@
 							<max>0.225302 5.820867 0.225858</max>
 						</bbox>
 						<points>
-							<normal>0.000000 -2.195126 -2.067200</normal>
+							<normal>0.000000 -2.195126 -2.006696</normal>
 						</points>
 					</blitz>
 					<maxAmmo>45</maxAmmo>

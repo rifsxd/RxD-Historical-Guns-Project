@@ -17,7 +17,6 @@
 		<driver/>
 		<loader/>
 	</crew>
-	<isUnlocked>true</isUnlocked>
 	<speedLimits>
 		<forward>36</forward>
 		<backward>15</backward>
@@ -27,12 +26,12 @@
 		<still>0.105</still>
 		<firePenalty>0.158</firePenalty>
 	</invisibility>
-	<repairCost>6.0</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<optDevicePreset>defaultPreset</optDevicePreset>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
-	<enrichmentBoost>0.0</enrichmentBoost>
+	<enrichmentBoost>1.6625</enrichmentBoost>
 	<subnation>poland</subnation>
 	<turretBlowEnabled>true</turretBlowEnabled>
 	<effects>
@@ -122,7 +121,7 @@
 		<ammoBayHealth>
 			<maxHealth>210</maxHealth>
 			<maxRegenHealth>140</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -236,7 +235,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>250</maxHealth>
 			<maxRegenHealth>190</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_Pl15_60TP>
 	</chassis>
 	<turrets0>
@@ -298,13 +297,13 @@
 			<turretRotatorHealth>
 				<maxHealth>170</maxHealth>
 				<maxRegenHealth>85</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>120</maxHealth>
 				<maxRegenHealth>60</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_152mm_J_2>shared<blitz>
@@ -345,11 +344,11 @@
 						</armor_10>
 						<gun>70</gun>
 					</armor>
-					<shotDispersionRadius>0.4</shotDispersionRadius>
+					<shotDispersionRadius>0.42</shotDispersionRadius>
 					<aimingTime>2.9</aimingTime>
 					<reloadTime>16.5</reloadTime>
 					<shotDispersionFactors>
-						<turretRotation>0.1</turretRotation>
+						<turretRotation>0.12</turretRotation>
 						<afterShot>4</afterShot>
 						<whileGunDamaged>2.0</whileGunDamaged>
 					</shotDispersionFactors>

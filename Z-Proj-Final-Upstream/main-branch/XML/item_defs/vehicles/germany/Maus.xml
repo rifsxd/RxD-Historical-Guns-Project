@@ -28,7 +28,7 @@
 		<still>0.025</still>
 		<firePenalty>0.038</firePenalty>
 	</invisibility>
-	<repairCost>5.2</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -124,7 +124,7 @@
 		<ammoBayHealth>
 			<maxHealth>280</maxHealth>
 			<maxRegenHealth>190</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -248,7 +248,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>300</maxHealth>
 			<maxRegenHealth>225</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Mausketten>
 	</chassis>
 	<turrets0>
@@ -303,13 +303,13 @@
 			<turretRotatorHealth>
 				<maxHealth>180</maxHealth>
 				<maxRegenHealth>90</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>120</maxHealth>
 				<maxRegenHealth>60</maxRegenHealth>
-				<repairCost>2.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_128mm_KwK44_L55>shared<blitz>

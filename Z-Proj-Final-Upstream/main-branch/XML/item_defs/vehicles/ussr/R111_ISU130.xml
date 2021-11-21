@@ -29,7 +29,7 @@
 		<camouflageNetBonus>0.15</camouflageNetBonus>
 		<firePenalty>0.417</firePenalty>
 	</invisibility>
-	<repairCost>6.0</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -115,11 +115,11 @@
 		</armor>
 		<primaryArmor>armor_1 armor_3 armor_2</primaryArmor>
 		<weight>28775</weight>
-		<maxHealth>808</maxHealth>
+		<maxHealth>1048</maxHealth>
 		<ammoBayHealth>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -225,7 +225,7 @@
 			<terrainResistance>1.1 1.3 2.1</terrainResistance>
 			<brakeForce>50000</brakeForce>
 			<rotationIsAroundCenter>true</rotationIsAroundCenter>
-			<rotationSpeed>28</rotationSpeed>
+			<rotationSpeed>30</rotationSpeed>
 			<shotDispersionFactors>
 				<vehicleMovement>0.12</vehicleMovement>
 				<vehicleRotation>0.12</vehicleRotation>
@@ -233,7 +233,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_R111_ISU130>
 	</chassis>
 	<turrets0>
@@ -276,13 +276,13 @@
 			<turretRotatorHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>240</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_130mm_S-26A>shared<blitz>

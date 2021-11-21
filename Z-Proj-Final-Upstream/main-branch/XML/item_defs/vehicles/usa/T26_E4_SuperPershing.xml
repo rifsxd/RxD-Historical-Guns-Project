@@ -29,7 +29,7 @@
 		<still>0.16</still>
 		<firePenalty>0.5</firePenalty>
 	</invisibility>
-	<repairCost>5.7</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -122,7 +122,7 @@
 		<ammoBayHealth>
 			<maxHealth>240</maxHealth>
 			<maxRegenHealth>160</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -253,7 +253,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>7.5</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_T26_E4_SuperPershing>
 	</chassis>
 	<turrets0>
@@ -308,13 +308,13 @@
 			<turretRotatorHealth>
 				<maxHealth>150</maxHealth>
 				<maxRegenHealth>75</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_90mm_Gun_T15E1>shared<blitz>
@@ -362,7 +362,7 @@
 						<whileGunDamaged>2.0</whileGunDamaged>
 					</shotDispersionFactors>
 					<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
-					<aimingTime>2.3</aimingTime>
+					<aimingTime>1.9</aimingTime>
 					<extraPitchLimits>
 						<back>-20 4.8 28</back>
 					</extraPitchLimits>

@@ -518,7 +518,7 @@
 						<gunBreech>0</gunBreech>
 					</armor>
 					<shotDispersionRadius>0.35</shotDispersionRadius>
-					<aimingTime>1.7</aimingTime>
+					<aimingTime>1.9</aimingTime>
 					<extraPitchLimits>
 						<back>-20 8 30</back>
 					</extraPitchLimits>
@@ -682,7 +682,7 @@
 						<gun>35</gun>
 					</armor>
 					<shotDispersionRadius>0.35</shotDispersionRadius>
-					<aimingTime>1.7</aimingTime>
+					<aimingTime>1.9</aimingTime>
 					<extraPitchLimits>
 						<back>-20 7 30</back>
 					</extraPitchLimits>

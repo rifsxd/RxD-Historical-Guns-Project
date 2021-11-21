@@ -28,7 +28,7 @@
 		<still>0.245</still>
 		<firePenalty>0.368</firePenalty>
 	</invisibility>
-	<repairCost>6.62</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -117,7 +117,7 @@
 		<ammoBayHealth>
 			<maxHealth>190</maxHealth>
 			<maxRegenHealth>130</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -265,7 +265,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>160</maxHealth>
 			<maxRegenHealth>120</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Lupus_chassis>
 	</chassis>
 	<turrets0>
@@ -323,13 +323,13 @@
 			<turretRotatorHealth>
 				<maxHealth>130</maxHealth>
 				<maxRegenHealth>60</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>240</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>90</maxHealth>
 				<maxRegenHealth>45</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_120mm_VC-25>shared<blitz>

@@ -27,7 +27,7 @@
 		<still>0.217</still>
 		<firePenalty>0.326</firePenalty>
 	</invisibility>
-	<repairCost>5.6</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
 	<provisionSlots>3</provisionSlots>
@@ -62,8 +62,8 @@
 			<armorScale>0.0254 0.0099 0.0056</armorScale>
 			<pushNormalsScale/>
 			<averageThickness>
-				<turret_01>69.161690</turret_01>
-				<turret_02>70.900803</turret_02>
+				<turret_01>72.141563</turret_01>
+				<turret_02>76.779076</turret_02>
 			</averageThickness>
 			<blitzPartName>hull</blitzPartName>
 			<bbox>
@@ -101,7 +101,7 @@
 			<collisionModel>vehicles/european/Cz07_TVP_46/collision/Hull.model</collisionModel>
 		</hitTester>
 		<armor>
-			<armor_1>90</armor_1>
+			<armor_1>150</armor_1>
 			<armor_2>60</armor_2>
 			<armor_3>45</armor_3>
 			<armor_4>40</armor_4>
@@ -122,7 +122,7 @@
 		<ammoBayHealth>
 			<maxHealth>220</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>2.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -240,7 +240,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>180</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
-			<repairCost>7.5</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_Cz07_TVP_46>
 		<Chassis_Cz07_TVP_46_2>
 			<blitz>
@@ -336,7 +336,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>7.5</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_Cz07_TVP_46_2>
 	</chassis>
 	<turrets0>
@@ -393,13 +393,13 @@
 			<turretRotatorHealth>
 				<maxHealth>140</maxHealth>
 				<maxRegenHealth>70</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_88mm_vz_41N>shared<blitz>
@@ -513,8 +513,8 @@
 			<yawLimits>-180 180</yawLimits>
 			<gunPosition>0.008850 0.370760 1.260596</gunPosition>
 			<armor>
-				<armor_1>95</armor_1>
-				<armor_2>90</armor_2>
+				<armor_1>200</armor_1>
+				<armor_2>120</armor_2>
 				<armor_3>60</armor_3>
 				<armor_4>40</armor_4>
 				<armor_5>20</armor_5>
@@ -534,13 +534,13 @@
 			<turretRotatorHealth>
 				<maxHealth>140</maxHealth>
 				<maxRegenHealth>70</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>260</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_88mm_vz_41N>shared<blitz>
@@ -675,7 +675,7 @@
 						<gun>40</gun>
 					</armor>
 					<shotDispersionRadius>0.34</shotDispersionRadius>
-					<aimingTime>2.3</aimingTime>
+					<aimingTime>1.7</aimingTime>
 					<reloadTime>10.0</reloadTime>
 					<shotDispersionFactors>
 						<turretRotation>0.1</turretRotation>

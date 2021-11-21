@@ -1,5 +1,5 @@
 <root>
-	<nextAvailableId>46</nextAvailableId>
+	<nextAvailableId>52</nextAvailableId>
 	<ids>
 		<Cannone_da_105_51_M68>1</Cannone_da_105_51_M68>
 		<_105mm_Cannone_da_Rh_V1>2</_105mm_Cannone_da_Rh_V1>
@@ -42,6 +42,14 @@
 		<_88mm_vz_41N_A>38</_88mm_vz_41N_A>
 		<_75mm_kan_strv_74_BP>40</_75mm_kan_strv_74_BP>
 		<_152mm_J_2>41</_152mm_J_2>
+		<_122mm_wz_53>42</_122mm_wz_53>
+		<_130mm_R_14_wz_56>43</_130mm_R_14_wz_56>
+		<_105mm_Bofors_wz_34>44</_105mm_Bofors_wz_34>
+		<_88mm_wz_39>46</_88mm_wz_39>
+		<_90mm_wz_39_40>47</_90mm_wz_39_40>
+		<_105mm_Bofors_wz_32>48</_105mm_Bofors_wz_32>
+		<_105mm_lvkan_L_53>49</_105mm_lvkan_L_53>
+		<_75mm_Skoda_A18BP>50</_75mm_Skoda_A18BP>
 	</ids>
 	<shared>
 		<Cannone_da_105_51_M68>
@@ -67,7 +75,7 @@
 			<weight>1150</weight>
 			<maxHealth>208</maxHealth>
 			<maxRegenHealth>104</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.42</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -122,7 +130,7 @@
 			<weight>1400</weight>
 			<maxHealth>208</maxHealth>
 			<maxRegenHealth>104</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.42</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -177,7 +185,7 @@
 			<weight>1200</weight>
 			<maxHealth>170</maxHealth>
 			<maxRegenHealth>85</maxRegenHealth>
-			<repairCost>7</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.42</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -232,7 +240,7 @@
 			<weight>1300</weight>
 			<maxHealth>150</maxHealth>
 			<maxRegenHealth>75</maxRegenHealth>
-			<repairCost>7</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.42</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -287,7 +295,7 @@
 			<weight>1550</weight>
 			<maxHealth>170</maxHealth>
 			<maxRegenHealth>85</maxRegenHealth>
-			<repairCost>7</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.42</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -944,7 +952,7 @@
 			<weight>1202</weight>
 			<maxHealth>170</maxHealth>
 			<maxRegenHealth>85</maxRegenHealth>
-			<repairCost>7</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.42</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1001,7 +1009,7 @@
 			<weight>2590</weight>
 			<maxHealth>192</maxHealth>
 			<maxRegenHealth>96</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.45</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1015,14 +1023,14 @@
 					<speed>1007</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
-					<piercingPower>258 250</piercingPower>
+					<piercingPower>246 240</piercingPower>
 				</_122mm_BR-471_B>
 				<_122mm_BR-471_D>
 					<defaultPortion>0.0</defaultPortion>
 					<speed>1259</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
-					<piercingPower>340 320</piercingPower>
+					<piercingPower>320 300</piercingPower>
 				</_122mm_BR-471_D>
 				<_122mm_OF-471>
 					<defaultPortion>0.15</defaultPortion>
@@ -1057,7 +1065,7 @@
 			<weight>2390</weight>
 			<maxHealth>194</maxHealth>
 			<maxRegenHealth>97</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1113,7 +1121,7 @@
 			<weight>2050</weight>
 			<maxHealth>180</maxHealth>
 			<maxRegenHealth>90</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1281,7 +1289,7 @@
 			<weight>1245</weight>
 			<maxHealth>148</maxHealth>
 			<maxRegenHealth>74</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1337,7 +1345,7 @@
 			<weight>1600</weight>
 			<maxHealth>210</maxHealth>
 			<maxRegenHealth>105</maxRegenHealth>
-			<repairCost>10</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.3</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1393,7 +1401,7 @@
 			<weight>1600</weight>
 			<maxHealth>210</maxHealth>
 			<maxRegenHealth>105</maxRegenHealth>
-			<repairCost>10</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.3</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1449,7 +1457,7 @@
 			<weight>2390</weight>
 			<maxHealth>194</maxHealth>
 			<maxRegenHealth>97</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1616,7 +1624,7 @@
 			<weight>2600</weight>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>100</maxRegenHealth>
-			<repairCost>10</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1672,7 +1680,7 @@
 			<weight>2600</weight>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>100</maxRegenHealth>
-			<repairCost>10</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1728,7 +1736,7 @@
 			<weight>3800</weight>
 			<maxHealth>194</maxHealth>
 			<maxRegenHealth>97</maxRegenHealth>
-			<repairCost>10</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1785,7 +1793,7 @@
 			<weight>2700</weight>
 			<maxHealth>170</maxHealth>
 			<maxRegenHealth>85</maxRegenHealth>
-			<repairCost>7</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1841,7 +1849,7 @@
 			<weight>2257</weight>
 			<maxHealth>148</maxHealth>
 			<maxRegenHealth>74</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1897,7 +1905,7 @@
 			<weight>3600</weight>
 			<maxHealth>190</maxHealth>
 			<maxRegenHealth>95</maxRegenHealth>
-			<repairCost>8</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -1953,7 +1961,7 @@
 			<weight>1550</weight>
 			<maxHealth>122</maxHealth>
 			<maxRegenHealth>61</maxRegenHealth>
-			<repairCost>6</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2122,7 +2130,7 @@
 			<weight>2700</weight>
 			<maxHealth>170</maxHealth>
 			<maxRegenHealth>85</maxRegenHealth>
-			<repairCost>7</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2235,7 +2243,7 @@
 			<weight>4370</weight>
 			<maxHealth>252</maxHealth>
 			<maxRegenHealth>126</maxRegenHealth>
-			<repairCost>10</repairCost>
+			<repairCost>0</repairCost>
 			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
 			<shotDispersionRadius>0.4</shotDispersionRadius>
 			<shotDispersionFactors>
@@ -2246,26 +2254,474 @@
 			<shots>
 				<_152mm_Pocisk-przeciwpancerny>
 					<defaultPortion>0.8</defaultPortion>
-					<speed>900</speed>
+					<speed>780</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
 					<piercingPower>258 235</piercingPower>
 				</_152mm_Pocisk-przeciwpancerny>
 				<_152mm_Pocisk-kumulacyjny>
 					<defaultPortion>0.0</defaultPortion>
-					<speed>900</speed>
+					<speed>680</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
 					<piercingPower>330 330</piercingPower>
 				</_152mm_Pocisk-kumulacyjny>
 				<_152mm_Pocisk-wybuchowy>
 					<defaultPortion>0.2</defaultPortion>
-					<speed>900</speed>
+					<speed>770</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
 					<piercingPower>80 80</piercingPower>
 				</_152mm_Pocisk-wybuchowy>
 			</shots>
 		</_152mm_J_2>
+		<_122mm_wz_53>
+			<userString>#european_vehicles:_122mm_wz_53</userString>
+			<shortUserString>#european_vehicles:_122mm_wz_53_short</shortUserString>
+			<description>#european_vehicles:_122mm_wz_53_descr</description>
+			<tags/>
+			<level>9</level>
+			<price>0</price>
+			<impulse>0.62</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.66</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.64</returnTime>
+			</recoil>
+			<effects>shot_122mm</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-20 10</pitchLimits>
+			<rotationSpeed>26.25</rotationSpeed>
+			<reloadTime>13.29</reloadTime>
+			<maxAmmo>28</maxAmmo>
+			<aimingTime>3.4</aimingTime>
+			<weight>2790</weight>
+			<maxHealth>210</maxHealth>
+			<maxRegenHealth>105</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.4</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>3.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_122mm_UBR-471P_P>
+					<defaultPortion>0.60</defaultPortion>
+					<speed>950</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>225 204</piercingPower>
+				</_122mm_UBR-471P_P>
+				<_122mm_UBR-471P_PB>
+					<defaultPortion>0.0</defaultPortion>
+					<speed>1150</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>265 250</piercingPower>
+				</_122mm_UBR-471P_PB>
+				<_122mm_UOF-471P_P>
+					<defaultPortion>0.40</defaultPortion>
+					<speed>800</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>61 61</piercingPower>
+				</_122mm_UOF-471P_P>
+			</shots>
+		</_122mm_wz_53>
+		<_130mm_R_14_wz_56>
+			<userString>#european_vehicles:_130mm_R_14_wz_56</userString>
+			<shortUserString>#european_vehicles:_130mm_R_14_wz_56_short</shortUserString>
+			<description>#european_vehicles:_130mm_R_14_wz_56_descr</description>
+			<tags/>
+			<level>10</level>
+			<price>0</price>
+			<impulse>0.62</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.66</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.64</returnTime>
+			</recoil>
+			<effects>shot_130mm</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-20 10</pitchLimits>
+			<rotationSpeed>26.25</rotationSpeed>
+			<reloadTime>15.44</reloadTime>
+			<maxAmmo>28</maxAmmo>
+			<aimingTime>3.43</aimingTime>
+			<weight>2980</weight>
+			<maxHealth>210</maxHealth>
+			<maxRegenHealth>105</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.4</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>4.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_130mm_AZ_PB_46>
+					<defaultPortion>0.60</defaultPortion>
+					<speed>900</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>250 235</piercingPower>
+				</_130mm_AZ_PB_46>
+				<_130mm_AZ_PB_46_A>
+					<defaultPortion>0.0</defaultPortion>
+					<speed>1125</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>303 263</piercingPower>
+				</_130mm_AZ_PB_46_A>
+				<_130mm_AZ_OF_46>
+					<defaultPortion>0.40</defaultPortion>
+					<speed>900</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>68 68</piercingPower>
+				</_130mm_AZ_OF_46>
+			</shots>
+		</_130mm_R_14_wz_56>
+		<_105mm_Bofors_wz_34>
+			<userString>#european_vehicles:_105mm_Bofors_wz_34</userString>
+			<shortUserString>#european_vehicles:_105mm_Bofors_wz_34_short</shortUserString>
+			<description>#european_vehicles:_105mm_Bofors_wz_34_descr</description>
+			<tags/>
+			<level>7</level>
+			<price>0</price>
+			<impulse>0.44</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.26</amplitude>
+				<backoffTime>0.2</backoffTime>
+				<returnTime>0.2</returnTime>
+			</recoil>
+			<effects>shot_105mm</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-20 10</pitchLimits>
+			<rotationSpeed>33.25</rotationSpeed>
+			<reloadTime>11</reloadTime>
+			<maxAmmo>24</maxAmmo>
+			<aimingTime>2.3</aimingTime>
+			<weight>1245</weight>
+			<maxHealth>148</maxHealth>
+			<maxRegenHealth>74</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.4</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.12</turretRotation>
+				<afterShot>4.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_105mm_slpgr_m_43_1>
+					<defaultPortion>0.60</defaultPortion>
+					<speed>785</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>192 178</piercingPower>
+				</_105mm_slpgr_m_43_1>
+				<_105mm_slpprj_fm_49>
+					<defaultPortion>0.0</defaultPortion>
+					<speed>930</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>225 205</piercingPower>
+				</_105mm_slpprj_fm_49>
+				<_105mm_tung_sgr_m_34>
+					<defaultPortion>0.40</defaultPortion>
+					<speed>785</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>53 53</piercingPower>
+				</_105mm_tung_sgr_m_34>
+			</shots>
+		</_105mm_Bofors_wz_34>
+		<_88mm_wz_39>
+			<userString>#european_vehicles:_88mm_wz_39</userString>
+			<shortUserString>#european_vehicles:_88mm_wz_39_short</shortUserString>
+			<description>#european_vehicles:_88mm_wz_39_descr</description>
+			<tags/>
+			<level>6</level>
+			<price>0</price>
+			<impulse>0.38</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.38</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.36</returnTime>
+			</recoil>
+			<effects>shot_88mm</effects>
+			<pitchLimits>-17 6</pitchLimits>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<rotationSpeed>35.0</rotationSpeed>
+			<reloadTime>6.8</reloadTime>
+			<maxAmmo>92</maxAmmo>
+			<aimingTime>2.2</aimingTime>
+			<weight>2050</weight>
+			<maxHealth>150</maxHealth>
+			<maxRegenHealth>75</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.160</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.37</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.16</turretRotation>
+				<afterShot>4.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_88mm_AP>
+					<defaultPortion>0.6</defaultPortion>
+					<speed>773</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>150 135</piercingPower>
+				</_88mm_AP>
+				<_88mm_APCR>
+					<defaultPortion>0.0</defaultPortion>
+					<speed>966</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>200 175</piercingPower>
+				</_88mm_APCR>
+				<_88mm_HE>
+					<defaultPortion>0.4</defaultPortion>
+					<speed>773</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>44 44</piercingPower>
+				</_88mm_HE>
+			</shots>
+		</_88mm_wz_39>
+		<_90mm_wz_39_40>
+			<userString>#european_vehicles:_90mm_wz_39_40</userString>
+			<shortUserString>#european_vehicles:_90mm_wz_39_40_short</shortUserString>
+			<description>#european_vehicles:_90mm_wz_39_40_descr</description>
+			<tags/>
+			<level>7</level>
+			<price>0</price>
+			<impulse>0.38</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.38</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.24</returnTime>
+			</recoil>
+			<effects>shot_90mm</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-20 10</pitchLimits>
+			<rotationSpeed>39.375</rotationSpeed>
+			<reloadTime>8.5</reloadTime>
+			<maxAmmo>40</maxAmmo>
+			<aimingTime>2.7</aimingTime>
+			<weight>1850</weight>
+			<maxHealth>134</maxHealth>
+			<maxRegenHealth>67</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.42</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.14</turretRotation>
+				<afterShot>4.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_90mm_AP>
+					<defaultPortion>0.6</defaultPortion>
+					<speed>758</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>160 142</piercingPower>
+				</_90mm_AP>
+				<_90mm_APCR>
+					<defaultPortion>0.0</defaultPortion>
+					<speed>800</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>210 175</piercingPower>
+				</_90mm_APCR>
+				<_90mm_HE>
+					<defaultPortion>0.4</defaultPortion>
+					<speed>710</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>45 45</piercingPower>
+				</_90mm_HE>
+			</shots>
+		</_90mm_wz_39_40>
+		<_105mm_Bofors_wz_32>
+			<userString>#european_vehicles:_105mm_Bofors_wz_32</userString>
+			<shortUserString>#european_vehicles:_105mm_Bofors_wz_32_short</shortUserString>
+			<description>#european_vehicles:_105mm_Bofors_wz_32_descr</description>
+			<tags/>
+			<level>7</level>
+			<price>0</price>
+			<impulse>0.44</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.26</amplitude>
+				<backoffTime>0.2</backoffTime>
+				<returnTime>0.2</returnTime>
+			</recoil>
+			<effects>shot_105mm</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-20 10</pitchLimits>
+			<rotationSpeed>33.25</rotationSpeed>
+			<reloadTime>11</reloadTime>
+			<maxAmmo>24</maxAmmo>
+			<aimingTime>2.3</aimingTime>
+			<weight>1245</weight>
+			<maxHealth>148</maxHealth>
+			<maxRegenHealth>74</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.4</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.12</turretRotation>
+				<afterShot>4.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_105mm_slpgr_m_43_1>
+					<defaultPortion>0.6</defaultPortion>
+					<speed>785</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>175 155</piercingPower>
+				</_105mm_slpgr_m_43_1>
+				<_105mm_slpprj_fm_49>
+					<defaultPortion>0.0</defaultPortion>
+					<speed>930</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>225 205</piercingPower>
+				</_105mm_slpprj_fm_49>
+				<_105mm_tung_sgr_m_34>
+					<defaultPortion>0.4</defaultPortion>
+					<speed>785</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>53 53</piercingPower>
+				</_105mm_tung_sgr_m_34>
+			</shots>
+		</_105mm_Bofors_wz_32>
+		<_105mm_lvkan_L_53>
+			<userString>#european_vehicles:_105mm_lvkan_L_53</userString>
+			<shortUserString>#european_vehicles:_105mm_lvkan_L_53_short</shortUserString>
+			<description>#european_vehicles:_105mm_lvkan_L_53_descr</description>
+			<tags/>
+			<level>8</level>
+			<price>0</price>
+			<impulse>0.44</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.26</amplitude>
+				<backoffTime>0.2</backoffTime>
+				<returnTime>0.2</returnTime>
+			</recoil>
+			<effects>shot_105mm</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-20 10</pitchLimits>
+			<rotationSpeed>35</rotationSpeed>
+			<reloadTime>6</reloadTime>
+			<maxAmmo>33</maxAmmo>
+			<aimingTime>2.1</aimingTime>
+			<weight>1282</weight>
+			<maxHealth>194</maxHealth>
+			<maxRegenHealth>97</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.238</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.4</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.05</turretRotation>
+				<afterShot>4</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_105mm_slpprj_L_53>
+					<defaultPortion>0.95</defaultPortion>
+					<speed>930</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>202 183</piercingPower>
+				</_105mm_slpprj_L_53>
+				<_105mm_slpprj_L_53_B>
+					<defaultPortion>0.0</defaultPortion>
+					<speed>1150</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>242 220</piercingPower>
+				</_105mm_slpprj_L_53_B>
+				<_105mm_sgr_L_53>
+					<defaultPortion>0.05</defaultPortion>
+					<speed>900</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>53 53</piercingPower>
+				</_105mm_sgr_L_53>
+			</shots>
+		</_105mm_lvkan_L_53>
+		<_75mm_Skoda_A18BP>
+			<userString>#european_vehicles:_75mm_Skoda_A18BP</userString>
+			<shortUserString>#european_vehicles:_75mm_Skoda_A18BP_short</shortUserString>
+			<description>#european_vehicles:_75mm_Skoda_A18BP_descr</description>
+			<tags/>
+			<level>6</level>
+			<price>0</price>
+			<impulse>0.38</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.36</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.4</returnTime>
+			</recoil>
+			<effects>shot_75mm</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-20 10</pitchLimits>
+			<rotationSpeed>40</rotationSpeed>
+			<reloadTime>4.04</reloadTime>
+			<maxAmmo>60</maxAmmo>
+			<aimingTime>4.04</aimingTime>
+			<weight>1300</weight>
+			<maxHealth>130</maxHealth>
+			<maxRegenHealth>65</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.4</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.16</turretRotation>
+				<afterShot>4.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_75mm_Prurazny_vz_42>
+					<defaultPortion>0.95</defaultPortion>
+					<speed>900</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>132 119</piercingPower>
+				</_75mm_Prurazny_vz_42>
+				<_75mm_Prurazny_vz_42_s_wolf_jadrem>
+					<defaultPortion>0.0</defaultPortion>
+					<speed>1090</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>185 166</piercingPower>
+				</_75mm_Prurazny_vz_42_s_wolf_jadrem>
+				<_75mm_Narazovy_vz_42>
+					<defaultPortion>0.05</defaultPortion>
+					<speed>680</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>38 38</piercingPower>
+				</_75mm_Narazovy_vz_42>
+			</shots>
+		</_75mm_Skoda_A18BP>
 	</shared>
 </root>

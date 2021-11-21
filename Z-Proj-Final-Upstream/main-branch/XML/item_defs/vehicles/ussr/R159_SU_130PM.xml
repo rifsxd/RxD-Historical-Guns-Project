@@ -27,7 +27,7 @@
 		<still>0.335</still>
 		<firePenalty>0.503</firePenalty>
 	</invisibility>
-	<repairCost>6.0</repairCost>
+	<repairCost>0</repairCost>
 	<crewXpFactor>1.0</crewXpFactor>
 	<optDevicePreset>defaultPreset</optDevicePreset>
 	<consumableSlots>3</consumableSlots>
@@ -110,7 +110,7 @@
 		<ammoBayHealth>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<fakeTurrets>
 			<lobby>0</lobby>
@@ -228,7 +228,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_R159_SU_130PM>
 	</chassis>
 	<turrets0>
@@ -277,13 +277,13 @@
 			<turretRotatorHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_130mm_M_65S>shared<blitz>
@@ -312,8 +312,8 @@
 						<gunBreech>0</gunBreech>
 						<armor_1>6</armor_1>
 					</armor>
-					<shotDispersionRadius>0.35</shotDispersionRadius>
-					<aimingTime>2.3</aimingTime>
+					<shotDispersionRadius>0.34</shotDispersionRadius>
+					<aimingTime>1.6</aimingTime>
 					<reloadTime>12.3</reloadTime>
 					<shotDispersionFactors>
 						<turretRotation>0.16</turretRotation>

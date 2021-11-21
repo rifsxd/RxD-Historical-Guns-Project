@@ -121,7 +121,7 @@
 		<ammoBayHealth>
 			<maxHealth>170</maxHealth>
 			<maxRegenHealth>120</maxRegenHealth>
-			<repairCost>0.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<emblemSlots>
 			<clan>
@@ -235,7 +235,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>135</maxHealth>
 			<maxRegenHealth>100</maxRegenHealth>
-			<repairCost>0.0</repairCost>
+			<repairCost>0</repairCost>
 			</Chassis_Oth27_M24_AMX>
 	</chassis>
 	<turrets0>
@@ -291,13 +291,13 @@
 			<turretRotatorHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>0.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>250</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>70</maxHealth>
 				<maxRegenHealth>35</maxRegenHealth>
-				<repairCost>0.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_75mm_SA50BP>shared<blitz>

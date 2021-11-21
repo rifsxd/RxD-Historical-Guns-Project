@@ -19,7 +19,7 @@
 	</crew>
 	<isUnlocked>true</isUnlocked>
 	<speedLimits>
-		<forward>25.7</forward>
+		<forward>30</forward>
 		<backward>12</backward>
 	</speedLimits>
 	<invisibility>
@@ -270,7 +270,7 @@
 			<terrainResistance>1 1.2 1.8</terrainResistance>
 			<brakeForce>39000</brakeForce>
 			<rotationIsAroundCenter>true</rotationIsAroundCenter>
-			<rotationSpeed>29</rotationSpeed>
+			<rotationSpeed>33</rotationSpeed>
 			<shotDispersionFactors>
 				<vehicleMovement>0.14</vehicleMovement>
 				<vehicleRotation>0.14</vehicleRotation>

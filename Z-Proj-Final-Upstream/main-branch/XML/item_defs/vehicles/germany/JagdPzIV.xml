@@ -583,7 +583,7 @@
 					</armor>
 					<maxAmmo>50</maxAmmo>
 					<shotDispersionRadius>0.35</shotDispersionRadius>
-					<aimingTime>1.7</aimingTime>
+					<aimingTime>1.9</aimingTime>
 					<reloadTime>5.3</reloadTime>
 					<invisibilityFactorAtShot>0.35</invisibilityFactorAtShot>
 					<turretYawLimits>-10 10</turretYawLimits>

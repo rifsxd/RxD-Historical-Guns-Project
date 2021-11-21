@@ -17,7 +17,7 @@
 		<loader>radioman</loader>
 	</crew>
 	<speedLimits>
-		<forward>48</forward>
+		<forward>50</forward>
 		<backward>18</backward>
 	</speedLimits>
 	<invisibility>
@@ -771,7 +771,7 @@
 						<exclusionMask/>
 					</camouflage>
 					<invisibilityFactorAtShot>0.234</invisibilityFactorAtShot>
-					<shotDispersionRadius>0.35</shotDispersionRadius>
+					<shotDispersionRadius>0.34</shotDispersionRadius>
 					<reloadTime>5.75</reloadTime>
 					<shotDispersionFactors>
 						<turretRotation>0.06</turretRotation>

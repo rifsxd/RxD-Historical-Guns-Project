@@ -27,7 +27,7 @@
 		<still>0.264</still>
 		<firePenalty>0.396</firePenalty>
 	</invisibility>
-	<repairCost>5.0</repairCost>
+	<repairCost>0</repairCost>
 	<premiumVehicleXPFactor>0.2</premiumVehicleXPFactor>
 	<crewXpFactor>1.0</crewXpFactor>
 	<consumableSlots>3</consumableSlots>
@@ -82,7 +82,7 @@
 		<ammoBayHealth>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
-			<repairCost>1.0</repairCost>
+			<repairCost>0</repairCost>
 			</ammoBayHealth>
 		<models>
 			<undamaged>vehicles/russian/R116_ISU122C_Berlin/normal/lod0/Hull.model</undamaged>
@@ -184,7 +184,7 @@
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
-			<repairCost>5.0</repairCost>
+			<repairCost>0</repairCost>
 			<models>
 				<undamaged>vehicles/russian/R116_ISU122C_Berlin/normal/lod0/Chassis.model</undamaged>
 				<destroyed>vehicles/russian/R116_ISU122C_Berlin/normal/lod0/Chassis.model</destroyed>
@@ -436,13 +436,13 @@
 			<turretRotatorHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</turretRotatorHealth>
 			<circularVisionRadius>240</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>100</maxHealth>
 				<maxRegenHealth>50</maxRegenHealth>
-				<repairCost>1.0</repairCost>
+				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
 				<_122mm_D-25C_mod1944_B>shared<blitz>

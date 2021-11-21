@@ -342,6 +342,7 @@
 					</armor>
 					<invisibilityFactorAtShot>0.26</invisibilityFactorAtShot>
 					<reloadTime>7.7</reloadTime>
+					<shotDispersionRadius>0.45</shotDispersionRadius>
 					<shotDispersionFactors>
 						<turretRotation>0.16</turretRotation>
 						<afterShot>4</afterShot>

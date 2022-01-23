@@ -1,0 +1,388 @@
+<root>
+	<blitz>
+		<smallIconPath>~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/japan-IS-2_GuP</smallIconPath>
+		<bigIconPath>~res:/Gfx/UI/BigTankIcons/japan-IS-2_GuP</bigIconPath>
+		<blitzModelPath>Tanks/Japan/IS-2_GuP.sc2</blitzModelPath>
+		<engineSoundPC>tanks/pc/engine/jp/ht</engineSoundPC>
+		<engineSoundNPC>tanks/npc/engine/jp/ht</engineSoundNPC>
+		<smokeEffectPath>FX/smoke_tank_type_black_new_2.sc2</smokeEffectPath>
+		<fireEffectPathAlive>FX/SmokeFire_tank_movement_new.sc2</fireEffectPathAlive>
+		<fireEffectPathDead>FX/Fire_and_Smoke.sc2</fireEffectPathDead>
+		<collisionMesh>CollisionMeshes/japan-IS-2_GuP.sc2</collisionMesh>
+		<customEffects/>
+	</blitz>
+	<crew>
+		<commander>radioman</commander>
+		<gunner/>
+		<driver/>
+		<loader/>
+	</crew>
+	<isUnlocked>true</isUnlocked>
+	<speedLimits>
+		<forward>34</forward>
+		<backward>14</backward>
+	</speedLimits>
+	<invisibility>
+		<moving>0.07</moving>
+		<still>0.139</still>
+		<firePenalty>0.209</firePenalty>
+	</invisibility>
+	<repairCost>0</repairCost>
+	<crewXpFactor>1.0</crewXpFactor>
+	<optDevicePreset>defaultPreset</optDevicePreset>
+	<consumableSlots>3</consumableSlots>
+	<provisionSlots>3</provisionSlots>
+	<enrichmentBoost>0.0</enrichmentBoost>
+	<turretBlowEnabled>true</turretBlowEnabled>
+	<effects>
+		<destruction>mediumDestruction</destruction>
+		<explosion>mediumExplosion</explosion>
+		<flaming>mediumFlaming</flaming>
+		<collision/>
+		<damagedStateGroup>small</damagedStateGroup>
+	</effects>
+	<camouflage>
+		<priceFactor>1.0</priceFactor>
+		<tiling>1 1 0 0</tiling>
+		<exclusionMask/>
+	</camouflage>
+	<emblems>
+		<default>japanese_sun</default>
+		<lodDist>MEDIUM</lodDist>
+		<alpha>0.1</alpha>
+	</emblems>
+	<horns>
+		<priceFactor>1</priceFactor>
+		<distanceFactor>1</distanceFactor>
+		<volumeFactor>1</volumeFactor>
+	</horns>
+	<hull>
+		<blitz>
+			<armorScale>0.0169 0.0423 0.0169</armorScale>
+			<pushNormalsScale/>
+			<averageThickness>
+				<turret_01>119.256599</turret_01>
+			</averageThickness>
+			<blitzPartName>hull</blitzPartName>
+			<bbox>
+				<min>-1.284170 -3.359370 0.372955</min>
+				<max>1.287450 3.167364 1.669277</max>
+			</bbox>
+			<points>
+				<normal>-0.000090 -0.000113 0.001453</normal>
+			</points>
+			<detachedTurret>
+				<cylinderPos>0.000000 0.000000 -0.063000</cylinderPos>
+				<cylinderXYScale>0.972000</cylinderXYScale>
+			</detachedTurret>
+		</blitz>
+		<swinging>
+			<lodDist>FAR</lodDist>
+			<pitchParams>0.28 34.00 0.42 1.00 0.05 0.30</pitchParams>
+			<rollParams>1.00 0.28 34.00 0.42 1.00 0.05 0.30</rollParams>
+			<sensitivityToImpulse>0.59</sensitivityToImpulse>
+		</swinging>
+		<models>
+			<undamaged>vehicles/japan/IS-2_GuP/normal/lod0/Hull.model</undamaged>
+			<destroyed>vehicles/japan/IS-2_GuP/crash/lod0/Hull.model</destroyed>
+			<exploded>vehicles/japan/IS-2_GuP/crash/lod0/Hull.model</exploded>
+		</models>
+		<exhaust>
+			<pixie/>
+			<nodes/>
+			<rates>5.0 10.0 25.0</rates>
+		</exhaust>
+		<turretPositions>
+			<turret>0.001000 1.630000 0.770000</turret>
+		</turretPositions>
+		<hitTester>
+			<collisionModel>vehicles/japan/IS-2_GuP/collision/Hull.model</collisionModel>
+		</hitTester>
+		<armor>
+			<armor_1>120</armor_1>
+			<armor_2>100</armor_2>
+			<armor_3>90</armor_3>
+			<armor_4>60</armor_4>
+			<armor_5>30</armor_5>
+			<armor_6>20</armor_6>
+			<armor_7>90</armor_7>
+			<armor_8>0</armor_8>
+			<armor_9>90</armor_9>
+			<armor_10>100</armor_10>
+			<armor_11>130</armor_11>
+			<armor_12>20</armor_12>
+			<armor_13>60</armor_13>
+			<armor_14>90</armor_14>
+			<armor_15>30</armor_15>
+			<armor_16>16</armor_16>
+		</armor>
+		<primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
+		<weight>22850</weight>
+		<maxHealth>1120</maxHealth>
+		<ammoBayHealth>
+			<maxHealth>180</maxHealth>
+			<maxRegenHealth>120</maxRegenHealth>
+			<repairCost>0</repairCost>
+			</ammoBayHealth>
+		<emblemSlots>
+			<clan>
+				<rayStart>0.1 0.1 1.0</rayStart>
+				<rayEnd>0.1 0.1 1.0</rayEnd>
+				<rayUp>0.0 1.0 0.0</rayUp>
+				<size>0.1</size>
+				<hideIfDamaged>true</hideIfDamaged>
+			</clan>
+			<inscription>
+				<rayStart>0.1 0.1 1.0</rayStart>
+				<rayEnd>0.1 0.1 1.0</rayEnd>
+				<rayUp>0.0 1.0 0.0</rayUp>
+				<size>0.1</size>
+				<hideIfDamaged>true</hideIfDamaged>
+			</inscription>
+		</emblemSlots>
+	</hull>
+	<chassis>
+		<Chassis_IS-2M>
+			<blitz>
+				<blitzPartName>chassis</blitzPartName>
+				<bbox>
+					<min>-1.532958 -3.200425 -0.000400</min>
+					<max>1.532958 3.240835 1.102400</max>
+				</bbox>
+				<points>
+					<normal>-0.001703 -0.013592 0.004371</normal>
+				</points>
+				<soundPC>tanks/pc/treads/mt</soundPC>
+				<soundNPC>tanks/npc/treads/mt</soundNPC>
+			</blitz>
+			<userString>#japan_vehicles:Chassis_IS-2M</userString>
+			<shortUserString>#japan_vehicles:Chassis_IS-2M_short</shortUserString>
+			<description>#japan_vehicles:Chassis_IS-2M_descr</description>
+			<tags/>
+			<level>7</level>
+			<price>0</price>
+			<models>
+				<undamaged>vehicles/japan/IS-2_GuP/normal/lod0/Chassis.model</undamaged>
+				<destroyed>vehicles/japan/IS-2_GuP/crash/lod0/Chassis.model</destroyed>
+				<exploded>vehicles/japan/IS-2_GuP/crash/lod0/Chassis.model</exploded>
+			</models>
+			<traces>
+				<lodDist/>
+				<bufferPrefs/>
+				<textureSet/>
+				<size>0.1 0.1</size>
+			</traces>
+			<tracks>
+				<lodDist>MEDIUM</lodDist>
+				<leftMaterial>track_mat_L_skinned</leftMaterial>
+				<rightMaterial>track_mat_R_skinned</rightMaterial>
+				<textureScale>-0.915000</textureScale>
+			</tracks>
+			<wheels>
+				<lodDist>MEDIUM</lodDist>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>WD_L0</name>
+					<radius>0.1</radius>
+				</wheel>
+				<wheel>
+					<isLeft>false</isLeft>
+					<name>WD_R0</name>
+					<radius>0.1</radius>
+				</wheel>
+				<group>
+					<isLeft>true</isLeft>
+					<template>W_L</template>
+					<radius>0.1</radius>
+					<startIndex>0</startIndex>
+					<count>1</count>
+				</group>
+				<group>
+					<isLeft>false</isLeft>
+					<template>W_R</template>
+					<radius>0.1</radius>
+					<startIndex>0</startIndex>
+					<count>1</count>
+				</group>
+			</wheels>
+			<drivingWheels>WD_L0 WD_R0</drivingWheels>
+			<effects>
+				<lodDist>MEDIUM</lodDist>
+				<dust>mediumTankDust</dust>
+				<mud>mediumTankMud</mud>
+			</effects>
+			<sound/>
+			<hullPosition>0.000000 0.000000 -0.000000</hullPosition>
+			<hitTester>
+				<collisionModel>vehicles/japan/IS-2_GuP/collision/Chassis.model</collisionModel>
+			</hitTester>
+			<armor>
+				<leftTrack>20</leftTrack>
+				<rightTrack>20</rightTrack>
+			</armor>
+			<topRightCarryingPoint>1.1934 2.20253</topRightCarryingPoint>
+			<maxClimbAngle>25</maxClimbAngle>
+			<navmeshGirth>6.0</navmeshGirth>
+			<weight>11500</weight>
+			<maxLoad>48400</maxLoad>
+			<terrainResistance>1.1 1.4 1.8</terrainResistance>
+			<brakeForce>34500</brakeForce>
+			<rotationIsAroundCenter>false</rotationIsAroundCenter>
+			<rotationSpeed>35</rotationSpeed>
+			<shotDispersionFactors>
+				<vehicleMovement>0.22</vehicleMovement>
+				<vehicleRotation>0.22</vehicleRotation>
+			</shotDispersionFactors>
+			<bulkHealthFactor>3.0</bulkHealthFactor>
+			<maxHealth>190</maxHealth>
+			<maxRegenHealth>145</maxRegenHealth>
+			<repairCost>0</repairCost>
+			</Chassis_IS-2M>
+	</chassis>
+	<turrets0>
+		<Turret_IS-122>
+			<blitz>
+				<armorScale>0.0225 0.0592 0.0296</armorScale>
+				<pushNormalsScale/>
+				<blitzPartName>turret_01</blitzPartName>
+				<bbox>
+					<min>-1.144080 -1.644467 -0.366233</min>
+					<max>1.119770 1.484740 1.080418</max>
+				</bbox>
+				<points>
+					<normal>0.000075 -0.771443 -1.628996</normal>
+				</points>
+				<clipParams>
+					<clippingPlaneZPos>1.607000</clippingPlaneZPos>
+					<textureScaleFactor>0.676000</textureScaleFactor>
+					<shouldClipGun>false</shouldClipGun>
+				</clipParams>
+			</blitz>
+			<userString>#japan_vehicles:Turret_IS-122</userString>
+			<description>#japan_vehicles:Turret_IS-122_descr</description>
+			<tags/>
+			<level>7</level>
+			<price>0</price>
+			<hitTester>
+				<collisionModel>vehicles/japan/IS-2_GuP/collision/Turret_01.model</collisionModel>
+			</hitTester>
+			<models>
+				<undamaged>vehicles/japan/IS-2_GuP/normal/lod0/Turret_01.model</undamaged>
+				<destroyed>vehicles/japan/IS-2_GuP/crash/lod0/Turret_01.model</destroyed>
+				<exploded>vehicles/japan/IS-2_GuP/crash/lod0/Turret_01.model</exploded>
+			</models>
+			<yawLimits>-180 180</yawLimits>
+			<gunPosition>0.000000 0.320000 1.200000</gunPosition>
+			<armor>
+				<armor_1>140</armor_1>
+				<armor_2>120</armor_2>
+				<armor_3>90</armor_3>
+				<armor_4>90</armor_4>
+				<armor_5>30</armor_5>
+				<armor_6>60</armor_6>
+				<armor_7>90</armor_7>
+				<armor_8>120</armor_8>
+				<armor_9>90</armor_9>
+				<armor_10>90</armor_10>
+				<armor_11>90</armor_11>
+				<armor_12>20</armor_12>
+				<armor_13>80</armor_13>
+				<armor_14>90</armor_14>
+				<armor_15>20</armor_15>
+				<armor_16>30</armor_16>
+			</armor>
+			<primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
+			<weight>7200</weight>
+			<maxHealth>280</maxHealth>
+			<rotationSpeed>28</rotationSpeed>
+			<turretRotatorHealth>
+				<maxHealth>140</maxHealth>
+				<maxRegenHealth>70</maxRegenHealth>
+				<repairCost>0</repairCost>
+				</turretRotatorHealth>
+			<circularVisionRadius>240</circularVisionRadius>
+			<surveyingDeviceHealth>
+				<maxHealth>90</maxHealth>
+				<maxRegenHealth>45</maxRegenHealth>
+				<repairCost>0</repairCost>
+				</surveyingDeviceHealth>
+			<guns>
+				<_122-mm_D-25TG>shared<blitz>
+						<armorScale>0.0507 0.0479 0.0437</armorScale>
+						<pushNormalsScale/>
+						<blitzPartName>gun_01</blitzPartName>
+						<bbox>
+							<min>-0.488360 -0.894955 -0.262723</min>
+							<max>0.265930 4.486728 0.295467</max>
+						</bbox>
+						<points>
+							<normal>-0.000944 -1.970504 -1.949761</normal>
+						</points>
+					</blitz>
+					<maxAmmo>28</maxAmmo>
+					<hitTester>
+						<collisionModel>vehicles/japan/IS-2_GuP/collision/Gun_01.model</collisionModel>
+					</hitTester>
+					<models>
+						<undamaged>vehicles/japan/IS-2_GuP/normal/lod0/Gun_01.model</undamaged>
+						<destroyed>vehicles/japan/IS-2_GuP/crash/lod0/Gun_01.model</destroyed>
+						<exploded>vehicles/japan/IS-2_GuP/crash/lod0/Gun_01.model</exploded>
+					</models>
+					<armor>
+						<armor_1>120<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_1>
+						<armor_2>120<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_2>
+						<armor_3>120<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_3>
+						<armor_4>120<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_4>
+						<armor_5>120<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						</armor_5>
+						<gun>45</gun>
+					</armor>
+					<shotDispersionRadius>0.44</shotDispersionRadius>
+					<reloadTime>15</reloadTime>
+					<aimingTime>3.0</aimingTime>
+					<invisibilityFactorAtShot>0.19</invisibilityFactorAtShot>
+					<pitchLimits>-25 6</pitchLimits>
+					<extraPitchLimits>
+						<back>-20 3 25</back>
+					</extraPitchLimits>
+					<shotDispersionFactors>
+						<turretRotation>0.18</turretRotation>
+						<afterShot>4</afterShot>
+						<whileGunDamaged>2.0</whileGunDamaged>
+					</shotDispersionFactors>
+				</_122-mm_D-25TG>
+			</guns>
+			<emblemSlots>
+				<player>
+					<rayStart>-1.14052 0.501314 -1.84861</rayStart>
+					<rayEnd>-0.947969 0.447255 -1.84803</rayEnd>
+					<rayUp>0.000000 1 0.000000</rayUp>
+					<size>0.8</size>
+					<hideIfDamaged>false</hideIfDamaged>
+				</player>
+				<inscription>
+					<rayStart>-1.11845 0.493689 -1.01991</rayStart>
+					<rayEnd>-0.930106 0.426732 -1.02643</rayEnd>
+					<rayUp>0.000000 1 0.000000</rayUp>
+					<size>0.1</size>
+					<hideIfDamaged>true</hideIfDamaged>
+				</inscription>
+			</emblemSlots>
+			<showEmblemsOnGun>false</showEmblemsOnGun>
+			<physicsShape>0.941 -0.118 1.000 0.000 0.426 0.294 0.000 0.493 0.265 0.588 0.228 0.500 0.132 0.779 0.000</physicsShape>
+		</Turret_IS-122>
+	</turrets0>
+	<engines>
+		<V-2-54IS_GuP>shared</V-2-54IS_GuP>
+	</engines>
+	<fuelTanks>
+		<Heavy>shared</Heavy>
+	</fuelTanks>
+	<radios>
+		<_10RK_GuP>shared</_10RK_GuP>
+	</radios>
+</root>

@@ -4,7 +4,7 @@
 - Mod Version: 1.5.5
 - Historical Samples Version: 1.0 
 - XML Config Version: 8.5.X
-- Build Date & Time: 06:10 UTC+06 - 21/11/2021
+- Latest Build Date & Time: 06:10 UTC+06 - 21/11/2021
 - Author: RifsxD
 - Guilded Server: https://www.guilded.gg/r/zzORL9m25l?i=dODw9xem
 

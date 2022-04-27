@@ -1,3 +1,3 @@
-*.json javascript
+*.json linguist-language=javascript
 *.xml linguist-detectable=true
 *.yml linguist-detectable=true

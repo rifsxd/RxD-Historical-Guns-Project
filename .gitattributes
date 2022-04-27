@@ -1,3 +1,4 @@
 *.js linguist-detectable=true
+*.json linguist-detectable=true
 *.xml linguist-detectable=true
 *.yml linguist-detectable=true
